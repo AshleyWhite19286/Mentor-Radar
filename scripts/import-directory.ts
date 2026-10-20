@@ -1,5 +1,6 @@
 /** Merge verified official directory profiles into the browsable seed catalog. */
 import { readFileSync, writeFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import type { Catalog, Mentor, Source } from '../lib/types';
 
 type Profile = { id:string; name:string; url:string; title:string; group:string; profile?:string; sections?:Record<string,string>; photo?:string; retrievedAt:string };
@@ -13,6 +14,23 @@ const limit=limitArg?Number(limitArg.split('=')[1]):0;
 if(!Number.isInteger(limit)||limit<0)throw new Error('--per-group must be a non-negative integer');
 const data=JSON.parse(readFileSync('data/seed.json','utf8')) as Catalog;
 const profiles=JSON.parse(readFileSync('data/source-profiles.json','utf8')) as Profile[];
+
+// The school occasionally changes a personal-page slug. Existing curated records
+// may therefore use a legacy id while the current directory uses a new one.
+for(const institute of data.institutes){
+  const seen=new Map<string,Mentor>();
+  const retained:Mentor[]=[];
+  for(const mentor of data.mentors.filter(m=>m.instituteId===institute.id)){
+    const key=mentor.name;
+    const prior=seen.get(key);
+    if(!prior){seen.set(key,mentor);retained.push(mentor);continue;}
+    if(mentor.papers.length>prior.papers.length){
+      retained.splice(retained.indexOf(prior),1,mentor);
+      seen.set(key,mentor);
+    }
+  }
+  data.mentors=data.mentors.filter(m=>m.instituteId!==institute.id).concat(retained);
+}
 
 function profileValue(profile:Profile,label:string){return profile.profile?.match(new RegExp(`${label}：[ ]*([^\\n]+)`))?.[1];}
 function mentorFrom(profile:Profile,instituteId:string):Mentor {
@@ -32,9 +50,13 @@ function mentorFrom(profile:Profile,instituteId:string):Mentor {
 
 for(const [group,instituteId] of Object.entries(groupToInstitute)){
   const existing=data.mentors.filter(m=>m.instituteId===instituteId);
-  const candidates=profiles.filter(p=>p.group===group&&!data.mentors.some(m=>m.id===p.id));
+  const candidates=profiles.filter(p=>p.group===group&&!data.mentors.some(m=>m.id===p.id||(m.name===p.name&&m.instituteId===instituteId)));
   const wanted=limit?Math.max(0,limit-existing.length):candidates.length;
   data.mentors.push(...candidates.slice(0,wanted).map(p=>mentorFrom(p,instituteId)));
+}
+for(const institute of data.institutes){
+  const evidence=data.mentors.filter(m=>m.instituteId===institute.id).map(m=>({id:m.id,directions:m.officialDirections,papers:m.papers.map(p=>({id:p.id,title:p.title,abstract:p.abstract}))}));
+  institute.evidenceFingerprint=createHash('sha256').update(JSON.stringify(evidence)).digest('hex');
 }
 writeFileSync('data/seed.json',JSON.stringify(data,null,2)+'\n');
 const counts=data.institutes.map(i=>`${i.shortName}:${data.mentors.filter(m=>m.instituteId===i.id).length}`);

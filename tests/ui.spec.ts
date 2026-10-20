@@ -1,9 +1,9 @@
 import { test,expect } from '@playwright/test';
 test('目录搜索、机构筛选、详情三列和审阅表可用',async({page})=>{
-  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/');await expect(page.locator('.mentor-card')).toHaveCount(36);
+  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/');await expect(page.locator('.mentor-card')).toHaveCount(273);
  await page.getByRole('textbox',{name:'搜索姓名或研究方向'}).fill('戴文睿');await expect(page.locator('.mentor-card')).toHaveCount(1);await page.locator('.mentor-card').click();await expect(page.locator('.mentor-profile h1')).toContainText('戴文睿');await expect(page.locator('.paper-row')).toHaveCount(5);await expect(page.locator('.paper-header')).toContainText('通俗解读与入门');
   await page.getByRole('button',{name:'研究所导览',exact:true}).click();await expect(page.locator('.institute-card')).toHaveCount(12);await page.locator('.institute-card').first().click();await expect(page.locator('.mentor-card')).toHaveCount(3);await expect(page.locator('.institute-summary')).toContainText('尚不能覆盖整个机构');
-  await page.getByRole('button',{name:'收录审阅',exact:true}).click();await expect(page.locator('.review-table tbody tr')).toHaveCount(36);await expect(page.locator('.review-table')).toContainText('正高级实验师');expect(errors).toEqual([]);
+  await page.getByRole('button',{name:'收录审阅',exact:true}).click();await expect(page.locator('.review-table tbody tr')).toHaveCount(273);await expect(page.locator('.review-table')).toContainText('正高级实验师');expect(errors).toEqual([]);
 });
 test('模型凭证只在内存，刷新清除；无Key给出可操作入口',async({page})=>{
  await page.goto('/');await page.getByRole('button',{name:'模型设置',exact:true}).click();await page.getByLabel('API Key',{exact:true}).fill('test-session-only');await page.getByRole('button',{name:'完成',exact:true}).click();
@@ -19,8 +19,8 @@ test('匹配结果与追问进度能正确呈现（模拟模型结果）',async(
 test('手机与桌面无横向溢出，截图留存供审阅',async({browser})=>{
   for(const [label,width,height] of [['desktop',1440,1050],['compact',900,1000],['mobile',390,844],['narrow',360,800]] as const){
   const page=await browser.newPage({viewport:{width,height},deviceScaleFactor:1});await page.goto('/');await page.locator('.mentor-card').last().waitFor();await page.evaluate(()=>document.fonts.ready);await expect(page.locator('header')).toHaveCount(1);expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
-  await page.screenshot({path:`docs/screenshots/${label}-home.png`,fullPage:true});
-  await page.locator('.mentor-card').first().click();await expect(page.locator('.paper-row')).toHaveCount(5);expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);await page.screenshot({path:`docs/screenshots/${label}-mentor.png`,fullPage:true});await page.close();
+  await page.screenshot({path:`docs/screenshots/${label}-home.png`,fullPage:false});
+  await page.locator('.mentor-card').first().click();await expect(page.locator('.paper-row')).toHaveCount(5);expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);await page.screenshot({path:`docs/screenshots/${label}-mentor.png`,fullPage:false});await page.close();
  }
 });
 
@@ -49,7 +49,7 @@ test('追问回答渲染Markdown，放大字号后桌面和手机仍可阅读',a
  ].join('\n');
  for(const [label,width,height] of [['desktop',1440,1050],['mobile',390,844]] as const){
   await page.setViewportSize({width,height});await page.goto('/');
-  await expect(page.locator('.mentor-card')).toHaveCount(36);
+  await expect(page.locator('.mentor-card')).toHaveCount(273);
   expect(await page.locator('body').evaluate(el=>parseFloat(getComputedStyle(el).fontSize))).toBeCloseTo(16.1,1);
   await page.getByRole('button',{name:'模型设置',exact:true}).click();
   await page.getByLabel('API Key',{exact:true}).fill('test-ui-only');

@@ -9,9 +9,16 @@
     "test": "node --import tsx --test tests/*.test.ts",
     "typecheck": "tsc --noEmit",
     "data:audit": "node --import tsx scripts/audit.ts",
-    "data:seed": "node --import tsx scripts/seed.ts",
+    "data:seed": "node --import tsx scripts/import-directory.ts",
     "data:directory:three": "python3 scripts/collect.py --per-group 3 && node --import tsx scripts/import-directory.ts --per-group=3",
     "data:directory:all": "python3 scripts/collect.py && node --import tsx scripts/import-directory.ts",
+    "data:papers:directory": "python3 scripts/enrich-directory.py",
+    "data:papers:official": "python3 scripts/enrich-official-works.py",
+    "data:papers:official-profile": "python3 scripts/import-official-representative-works.py",
+    "data:abstracts:directory": "python3 scripts/supplement-directory-abstracts.py",
+    "data:analyses:directory": "node --import tsx scripts/analyze-directory-abstracts.ts",
+    "data:analyses:editorial": "node --import tsx scripts/generate-editorial-analyses.ts",
+    "data:introductions": "node --import tsx scripts/refresh-institute-observations.ts",
     "test:ui": "playwright test"
   },
   "dependencies": {

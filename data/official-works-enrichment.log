@@ -1,0 +1,246 @@
+{"event": "started", "pending": 224}
+{"event": "progress", "current": 1, "total": 224, "id": "chenkai", "name": "陈凯", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 2, "total": 224, "id": "chenli", "name": "陈立", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 3, "total": 224, "id": "chengzhengxue", "name": "程正雪", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 4, "total": 224, "id": "dingxiaowei", "name": "丁晓伟", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 5, "total": 224, "id": "xierong", "name": "解蓉", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 6, "total": 224, "id": "luguo", "name": "鲁国", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 7, "total": 224, "id": "nibingbing", "name": "倪冰冰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 8, "total": 224, "id": "songli", "name": "宋利", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 9, "total": 224, "id": "sunjun", "name": "孙军", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 10, "total": 224, "id": "wangjia", "name": "王嘉", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 11, "total": 224, "id": "xiongjian", "name": "熊箭", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 12, "total": 224, "id": "yanghua", "name": "杨华", "status": "enriched", "papers": 3, "abstracts": 0}
+{"event": "progress", "current": 13, "total": 224, "id": "zhaiguangtao", "name": "翟广涛", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 14, "total": 224, "id": "zhangwenjun", "name": "张文军", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 15, "total": 224, "id": "zhangchongyang", "name": "张重阳", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 16, "total": 224, "id": "zhoujun", "name": "周军", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 17, "total": 224, "id": "guanyunfeng", "name": "管云峰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 18, "total": 224, "id": "liujing", "name": "刘静", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 19, "total": 224, "id": "2616", "name": "莫建华", "status": "enriched", "papers": 1, "abstracts": 0}
+{"event": "progress", "current": 20, "total": 224, "id": "sunshu", "name": "孙舒", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 21, "total": 224, "id": "yangfeng", "name": "杨峰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 22, "total": 224, "id": "chenjianping", "name": "陈建平", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 23, "total": 224, "id": "dengxiao", "name": "邓晓", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 24, "total": 224, "id": "fanxinyu", "name": "樊昕昱", "status": "enriched", "papers": 5, "abstracts": 2}
+{"event": "progress", "current": 25, "total": 224, "id": "guoyuyao", "name": "郭宇耀", "status": "enriched", "papers": 5, "abstracts": 4}
+{"event": "progress", "current": 26, "total": 224, "id": "heyu", "name": "何宇", "status": "enriched", "papers": 1, "abstracts": 1}
+{"event": "progress", "current": 27, "total": 224, "id": "huliang", "name": "胡亮", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 28, "total": 224, "id": "huweisheng", "name": "胡卫生", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 29, "total": 224, "id": "lixinwan", "name": "李新碗", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 30, "total": 224, "id": "lixing", "name": "李杏", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 31, "total": 224, "id": "liyan", "name": "李燕", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 32, "total": 224, "id": "liuqingwen", "name": "刘庆文", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 33, "total": 224, "id": "3105", "name": "马伯文", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 34, "total": 224, "id": "malin", "name": "马麟", "status": "enriched", "papers": 1, "abstracts": 0}
+{"event": "progress", "current": 35, "total": 224, "id": "3508", "name": "牛泽坤", "status": "enriched", "papers": 5, "abstracts": 3}
+{"event": "progress", "current": 36, "total": 224, "id": "2986", "name": "蒲国庆", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 37, "total": 224, "id": "qianna", "name": "钱娜", "status": "enriched", "papers": 4, "abstracts": 3}
+{"event": "progress", "current": 38, "total": 224, "id": "qiuciyuan", "name": "邱辞源", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 39, "total": 224, "id": "2695", "name": "石梦悦", "status": "enriched", "papers": 3, "abstracts": 2}
+{"event": "progress", "current": 40, "total": 224, "id": "suyikai", "name": "苏翼凯", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 41, "total": 224, "id": "sunlu", "name": "孙璐", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 42, "total": 224, "id": "3348", "name": "万阳阳", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 43, "total": 224, "id": "2989", "name": "王崇予", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 44, "total": 224, "id": "3389", "name": "王霆", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 45, "total": 224, "id": "xieweiqiang", "name": "谢卫强", "status": "enriched", "papers": 3, "abstracts": 2}
+{"event": "progress", "current": 46, "total": 224, "id": "xushaofu", "name": "徐绍夫", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 47, "total": 224, "id": "yetong", "name": "叶通", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 48, "total": 224, "id": "zhangyong", "name": "张永", "status": "enriched", "papers": 1, "abstracts": 1}
+{"event": "progress", "current": 49, "total": 224, "id": "3385", "name": "赵麾宇", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 50, "total": 224, "id": "2811", "name": "赵阳", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 51, "total": 224, "id": "zhugequnbi", "name": "诸葛群碧", "status": "enriched", "papers": 4, "abstracts": 3}
+{"event": "progress", "current": 52, "total": 224, "id": "2988", "name": "庄语迪", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 53, "total": 224, "id": "chenjingfeng", "name": "陈靖峰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 54, "total": 224, "id": "2810", "name": "陈文超", "status": "enriched", "papers": 5, "abstracts": 1}
+{"event": "progress", "current": 55, "total": 224, "id": "chengxiulan", "name": "程秀兰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 56, "total": 224, "id": "gaoyesheng", "name": "高叶盛", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 57, "total": 224, "id": "gengjunping", "name": "耿军平", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 58, "total": 224, "id": "2725", "name": "顾昌展", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 59, "total": 224, "id": "hechong", "name": "贺冲", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 60, "total": 224, "id": "huangpenghui", "name": "黄鹏辉", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 61, "total": 224, "id": "jiangxue", "name": "姜雪", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 62, "total": 224, "id": "jinronghong", "name": "金荣洪", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 63, "total": 224, "id": "3049", "name": "李萍", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 64, "total": 224, "id": "lixiaochun", "name": "李晓春", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 65, "total": 224, "id": "liangxianling", "name": "梁仙灵", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 66, "total": 224, "id": "3382", "name": "林树靖", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 67, "total": 224, "id": "linyanxia", "name": "林艳霞", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 68, "total": 224, "id": "liupeilin", "name": "刘佩林", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 69, "total": 224, "id": "liuxingzhao", "name": "刘兴钊", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 70, "total": 224, "id": "3107", "name": "卢佳青", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 71, "total": 224, "id": "pangjian", "name": "庞健", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 72, "total": 224, "id": "qiuliangfeng", "name": "邱良丰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 73, "total": 224, "id": "shiliyun", "name": "史丽云", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 74, "total": 224, "id": "3106", "name": "孙利滨", "status": "enriched", "papers": 1, "abstracts": 0}
+{"event": "progress", "current": 75, "total": 224, "id": "tangmin", "name": "唐旻", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 76, "total": 224, "id": "3050", "name": "童国林", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 77, "total": 224, "id": "3051", "name": "王夺", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 78, "total": 224, "id": "wangjunfeng", "name": "王军锋", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 79, "total": 224, "id": "wangkaizhi", "name": "王开志", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 80, "total": 224, "id": "wenfei", "name": "文飞", "status": "enriched", "papers": 5, "abstracts": 1}
+{"event": "progress", "current": 81, "total": 224, "id": "wulincheng", "name": "吴林晟", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 82, "total": 224, "id": "xiabin", "name": "夏彬", "status": "enriched", "papers": 1, "abstracts": 0}
+{"event": "progress", "current": 83, "total": 224, "id": "xiaogaobiao", "name": "肖高标", "status": "enriched", "papers": 5, "abstracts": 5}
+{"event": "progress", "current": 84, "total": 224, "id": "xuqihao", "name": "徐琪皓", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 85, "total": 224, "id": "yanhao", "name": "闫浩", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 86, "total": 224, "id": "yingrendong", "name": "应忍冬", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 87, "total": 224, "id": "yuanbin", "name": "袁斌", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 88, "total": 224, "id": "zhangchengrui", "name": "张成瑞", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 89, "total": 224, "id": "zhaoxin", "name": "赵昕", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 90, "total": 224, "id": "zhouliang", "name": "周亮", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 91, "total": 224, "id": "zhujie", "name": "朱杰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 92, "total": 224, "id": "zhuweiren", "name": "朱卫仁", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 93, "total": 224, "id": "chencheng", "name": "陈诚", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 94, "total": 224, "id": "chenhaibao", "name": "陈海宝", "status": "enriched", "papers": 5, "abstracts": 2}
+{"event": "progress", "current": 95, "total": 224, "id": "fuyuzhuo", "name": "付宇卓", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 96, "total": 224, "id": "3079", "name": "郭衍束", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 97, "total": 224, "id": "guoyuekang", "name": "过悦康", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 98, "total": 224, "id": "heweifeng", "name": "何卫锋", "status": "enriched", "papers": 1, "abstracts": 0}
+{"event": "progress", "current": 99, "total": 224, "id": "heguanghui", "name": "贺光辉", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 100, "total": 224, "id": "jizhigang", "name": "纪志罡", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 101, "total": 224, "id": "jianghonglan", "name": "姜红兰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 102, "total": 224, "id": "jiangjianfei", "name": "蒋剑飞", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 103, "total": 224, "id": "jinjing", "name": "金晶", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 104, "total": 224, "id": "jingnaifeng", "name": "景乃锋", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 105, "total": 224, "id": "2765", "name": "李金波", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 106, "total": 224, "id": "liyongfu", "name": "李永福", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 107, "total": 224, "id": "liuting", "name": "刘婷", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 108, "total": 224, "id": "liuyan", "name": "刘彦", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 109, "total": 224, "id": "maozhigang", "name": "毛志刚", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 110, "total": 224, "id": "qiliang", "name": "祁亮", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 111, "total": 224, "id": "renpengpeng", "name": "任鹏鹏", "status": "enriched", "papers": 4, "abstracts": 0}
+{"event": "progress", "current": 112, "total": 224, "id": "shengweiguang", "name": "绳伟光", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 113, "total": 224, "id": "shiguoyong", "name": "施国勇", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 114, "total": 224, "id": "wangguoxing", "name": "王国兴", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 115, "total": 224, "id": "wangqin", "name": "王琴", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 116, "total": 224, "id": "wumaokun", "name": "吴茂坤", "status": "enriched", "papers": 5, "abstracts": 3}
+{"event": "progress", "current": 117, "total": 224, "id": "3373", "name": "吴子涵", "status": "enriched", "papers": 3, "abstracts": 0}
+{"event": "progress", "current": 118, "total": 224, "id": "yangchao", "name": "杨超", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 119, "total": 224, "id": "yeyaoyao", "name": "叶瑶瑶", "status": "enriched", "papers": 4, "abstracts": 0}
+{"event": "progress", "current": 120, "total": 224, "id": "3477", "name": "尹琛", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 121, "total": 224, "id": "zhangchen", "name": "张宸", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 122, "total": 224, "id": "zhaojian", "name": "赵健", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 123, "total": 224, "id": "zhaoyang", "name": "赵阳", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 124, "total": 224, "id": "zhoujianjun", "name": "周健军", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 125, "total": 224, "id": "caixinghan", "name": "蔡星汉", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 126, "total": 224, "id": "chenmingyi", "name": "陈铭易", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 127, "total": 224, "id": "chensujie", "name": "陈苏杰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 128, "total": 224, "id": "chenxiang", "name": "陈翔", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 129, "total": 224, "id": "cuifeng", "name": "崔峰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 130, "total": 224, "id": "daixuhan", "name": "戴旭涵", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 131, "total": 224, "id": "dingguifu", "name": "丁桂甫", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 132, "total": 224, "id": "dongchengyuan", "name": "董承远", "status": "enriched", "papers": 2, "abstracts": 0}
+{"event": "progress", "current": 133, "total": 224, "id": "guoshouwu", "name": "郭守武", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 134, "total": 224, "id": "guoxiaojun", "name": "郭小军", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 135, "total": 224, "id": "hegufeng", "name": "何谷峰", "status": "enriched", "papers": 5, "abstracts": 1}
+{"event": "progress", "current": 136, "total": 224, "id": "3489", "name": "姜春蓬", "status": "enriched", "papers": 2, "abstracts": 0}
+{"event": "progress", "current": 137, "total": 224, "id": "leichong", "name": "雷冲", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 138, "total": 224, "id": "3052", "name": "李思莹", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 139, "total": 224, "id": "lixiuyan", "name": "李秀妍", "status": "enriched", "papers": 2, "abstracts": 0}
+{"event": "progress", "current": 140, "total": 224, "id": "linzude", "name": "林祖德", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 141, "total": 224, "id": "liuqingkun", "name": "刘清坤", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 142, "total": 224, "id": "liuruili", "name": "刘瑞丽", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 143, "total": 224, "id": "liuwu", "name": "刘武", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 144, "total": 224, "id": "shenwenzhuo", "name": "沈文卓", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 145, "total": 224, "id": "simengwei", "name": "司梦维", "status": "enriched", "papers": 1, "abstracts": 0}
+{"event": "progress", "current": 146, "total": 224, "id": "sunyunna", "name": "孙云娜", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 147, "total": 224, "id": "tangwei", "name": "唐伟", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 148, "total": 224, "id": "wanghui", "name": "王辉", "status": "enriched", "papers": 2, "abstracts": 0}
+{"event": "progress", "current": 149, "total": 224, "id": "wanglongchun", "name": "王隆春", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 150, "total": 224, "id": "wangxiaolin", "name": "王晓林", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 151, "total": 224, "id": "wangyan", "name": "王艳", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 152, "total": 224, "id": "wenhuimin", "name": "文惠敏", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 153, "total": 224, "id": "wuxiaosheng", "name": "吴校生", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 154, "total": 224, "id": "yangbin", "name": "杨斌", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 155, "total": 224, "id": "yangzhuoqing", "name": "杨卓青", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 156, "total": 224, "id": "yaojinyuan", "name": "姚锦元", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 157, "total": 224, "id": "youminmin", "name": "尤敏敏", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 158, "total": 224, "id": "zangfahang", "name": "臧法珩", "status": "enriched", "papers": 5, "abstracts": 2}
+{"event": "progress", "current": 159, "total": 224, "id": "zhangcongchun", "name": "张丛春", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 160, "total": 224, "id": "zhangjiali", "name": "张佳利", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 161, "total": 224, "id": "zhongmin", "name": "钟民", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 162, "total": 224, "id": "2852", "name": "朱敏", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 163, "total": 224, "id": "hanyanqiang", "name": "韩彦强", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 164, "total": 224, "id": "herong", "name": "贺蓉", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 165, "total": 224, "id": "hunantao", "name": "胡南滔", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 166, "total": 224, "id": "lihaihua", "name": "李海华", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 167, "total": 224, "id": "lijinjin", "name": "李金金", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 168, "total": 224, "id": "pengzhengchun", "name": "彭争春", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 169, "total": 224, "id": "suyanjie", "name": "苏言杰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 170, "total": 224, "id": "wangqingkang", "name": "王庆康", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 171, "total": 224, "id": "3053", "name": "王孜", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 172, "total": 224, "id": "weihao", "name": "魏浩", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 173, "total": 224, "id": "weiliangming", "name": "魏良明", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 174, "total": 224, "id": "wukaiyu", "name": "吴开宇", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 175, "total": 224, "id": "yangjianhua", "name": "杨建华", "status": "enriched", "papers": 3, "abstracts": 0}
+{"event": "progress", "current": 176, "total": 224, "id": "yangzhi", "name": "杨志", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 177, "total": 224, "id": "zengmin", "name": "曾敏", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 178, "total": 224, "id": "zhangliying", "name": "张丽英", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 179, "total": 224, "id": "zhouzhihua", "name": "周志华", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 180, "total": 224, "id": "zhuwenhuan", "name": "朱文欢", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 181, "total": 224, "id": "chenzhiyong", "name": "陈智勇", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 182, "total": 224, "id": "2990", "name": "董莉莉", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 183, "total": 224, "id": "hedazhi", "name": "何大治", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 184, "total": 224, "id": "huqiang", "name": "胡强", "status": "enriched", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 185, "total": 224, "id": "lihaoyang", "name": "李浩洋", "status": "enriched", "papers": 1, "abstracts": 0}
+{"event": "progress", "current": 186, "total": 224, "id": "liuning", "name": "柳宁", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 187, "total": 224, "id": "wangyao", "name": "王尧", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 188, "total": 224, "id": "xuyiling", "name": "徐异凌", "status": "enriched", "papers": 2, "abstracts": 0}
+{"event": "progress", "current": 189, "total": 224, "id": "yaojiangchao", "name": "姚江超", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 190, "total": 224, "id": "zhangxiaoyun", "name": "张小云", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 191, "total": 224, "id": "cuimeng", "name": "崔萌", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 192, "total": 224, "id": "jiangletian", "name": "蒋乐天", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 193, "total": 224, "id": "3054", "name": "李安琪", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 194, "total": 224, "id": "liutao", "name": "刘涛", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 195, "total": 224, "id": "3055", "name": "刘越", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 196, "total": 224, "id": "mengguie", "name": "孟桂娥", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 197, "total": 224, "id": "motingting", "name": "莫亭亭", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 198, "total": 224, "id": "xuxiong", "name": "徐雄", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 199, "total": 224, "id": "3056", "name": "杨晓", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 200, "total": 224, "id": "yangyuhong", "name": "杨宇红", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 201, "total": 224, "id": "yuanyan", "name": "袁焱", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 202, "total": 224, "id": "zhuqinmin", "name": "诸勤敏", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 203, "total": 224, "id": "fuxuecheng", "name": "付学成", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 204, "total": 224, "id": "guanweichang", "name": "管伟昌", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 205, "total": 224, "id": "huangshengli", "name": "黄胜利", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 206, "total": 224, "id": "quminni", "name": "瞿敏妮", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 207, "total": 224, "id": "lijinxi", "name": "李进喜", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 208, "total": 224, "id": "3057", "name": "李天清", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 209, "total": 224, "id": "liudan", "name": "刘丹", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 210, "total": 224, "id": "liumin", "name": "刘民", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 211, "total": 224, "id": "liuyuwen", "name": "刘毓闻", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 212, "total": 224, "id": "maling", "name": "马玲", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 213, "total": 224, "id": "maohaiping", "name": "毛海平", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 214, "total": 224, "id": "quanxueling", "name": "权雪玲", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 215, "total": 224, "id": "shenyunjing", "name": "沈贇靓", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 216, "total": 224, "id": "tianmiao", "name": "田苗", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 217, "total": 224, "id": "wangfengdan", "name": "王凤丹", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 218, "total": 224, "id": "wuliying", "name": "乌李瑛", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 219, "total": 224, "id": "wuweiwen", "name": "吴炜文", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 220, "total": 224, "id": "xujian", "name": "徐剑", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 221, "total": 224, "id": "xuliping", "name": "徐丽萍", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 222, "total": 224, "id": "yangpeiyi", "name": "杨珮艺", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 223, "total": 224, "id": "zhangdi", "name": "张笛", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 224, "total": 224, "id": "zhangyan", "name": "张琰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "complete"}
+{"event": "started", "pending": 179}
+{"event": "progress", "current": 1, "total": 179, "id": "yuhui", "name": "俞晖", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 2, "total": 179, "id": "gongxinbao", "name": "宫新保", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 3, "total": 179, "id": "zhengziyang", "name": "郑紫阳", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 4, "total": 179, "id": "3108", "name": "曹杰彰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 5, "total": 179, "id": "chenkai", "name": "陈凯", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 6, "total": 179, "id": "chenli", "name": "陈立", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 7, "total": 179, "id": "chengzhengxue", "name": "程正雪", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "started", "pending": 177}
+{"event": "progress", "current": 1, "total": 177, "id": "yuhui", "name": "俞晖", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 2, "total": 177, "id": "3108", "name": "曹杰彰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 3, "total": 177, "id": "chenkai", "name": "陈凯", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 4, "total": 177, "id": "chenli", "name": "陈立", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 5, "total": 177, "id": "chengzhengxue", "name": "程正雪", "status": "error", "reason": "HTTPError"}
+{"event": "started", "pending": 177}
+{"event": "progress", "current": 1, "total": 177, "id": "yuhui", "name": "俞晖", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 2, "total": 177, "id": "3108", "name": "曹杰彰", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 3, "total": 177, "id": "chenkai", "name": "陈凯", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 4, "total": 177, "id": "chenli", "name": "陈立", "status": "unresolved", "reason": "官网个人页没有可解析的2023年以来代表作题名"}
+{"event": "progress", "current": 5, "total": 177, "id": "chengzhengxue", "name": "程正雪", "status": "enriched", "papers": 5, "abstracts": 3}

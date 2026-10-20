@@ -1,0 +1,266 @@
+{"event": "started", "pending": 260, "completed": 1}
+{"event": "progress", "current": 1, "total": 260, "id": "yuhui", "name": "俞晖", "status": "ambiguous", "reason": "存在3个同名上海交通大学作者档案"}
+{"event": "progress", "current": 2, "total": 260, "id": "gongxinbao", "name": "宫新保", "status": "unresolved", "reason": "没有拼音姓名精确匹配的作者档案（检索名：Xin Bao Gong）"}
+{"event": "progress", "current": 3, "total": 260, "id": "lichenglin", "name": "李成林", "status": "enriched", "authorId": "https://openalex.org/A5100675587", "papers": 5, "abstracts": 4}
+{"event": "progress", "current": 4, "total": 260, "id": "linweiyao", "name": "林巍峣", "status": "enriched", "authorId": "https://openalex.org/A5059372830", "papers": 5, "abstracts": 3}
+{"event": "progress", "current": 5, "total": 260, "id": "xionghongkai", "name": "熊红凯", "status": "enriched", "authorId": "https://openalex.org/A5002494284", "papers": 5, "abstracts": 4}
+{"event": "progress", "current": 6, "total": 260, "id": "zhengziyang", "name": "郑紫阳", "status": "ambiguous", "reason": "存在3个同名上海交通大学作者档案"}
+{"event": "progress", "current": 7, "total": 260, "id": "3168", "name": "邹君妮", "status": "enriched", "authorId": "https://openalex.org/A5016006337", "papers": 5, "abstracts": 5}
+{"event": "progress", "current": 8, "total": 260, "id": "3108", "name": "曹杰彰", "status": "unresolved", "reason": "没有拼音姓名精确匹配的作者档案（检索名：Jie Zhang Cao）"}
+{"event": "progress", "current": 9, "total": 260, "id": "chenkai", "name": "陈凯", "status": "ambiguous", "reason": "存在15个同名上海交通大学作者档案"}
+{"event": "progress", "current": 10, "total": 260, "id": "chenli", "name": "陈立", "status": "ambiguous", "reason": "存在9个同名上海交通大学作者档案"}
+{"event": "progress", "current": 11, "total": 260, "id": "chenyitong", "name": "陈一彤", "status": "enriched", "authorId": "https://openalex.org/A5080918052", "papers": 1, "abstracts": 1}
+{"event": "progress", "current": 12, "total": 260, "id": "chengzhengxue", "name": "程正雪", "status": "unresolved", "reason": "没有拼音姓名精确匹配的作者档案（检索名：Zheng Xue Cheng）"}
+{"event": "progress", "current": 13, "total": 260, "id": "dinglianghui", "name": "丁良辉", "status": "enriched", "authorId": "https://openalex.org/A5079885035", "papers": 5, "abstracts": 1}
+{"event": "progress", "current": 14, "total": 260, "id": "dingxiaowei", "name": "丁晓伟", "status": "ambiguous", "reason": "存在3个同名上海交通大学作者档案"}
+{"event": "progress", "current": 15, "total": 260, "id": "xierong", "name": "解蓉", "status": "unresolved", "reason": "没有拼音姓名精确匹配的作者档案（检索名：Rong Jie）"}
+{"event": "progress", "current": 16, "total": 260, "id": "luguo", "name": "鲁国", "status": "unresolved", "reason": "没有拼音姓名精确匹配的作者档案（检索名：Guo Lu）"}
+{"event": "progress", "current": 17, "total": 260, "id": "nibingbing", "name": "倪冰冰", "status": "unresolved", "reason": "没有拼音姓名精确匹配的作者档案（检索名：Bing Bing Ni）"}
+{"event": "progress", "current": 18, "total": 260, "id": "songli", "name": "宋利", "status": "ambiguous", "reason": "存在3个同名上海交通大学作者档案"}
+{"event": "progress", "current": 19, "total": 260, "id": "sunjun", "name": "孙军", "status": "ambiguous", "reason": "存在7个同名上海交通大学作者档案"}
+{"event": "progress", "current": 20, "total": 260, "id": "wangjia", "name": "王嘉", "status": "ambiguous", "reason": "存在5个同名上海交通大学作者档案"}
+{"event": "progress", "current": 21, "total": 260, "id": "wuyongpeng", "name": "吴泳澎", "status": "enriched", "authorId": "https://openalex.org/A5065362219", "papers": 5, "abstracts": 4}
+{"event": "progress", "current": 22, "total": 260, "id": "xiongjian", "name": "熊箭", "status": "ambiguous", "reason": "存在5个同名上海交通大学作者档案"}
+{"event": "progress", "current": 23, "total": 260, "id": "xuyi", "name": "徐奕", "status": "enriched", "authorId": "https://openalex.org/A5018343158", "papers": 5, "abstracts": 4}
+{"event": "progress", "current": 24, "total": 260, "id": "yanghua", "name": "杨华", "status": "ambiguous", "reason": "存在5个同名上海交通大学作者档案"}
+{"event": "progress", "current": 25, "total": 260, "id": "zhaiguangtao", "name": "翟广涛", "status": "unresolved", "reason": "没有拼音姓名精确匹配的作者档案（检索名：Guang Tao Di）"}
+{"event": "progress", "current": 26, "total": 260, "id": "zhangwenjun", "name": "张文军", "status": "ambiguous", "reason": "存在13个同名上海交通大学作者档案"}
+{"event": "progress", "current": 27, "total": 260, "id": "zhangchongyang", "name": "张重阳", "status": "ambiguous", "reason": "存在8个同名上海交通大学作者档案"}
+{"event": "progress", "current": 28, "total": 260, "id": "zhoujun", "name": "周军", "status": "ambiguous", "reason": "存在7个同名上海交通大学作者档案"}
+{"event": "progress", "current": 29, "total": 260, "id": "guanyunfeng", "name": "管云峰", "status": "ambiguous", "reason": "存在3个同名上海交通大学作者档案"}
+{"event": "progress", "current": 30, "total": 260, "id": "liujing", "name": "刘静", "status": "ambiguous", "reason": "存在11个同名上海交通大学作者档案"}
+{"event": "progress", "current": 31, "total": 260, "id": "2616", "name": "莫建华", "status": "ambiguous", "reason": "存在2个同名上海交通大学作者档案"}
+{"event": "progress", "current": 32, "total": 260, "id": "qianliang", "name": "钱良", "status": "enriched", "authorId": "https://openalex.org/A5110545442", "papers": 5, "abstracts": 3}
+{"event": "progress", "current": 33, "total": 260, "id": "sunshu", "name": "孙舒", "status": "ambiguous", "reason": "存在2个同名上海交通大学作者档案"}
+{"event": "progress", "current": 34, "total": 260, "id": "tianxiaohua", "name": "田晓华", "status": "enriched", "authorId": "https://openalex.org/A5018442100", "papers": 5, "abstracts": 3}
+{"event": "progress", "current": 35, "total": 260, "id": "xiabin1", "name": "夏斌", "status": "enriched", "authorId": "https://openalex.org/A5085292302", "papers": 5, "abstracts": 1}
+{"event": "progress", "current": 36, "total": 260, "id": "yangfeng", "name": "杨峰", "status": "ambiguous", "reason": "存在2个同名上海交通大学作者档案"}
+{"event": "progress", "current": 37, "total": 260, "id": "chenjianping", "name": "陈建平", "status": "ambiguous", "reason": "存在12个同名上海交通大学作者档案"}
+{"event": "progress", "current": 38, "total": 260, "id": "dengxiao", "name": "邓晓", "status": "ambiguous", "reason": "存在2个同名上海交通大学作者档案"}
+{"event": "progress", "current": 39, "total": 260, "id": "dujiangbing", "name": "杜江兵", "status": "enriched", "authorId": "https://openalex.org/A5014108248", "papers": 5, "abstracts": 4}
+{"event": "progress", "current": 40, "total": 260, "id": "fanxinyu", "name": "樊昕昱", "status": "ambiguous", "reason": "存在8个同名上海交通大学作者档案"}
+{"event": "progress", "current": 41, "total": 260, "id": "guoxuhan", "name": "郭旭涵", "status": "enriched", "authorId": "https://openalex.org/A5100363332", "papers": 5, "abstracts": 5}
+{"event": "progress", "current": 42, "total": 260, "id": "guoyuyao", "name": "郭宇耀", "status": "ambiguous", "reason": "存在8个同名上海交通大学作者档案"}
+{"event": "progress", "current": 43, "total": 260, "id": "heguangqiang", "name": "何广强", "status": "enriched", "authorId": "https://openalex.org/A5045644357", "papers": 5, "abstracts": 4}
+{"event": "progress", "current": 44, "total": 260, "id": "hehao", "name": "何浩", "status": "enriched", "authorId": "https://openalex.org/A5074745823", "papers": 5, "abstracts": 5}
+{"event": "progress", "current": 45, "total": 260, "id": "heyu", "name": "何宇", "status": "ambiguous", "reason": "存在6个同名上海交通大学作者档案"}
+{"event": "progress", "current": 46, "total": 260, "id": "hezuyuan", "name": "何祖源", "status": "enriched", "authorId": "https://openalex.org/A5100698811", "papers": 5, "abstracts": 4}
+{"event": "progress", "current": 47, "total": 260, "id": "huliang", "name": "胡亮", "status": "ambiguous", "reason": "存在8个同名上海交通大学作者档案"}
+{"event": "progress", "current": 48, "total": 260, "id": "huweisheng", "name": "胡卫生", "status": "ambiguous", "reason": "存在4个同名上海交通大学作者档案"}
+{"event": "progress", "current": 49, "total": 260, "id": "jiangchun", "name": "姜淳", "status": "enriched", "authorId": "https://openalex.org/A5054927807", "papers": 5, "abstracts": 5}
+{"event": "progress", "current": 50, "total": 260, "id": "2575", "name": "李靖驰", "status": "enriched", "authorId": "https://openalex.org/A5078797388", "papers": 1, "abstracts": 1}
+{"event": "progress", "current": 51, "total": 260, "id": "lixinwan", "name": "李新碗", "status": "ambiguous", "reason": "存在3个同名上海交通大学作者档案"}
+{"event": "progress", "current": 52, "total": 260, "id": "lixing", "name": "李杏", "status": "ambiguous", "reason": "存在7个同名上海交通大学作者档案"}
+{"event": "progress", "current": 53, "total": 260, "id": "liyan", "name": "李燕", "status": "ambiguous", "reason": "存在12个同名上海交通大学作者档案"}
+{"event": "progress", "current": 54, "total": 260, "id": "liyu", "name": "李雨", "status": "enriched", "authorId": "https://openalex.org/A5100345660", "papers": 1, "abstracts": 1}
+{"event": "progress", "current": 55, "total": 260, "id": "liuqingwen", "name": "刘庆文", "status": "ambiguous", "reason": "存在2个同名上海交通大学作者档案"}
+{"event": "progress", "current": 56, "total": 260, "id": "lujiangang", "name": "陆建钢", "status": "enriched", "authorId": "https://openalex.org/A5109815263", "papers": 4, "abstracts": 4}
+{"event": "progress", "current": 57, "total": 260, "id": "luliangjun", "name": "陆梁军", "status": "enriched", "authorId": "https://openalex.org/A5073876921", "papers": 5, "abstracts": 2}
+{"event": "progress", "current": 58, "total": 260, "id": "3105", "name": "马伯文", "status": "ambiguous", "reason": "存在3个同名上海交通大学作者档案"}
+{"event": "progress", "current": 59, "total": 260, "id": "malin", "name": "马麟", "status": "ambiguous", "reason": "存在10个同名上海交通大学作者档案"}
+{"event": "progress", "current": 60, "total": 260, "id": "3508", "name": "牛泽坤", "status": "unresolved", "reason": "作者档案匹配，但近36个月没有带上海交通大学单位标注的作品"}
+{"event": "progress", "current": 61, "total": 260, "id": "2986", "name": "蒲国庆", "status": "unresolved", "reason": "作者档案匹配，但近36个月没有带上海交通大学单位标注的作品"}
+{"event": "progress", "current": 62, "total": 260, "id": "qianna", "name": "钱娜", "status": "ambiguous", "reason": "存在4个同名上海交通大学作者档案"}
+{"event": "progress", "current": 63, "total": 260, "id": "qiuciyuan", "name": "邱辞源", "status": "unresolved", "reason": "没有拼音姓名精确匹配的作者档案（检索名：Ci Yuan Qiu）"}
+{"event": "progress", "current": 64, "total": 260, "id": "2695", "name": "石梦悦", "status": "ambiguous", "reason": "存在4个同名上海交通大学作者档案"}
+{"event": "progress", "current": 65, "total": 260, "id": "suyikai", "name": "苏翼凯", "status": "ambiguous", "reason": "存在10个同名上海交通大学作者档案"}
+{"event": "progress", "current": 66, "total": 260, "id": "sunlu", "name": "孙璐", "status": "ambiguous", "reason": "存在7个同名上海交通大学作者档案"}
+{"event": "progress", "current": 67, "total": 260, "id": "sunweiqiang", "name": "孙卫强", "status": "enriched", "authorId": "https://openalex.org/A5101703557", "papers": 5, "abstracts": 4}
+{"event": "progress", "current": 68, "total": 260, "id": "3348", "name": "万阳阳", "status": "unresolved", "reason": "作者档案匹配，但近36个月没有带上海交通大学单位标注的作品"}
+{"event": "progress", "current": 69, "total": 260, "id": "2989", "name": "王崇予", "status": "ambiguous", "reason": "存在8个同名上海交通大学作者档案"}
+{"event": "progress", "current": 70, "total": 260, "id": "3048", "name": "王静", "status": "enriched", "authorId": "https://openalex.org/A5100378575", "papers": 1, "abstracts": 0}
+{"event": "progress", "current": 71, "total": 260, "id": "3389", "name": "王霆", "status": "ambiguous", "reason": "存在10个同名上海交通大学作者档案"}
+{"event": "progress", "current": 72, "total": 260, "id": "wuguiling", "name": "吴龟灵", "status": "enriched", "authorId": "https://openalex.org/A5024255536", "papers": 5, "abstracts": 3}
+{"event": "progress", "current": 73, "total": 260, "id": "wukan", "name": "吴侃", "status": "enriched", "authorId": "https://openalex.org/A5031409392", "papers": 5, "abstracts": 5}
+{"event": "progress", "current": 74, "total": 260, "id": "xieweiqiang", "name": "谢卫强", "status": "ambiguous", "reason": "存在2个同名上海交通大学作者档案"}
+{"event": "progress", "current": 75, "total": 260, "id": "3455", "name": "徐炳鑫", "status": "enriched", "authorId": "https://openalex.org/A5044041379", "papers": 5, "abstracts": 5}
+{"event": "progress", "current": 76, "total": 260, "id": "xushaofu", "name": "徐绍夫", "status": "unresolved", "reason": "作者档案匹配，但近36个月没有带上海交通大学单位标注的作品"}
+{"event": "progress", "current": 77, "total": 260, "id": "yangxuelin", "name": "杨学林", "status": "enriched", "authorId": "https://openalex.org/A5006429307", "papers": 5, "abstracts": 3}
+{"event": "progress", "current": 78, "total": 260, "id": "yetong", "name": "叶通", "status": "ambiguous", "reason": "存在4个同名上海交通大学作者档案"}
+{"event": "progress", "current": 79, "total": 260, "id": "yililin", "name": "义理林", "status": "enriched", "authorId": "https://openalex.org/A5011327265", "papers": 5, "abstracts": 3}
+{"event": "progress", "current": 80, "total": 260, "id": "zhangyong", "name": "张永", "status": "ambiguous", "reason": "存在11个同名上海交通大学作者档案"}
+{"event": "progress", "current": 81, "total": 260, "id": "3385", "name": "赵麾宇", "status": "ambiguous", "reason": "存在3个同名上海交通大学作者档案"}
+{"event": "progress", "current": 82, "total": 260, "id": "2811", "name": "赵阳", "status": "ambiguous", "reason": "存在13个同名上海交通大学作者档案"}
+{"event": "progress", "current": 83, "total": 260, "id": "zhoulinjie", "name": "周林杰", "status": "enriched", "authorId": "https://openalex.org/A5008158622", "papers": 5, "abstracts": 3}
+{"event": "progress", "current": 84, "total": 260, "id": "2987", "name": "朱逸萧", "status": "enriched", "authorId": "https://openalex.org/A5002870353", "papers": 5, "abstracts": 0}
+{"event": "progress", "current": 85, "total": 260, "id": "zhugequnbi", "name": "诸葛群碧", "status": "unresolved", "reason": "没有拼音姓名精确匹配的作者档案（检索名：Ge Qun Bi Zhu）"}
+{"event": "progress", "current": 86, "total": 260, "id": "2988", "name": "庄语迪", "status": "unresolved", "reason": "没有拼音姓名精确匹配的作者档案（检索名：Yu Di Zhuang）"}
+{"event": "progress", "current": 87, "total": 260, "id": "zouweiwen", "name": "邹卫文", "status": "enriched", "authorId": "https://openalex.org/A5079830710", "papers": 5, "abstracts": 5}
+{"event": "progress", "current": 88, "total": 260, "id": "chenjingfeng", "name": "陈靖峰", "status": "ambiguous", "reason": "存在6个同名上海交通大学作者档案"}
+{"event": "progress", "current": 89, "total": 260, "id": "chenwen", "name": "陈文", "status": "enriched", "authorId": "https://openalex.org/A5100344189", "papers": 5, "abstracts": 3}
+{"event": "progress", "current": 90, "total": 260, "id": "2810", "name": "陈文超", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 91, "total": 260, "id": "chengxiulan", "name": "程秀兰", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 92, "total": 260, "id": "gaoyesheng", "name": "高叶盛", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 93, "total": 260, "id": "gengjunping", "name": "耿军平", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 94, "total": 260, "id": "2725", "name": "顾昌展", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 95, "total": 260, "id": "hechong", "name": "贺冲", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 96, "total": 260, "id": "huangpenghui", "name": "黄鹏辉", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 97, "total": 260, "id": "jiangxue", "name": "姜雪", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 98, "total": 260, "id": "jinronghong", "name": "金荣洪", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 99, "total": 260, "id": "3049", "name": "李萍", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 100, "total": 260, "id": "lixiaochun", "name": "李晓春", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 101, "total": 260, "id": "liangxianling", "name": "梁仙灵", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 102, "total": 260, "id": "3382", "name": "林树靖", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 103, "total": 260, "id": "linyanxia", "name": "林艳霞", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 104, "total": 260, "id": "liupeilin", "name": "刘佩林", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 105, "total": 260, "id": "liuxingzhao", "name": "刘兴钊", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 106, "total": 260, "id": "3107", "name": "卢佳青", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 107, "total": 260, "id": "pangjian", "name": "庞健", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 108, "total": 260, "id": "qiuliangfeng", "name": "邱良丰", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 109, "total": 260, "id": "shiliyun", "name": "史丽云", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 110, "total": 260, "id": "3106", "name": "孙利滨", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 111, "total": 260, "id": "tangmin", "name": "唐旻", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 112, "total": 260, "id": "3050", "name": "童国林", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 113, "total": 260, "id": "3051", "name": "王夺", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 114, "total": 260, "id": "wangjunfeng", "name": "王军锋", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 115, "total": 260, "id": "wangkaizhi", "name": "王开志", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 116, "total": 260, "id": "wenfei", "name": "文飞", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 117, "total": 260, "id": "wulincheng", "name": "吴林晟", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 118, "total": 260, "id": "xiabin", "name": "夏彬", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 119, "total": 260, "id": "xiaogaobiao", "name": "肖高标", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 120, "total": 260, "id": "xuqihao", "name": "徐琪皓", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 121, "total": 260, "id": "yanhao", "name": "闫浩", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 122, "total": 260, "id": "yingrendong", "name": "应忍冬", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 123, "total": 260, "id": "yuanbin", "name": "袁斌", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 124, "total": 260, "id": "zhangchengrui", "name": "张成瑞", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 125, "total": 260, "id": "zhaoxin", "name": "赵昕", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 126, "total": 260, "id": "zhouliang", "name": "周亮", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 127, "total": 260, "id": "zhujie", "name": "朱杰", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 128, "total": 260, "id": "zhuweiren", "name": "朱卫仁", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 129, "total": 260, "id": "chencheng", "name": "陈诚", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 130, "total": 260, "id": "chenhaibao", "name": "陈海宝", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 131, "total": 260, "id": "fuyuzhuo", "name": "付宇卓", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 132, "total": 260, "id": "3079", "name": "郭衍束", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 133, "total": 260, "id": "guoyuekang", "name": "过悦康", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 134, "total": 260, "id": "heweifeng", "name": "何卫锋", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 135, "total": 260, "id": "heguanghui", "name": "贺光辉", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 136, "total": 260, "id": "jizhigang", "name": "纪志罡", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 137, "total": 260, "id": "jianghonglan", "name": "姜红兰", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 138, "total": 260, "id": "jiangjianfei", "name": "蒋剑飞", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 139, "total": 260, "id": "jinjing", "name": "金晶", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 140, "total": 260, "id": "jingnaifeng", "name": "景乃锋", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 141, "total": 260, "id": "2765", "name": "李金波", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 142, "total": 260, "id": "liyongfu", "name": "李永福", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 143, "total": 260, "id": "liuting", "name": "刘婷", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 144, "total": 260, "id": "liuyan", "name": "刘彦", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 145, "total": 260, "id": "maozhigang", "name": "毛志刚", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 146, "total": 260, "id": "qiliang", "name": "祁亮", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 147, "total": 260, "id": "renpengpeng", "name": "任鹏鹏", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 148, "total": 260, "id": "shengweiguang", "name": "绳伟光", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 149, "total": 260, "id": "shiguoyong", "name": "施国勇", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 150, "total": 260, "id": "wangguoxing", "name": "王国兴", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 151, "total": 260, "id": "wangqin", "name": "王琴", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 152, "total": 260, "id": "wumaokun", "name": "吴茂坤", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 153, "total": 260, "id": "3373", "name": "吴子涵", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 154, "total": 260, "id": "yangchao", "name": "杨超", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 155, "total": 260, "id": "yeyaoyao", "name": "叶瑶瑶", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 156, "total": 260, "id": "3477", "name": "尹琛", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 157, "total": 260, "id": "zhangchen", "name": "张宸", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 158, "total": 260, "id": "zhaojian", "name": "赵健", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 159, "total": 260, "id": "zhaoyang", "name": "赵阳", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 160, "total": 260, "id": "zhoujianjun", "name": "周健军", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 161, "total": 260, "id": "caixinghan", "name": "蔡星汉", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 162, "total": 260, "id": "chenmingyi", "name": "陈铭易", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 163, "total": 260, "id": "chensujie", "name": "陈苏杰", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 164, "total": 260, "id": "chenxiang", "name": "陈翔", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 165, "total": 260, "id": "cuifeng", "name": "崔峰", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 166, "total": 260, "id": "daixuhan", "name": "戴旭涵", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 167, "total": 260, "id": "dingguifu", "name": "丁桂甫", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 168, "total": 260, "id": "dongchengyuan", "name": "董承远", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 169, "total": 260, "id": "guoshouwu", "name": "郭守武", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 170, "total": 260, "id": "guoxiaojun", "name": "郭小军", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 171, "total": 260, "id": "hegufeng", "name": "何谷峰", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 172, "total": 260, "id": "3489", "name": "姜春蓬", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 173, "total": 260, "id": "leichong", "name": "雷冲", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 174, "total": 260, "id": "3052", "name": "李思莹", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 175, "total": 260, "id": "lixiuyan", "name": "李秀妍", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 176, "total": 260, "id": "linzude", "name": "林祖德", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 177, "total": 260, "id": "liuqingkun", "name": "刘清坤", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 178, "total": 260, "id": "liuruili", "name": "刘瑞丽", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 179, "total": 260, "id": "liuwu", "name": "刘武", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 180, "total": 260, "id": "shenwenzhuo", "name": "沈文卓", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 181, "total": 260, "id": "simengwei", "name": "司梦维", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 182, "total": 260, "id": "sunyunna", "name": "孙云娜", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 183, "total": 260, "id": "tangwei", "name": "唐伟", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 184, "total": 260, "id": "wanghui", "name": "王辉", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 185, "total": 260, "id": "wanglongchun", "name": "王隆春", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 186, "total": 260, "id": "wangxiaolin", "name": "王晓林", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 187, "total": 260, "id": "wangyan", "name": "王艳", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 188, "total": 260, "id": "wenhuimin", "name": "文惠敏", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 189, "total": 260, "id": "wuxiaosheng", "name": "吴校生", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 190, "total": 260, "id": "yangbin", "name": "杨斌", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 191, "total": 260, "id": "yangzhuoqing", "name": "杨卓青", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 192, "total": 260, "id": "yaojinyuan", "name": "姚锦元", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 193, "total": 260, "id": "youminmin", "name": "尤敏敏", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 194, "total": 260, "id": "zangfahang", "name": "臧法珩", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 195, "total": 260, "id": "zhangcongchun", "name": "张丛春", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 196, "total": 260, "id": "zhangjiali", "name": "张佳利", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 197, "total": 260, "id": "zhongmin", "name": "钟民", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 198, "total": 260, "id": "2852", "name": "朱敏", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 199, "total": 260, "id": "hanyanqiang", "name": "韩彦强", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 200, "total": 260, "id": "herong", "name": "贺蓉", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 201, "total": 260, "id": "hunantao", "name": "胡南滔", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 202, "total": 260, "id": "lihaihua", "name": "李海华", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 203, "total": 260, "id": "lijinjin", "name": "李金金", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 204, "total": 260, "id": "pengzhengchun", "name": "彭争春", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 205, "total": 260, "id": "suyanjie", "name": "苏言杰", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 206, "total": 260, "id": "wangqingkang", "name": "王庆康", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 207, "total": 260, "id": "3053", "name": "王孜", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 208, "total": 260, "id": "weihao", "name": "魏浩", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 209, "total": 260, "id": "weiliangming", "name": "魏良明", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 210, "total": 260, "id": "wukaiyu", "name": "吴开宇", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 211, "total": 260, "id": "yangjianhua", "name": "杨建华", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 212, "total": 260, "id": "yangzhi", "name": "杨志", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 213, "total": 260, "id": "zengmin", "name": "曾敏", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 214, "total": 260, "id": "zhangliying", "name": "张丽英", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 215, "total": 260, "id": "zhouzhihua", "name": "周志华", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 216, "total": 260, "id": "zhuwenhuan", "name": "朱文欢", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 217, "total": 260, "id": "chenzhiyong", "name": "陈智勇", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 218, "total": 260, "id": "2990", "name": "董莉莉", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 219, "total": 260, "id": "hedazhi", "name": "何大治", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 220, "total": 260, "id": "huqiang", "name": "胡强", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 221, "total": 260, "id": "lihaoyang", "name": "李浩洋", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 222, "total": 260, "id": "liuning", "name": "柳宁", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 223, "total": 260, "id": "wangyao", "name": "王尧", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 224, "total": 260, "id": "xuyiling", "name": "徐异凌", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 225, "total": 260, "id": "yaojiangchao", "name": "姚江超", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 226, "total": 260, "id": "zhangxiaoyun", "name": "张小云", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 227, "total": 260, "id": "cuimeng", "name": "崔萌", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 228, "total": 260, "id": "jiangletian", "name": "蒋乐天", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 229, "total": 260, "id": "3054", "name": "李安琪", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 230, "total": 260, "id": "liutao", "name": "刘涛", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 231, "total": 260, "id": "3055", "name": "刘越", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 232, "total": 260, "id": "mengguie", "name": "孟桂娥", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 233, "total": 260, "id": "motingting", "name": "莫亭亭", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 234, "total": 260, "id": "xuxiong", "name": "徐雄", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 235, "total": 260, "id": "3056", "name": "杨晓", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 236, "total": 260, "id": "yangyuhong", "name": "杨宇红", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 237, "total": 260, "id": "yuanyan", "name": "袁焱", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 238, "total": 260, "id": "zhuqinmin", "name": "诸勤敏", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 239, "total": 260, "id": "fuxuecheng", "name": "付学成", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 240, "total": 260, "id": "guanweichang", "name": "管伟昌", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 241, "total": 260, "id": "huangshengli", "name": "黄胜利", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 242, "total": 260, "id": "quminni", "name": "瞿敏妮", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 243, "total": 260, "id": "lijinxi", "name": "李进喜", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 244, "total": 260, "id": "3057", "name": "李天清", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 245, "total": 260, "id": "liudan", "name": "刘丹", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 246, "total": 260, "id": "liumin", "name": "刘民", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 247, "total": 260, "id": "liuyuwen", "name": "刘毓闻", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 248, "total": 260, "id": "maling", "name": "马玲", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 249, "total": 260, "id": "maohaiping", "name": "毛海平", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 250, "total": 260, "id": "quanxueling", "name": "权雪玲", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 251, "total": 260, "id": "shenyunjing", "name": "沈贇靓", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 252, "total": 260, "id": "tianmiao", "name": "田苗", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 253, "total": 260, "id": "wangfengdan", "name": "王凤丹", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 254, "total": 260, "id": "wuliying", "name": "乌李瑛", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 255, "total": 260, "id": "wuweiwen", "name": "吴炜文", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 256, "total": 260, "id": "xujian", "name": "徐剑", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 257, "total": 260, "id": "xuliping", "name": "徐丽萍", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 258, "total": 260, "id": "yangpeiyi", "name": "杨珮艺", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 259, "total": 260, "id": "zhangdi", "name": "张笛", "status": "error", "reason": "HTTPError"}
+{"event": "progress", "current": 260, "total": 260, "id": "zhangyan", "name": "张琰", "status": "error", "reason": "HTTPError"}
+{"event": "complete", "summary": {"enriched": 33, "ambiguous": 43, "unresolved": 14, "error": 171}}
+{"event": "started", "pending": 0, "completed": 261}
+{"event": "complete", "summary": {"enriched": 33, "ambiguous": 43, "unresolved": 14, "error": 171}}
+{"event": "started", "pending": 171, "completed": 261}
+{"event": "progress", "current": 1, "total": 171, "id": "2810", "name": "陈文超", "status": "error", "reason": "HTTPError"}

@@ -1,0 +1,708 @@
+{
+  "people": {
+    "yuhui": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3108": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "chenkai": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "chenli": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "dingxiaowei": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "xierong": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "luguo": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "nibingbing": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "songli": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "sunjun": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "wangjia": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "xiongjian": {
+      "status": "enriched",
+      "papers": 1
+    },
+    "zhaiguangtao": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhangwenjun": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhangchongyang": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "zhoujun": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "guanyunfeng": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liujing": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "yangfeng": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "chenjianping": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "dengxiao": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "huliang": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "huweisheng": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "lixinwan": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "lixing": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liyan": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liuqingwen": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3105": {
+      "status": "enriched",
+      "papers": 3
+    },
+    "2986": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "qiuciyuan": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "suyikai": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "sunlu": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3348": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "2989": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3389": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "xushaofu": {
+      "status": "enriched",
+      "papers": 1
+    },
+    "yetong": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3385": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "2811": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "2988": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "chenjingfeng": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "chengxiulan": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "gaoyesheng": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "jinronghong": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3049": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liangxianling": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3382": {
+      "status": "enriched",
+      "papers": 1
+    },
+    "linyanxia": {
+      "status": "enriched",
+      "papers": 3
+    },
+    "liupeilin": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liuxingzhao": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "pangjian": {
+      "status": "enriched",
+      "papers": 4
+    },
+    "qiuliangfeng": {
+      "status": "enriched",
+      "papers": 3
+    },
+    "shiliyun": {
+      "status": "enriched",
+      "papers": 3
+    },
+    "3050": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3051": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "wangjunfeng": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "wangkaizhi": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "wulincheng": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "xuqihao": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "yanhao": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "yingrendong": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "yuanbin": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhangchengrui": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhaoxin": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhouliang": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhujie": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhuweiren": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "chencheng": {
+      "status": "enriched",
+      "papers": 1
+    },
+    "fuyuzhuo": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "guoyuekang": {
+      "status": "enriched",
+      "papers": 2
+    },
+    "heguanghui": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "jizhigang": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "jianghonglan": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "jinjing": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "jingnaifeng": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "2765": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liyongfu": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liuting": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liuyan": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "maozhigang": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "shengweiguang": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "shiguoyong": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "wangguoxing": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "wangqin": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "yangchao": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3477": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "zhangchen": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "zhaoyang": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhoujianjun": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "caixinghan": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "chensujie": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "chenxiang": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "cuifeng": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "daixuhan": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "dingguifu": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "guoshouwu": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "guoxiaojun": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "leichong": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "3052": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "linzude": {
+      "status": "enriched",
+      "papers": 1
+    },
+    "liuqingkun": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liuruili": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liuwu": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "shenwenzhuo": {
+      "status": "enriched",
+      "papers": 3
+    },
+    "sunyunna": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "tangwei": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "wanglongchun": {
+      "status": "enriched",
+      "papers": 2
+    },
+    "wangxiaolin": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "wangyan": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "wenhuimin": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "wuxiaosheng": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "yangbin": {
+      "status": "enriched",
+      "papers": 4
+    },
+    "yangzhuoqing": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "yaojinyuan": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "youminmin": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "zhangcongchun": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhangjiali": {
+      "status": "enriched",
+      "papers": 3
+    },
+    "zhongmin": {
+      "status": "enriched",
+      "papers": 2
+    },
+    "2852": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "hanyanqiang": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "herong": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "hunantao": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "lihaihua": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "lijinjin": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "pengzhengchun": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "suyanjie": {
+      "status": "enriched",
+      "papers": 1
+    },
+    "wangqingkang": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3053": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "weihao": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "weiliangming": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "wukaiyu": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "yangzhi": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "zengmin": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhangliying": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhouzhihua": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhuwenhuan": {
+      "status": "enriched",
+      "papers": 5
+    },
+    "2990": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "hedazhi": {
+      "status": "enriched",
+      "papers": 1
+    },
+    "liuning": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "wangyao": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "yaojiangchao": {
+      "status": "enriched",
+      "papers": 2
+    },
+    "zhangxiaoyun": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "cuimeng": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "jiangletian": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3054": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liutao": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3055": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "mengguie": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "motingting": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "xuxiong": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3056": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "yangyuhong": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "yuanyan": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhuqinmin": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "fuxuecheng": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "guanweichang": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "huangshengli": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "quminni": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "lijinxi": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "3057": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liudan": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liumin": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "liuyuwen": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "maling": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "maohaiping": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "quanxueling": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "shenyunjing": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "tianmiao": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "wangfengdan": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "wuliying": {
+      "status": "enriched",
+      "papers": 2
+    },
+    "wuweiwen": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "xujian": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "xuliping": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "yangpeiyi": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhangdi": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    },
+    "zhangyan": {
+      "status": "unresolved",
+      "reason": "官方个人页未列出可识别的2023年以来代表作"
+    }
+  }
+}

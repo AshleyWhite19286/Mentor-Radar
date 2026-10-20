@@ -15,13 +15,17 @@ def stable_id(name, slug):
  return LEGACY_IDS.get(slug, re.sub(r'[^a-z0-9]+', '-', slug.lower()).strip('-') or ('teacher-'+str(abs(hash(name)))))
 
 def directory(group):
- data=urllib.parse.urlencode({'page':1,'cat_code':'jiaoshiml','yjszxfl':group,'name':'','zm':'All'}).encode()
- req=urllib.request.Request(DIRECTORY,data=data,headers={'User-Agent':'MentorRadar/0.1 (academic navigation prototype)'})
- with urllib.request.urlopen(req,timeout=25) as r: content=json.load(r)['content']
- rows=[]
- for href,name,title,role in re.findall(r'href="([^"]+)"[^>]*>.*?<div class="name">\s*([^<]+)<span>([^<]*)</span><p[^>]*>(.*?)</p>',content,re.S):
-  slug=urllib.parse.urlparse(html.unescape(href)).path.rsplit('/',1)[-1].removesuffix('.html')
-  rows.append({'id':stable_id(html.unescape(name).strip(),slug),'name':html.unescape(name).strip(),'slug':slug,'url':html.unescape(href),'title':html.unescape(title).strip(),'directoryRole':html.unescape(re.sub('<[^>]+>','',role)).strip(),'group':group})
+ rows=[]; page=1; total=None
+ while total is None or len(rows)<total:
+  data=urllib.parse.urlencode({'page':page,'cat_code':'jiaoshiml','yjszxfl':group,'name':'','zm':'All'}).encode()
+  req=urllib.request.Request(DIRECTORY,data=data,headers={'User-Agent':'MentorRadar/0.1 (academic navigation prototype)'})
+  with urllib.request.urlopen(req,timeout=25) as r: response=json.load(r)
+  total=int(response.get('count',0)); content=response.get('content',''); before=len(rows)
+  for href,name,title,role in re.findall(r'href="([^"]+)"[^>]*>.*?<div class="name">\s*([^<]+)<span>([^<]*)</span><p[^>]*>(.*?)</p>',content,re.S):
+   slug=urllib.parse.urlparse(html.unescape(href)).path.rsplit('/',1)[-1].removesuffix('.html')
+   rows.append({'id':stable_id(html.unescape(name).strip(),slug),'name':html.unescape(name).strip(),'slug':slug,'url':html.unescape(href),'title':html.unescape(title).strip(),'directoryRole':html.unescape(re.sub('<[^>]+>','',role)).strip(),'group':group})
+  if len(rows)==before: break
+  page+=1
  return rows
 
 def text(s):

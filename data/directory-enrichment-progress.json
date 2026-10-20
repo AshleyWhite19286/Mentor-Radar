@@ -1,0 +1,1115 @@
+{
+  "updatedAt": "2026-10-20T07:59:26.548235+00:00",
+  "people": {
+    "ganxiaoying": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5085791658",
+      "papers": 5,
+      "abstracts": 5
+    },
+    "yuhui": {
+      "status": "ambiguous",
+      "reason": "存在3个同名上海交通大学作者档案"
+    },
+    "gongxinbao": {
+      "status": "unresolved",
+      "reason": "没有拼音姓名精确匹配的作者档案（检索名：Xin Bao Gong）"
+    },
+    "lichenglin": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5100675587",
+      "papers": 5,
+      "abstracts": 4
+    },
+    "linweiyao": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5059372830",
+      "papers": 5,
+      "abstracts": 3
+    },
+    "xionghongkai": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5002494284",
+      "papers": 5,
+      "abstracts": 4
+    },
+    "zhengziyang": {
+      "status": "ambiguous",
+      "reason": "存在3个同名上海交通大学作者档案"
+    },
+    "3168": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5016006337",
+      "papers": 5,
+      "abstracts": 5
+    },
+    "3108": {
+      "status": "unresolved",
+      "reason": "没有拼音姓名精确匹配的作者档案（检索名：Jie Zhang Cao）"
+    },
+    "chenkai": {
+      "status": "ambiguous",
+      "reason": "存在15个同名上海交通大学作者档案"
+    },
+    "chenli": {
+      "status": "ambiguous",
+      "reason": "存在9个同名上海交通大学作者档案"
+    },
+    "chenyitong": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5080918052",
+      "papers": 1,
+      "abstracts": 1
+    },
+    "chengzhengxue": {
+      "status": "unresolved",
+      "reason": "没有拼音姓名精确匹配的作者档案（检索名：Zheng Xue Cheng）"
+    },
+    "dinglianghui": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5079885035",
+      "papers": 5,
+      "abstracts": 1
+    },
+    "dingxiaowei": {
+      "status": "ambiguous",
+      "reason": "存在3个同名上海交通大学作者档案"
+    },
+    "xierong": {
+      "status": "unresolved",
+      "reason": "没有拼音姓名精确匹配的作者档案（检索名：Rong Jie）"
+    },
+    "luguo": {
+      "status": "unresolved",
+      "reason": "没有拼音姓名精确匹配的作者档案（检索名：Guo Lu）"
+    },
+    "nibingbing": {
+      "status": "unresolved",
+      "reason": "没有拼音姓名精确匹配的作者档案（检索名：Bing Bing Ni）"
+    },
+    "songli": {
+      "status": "ambiguous",
+      "reason": "存在3个同名上海交通大学作者档案"
+    },
+    "sunjun": {
+      "status": "ambiguous",
+      "reason": "存在7个同名上海交通大学作者档案"
+    },
+    "wangjia": {
+      "status": "ambiguous",
+      "reason": "存在5个同名上海交通大学作者档案"
+    },
+    "wuyongpeng": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5065362219",
+      "papers": 5,
+      "abstracts": 4
+    },
+    "xiongjian": {
+      "status": "ambiguous",
+      "reason": "存在5个同名上海交通大学作者档案"
+    },
+    "xuyi": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5018343158",
+      "papers": 5,
+      "abstracts": 4
+    },
+    "yanghua": {
+      "status": "ambiguous",
+      "reason": "存在5个同名上海交通大学作者档案"
+    },
+    "zhaiguangtao": {
+      "status": "unresolved",
+      "reason": "没有拼音姓名精确匹配的作者档案（检索名：Guang Tao Di）"
+    },
+    "zhangwenjun": {
+      "status": "ambiguous",
+      "reason": "存在13个同名上海交通大学作者档案"
+    },
+    "zhangchongyang": {
+      "status": "ambiguous",
+      "reason": "存在8个同名上海交通大学作者档案"
+    },
+    "zhoujun": {
+      "status": "ambiguous",
+      "reason": "存在7个同名上海交通大学作者档案"
+    },
+    "guanyunfeng": {
+      "status": "ambiguous",
+      "reason": "存在3个同名上海交通大学作者档案"
+    },
+    "liujing": {
+      "status": "ambiguous",
+      "reason": "存在11个同名上海交通大学作者档案"
+    },
+    "2616": {
+      "status": "ambiguous",
+      "reason": "存在2个同名上海交通大学作者档案"
+    },
+    "qianliang": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5110545442",
+      "papers": 5,
+      "abstracts": 3
+    },
+    "sunshu": {
+      "status": "ambiguous",
+      "reason": "存在2个同名上海交通大学作者档案"
+    },
+    "tianxiaohua": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5018442100",
+      "papers": 5,
+      "abstracts": 3
+    },
+    "xiabin1": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5085292302",
+      "papers": 5,
+      "abstracts": 1
+    },
+    "yangfeng": {
+      "status": "ambiguous",
+      "reason": "存在2个同名上海交通大学作者档案"
+    },
+    "chenjianping": {
+      "status": "ambiguous",
+      "reason": "存在12个同名上海交通大学作者档案"
+    },
+    "dengxiao": {
+      "status": "ambiguous",
+      "reason": "存在2个同名上海交通大学作者档案"
+    },
+    "dujiangbing": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5014108248",
+      "papers": 5,
+      "abstracts": 4
+    },
+    "fanxinyu": {
+      "status": "ambiguous",
+      "reason": "存在8个同名上海交通大学作者档案"
+    },
+    "guoxuhan": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5100363332",
+      "papers": 5,
+      "abstracts": 5
+    },
+    "guoyuyao": {
+      "status": "ambiguous",
+      "reason": "存在8个同名上海交通大学作者档案"
+    },
+    "heguangqiang": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5045644357",
+      "papers": 5,
+      "abstracts": 4
+    },
+    "hehao": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5074745823",
+      "papers": 5,
+      "abstracts": 5
+    },
+    "heyu": {
+      "status": "ambiguous",
+      "reason": "存在6个同名上海交通大学作者档案"
+    },
+    "hezuyuan": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5100698811",
+      "papers": 5,
+      "abstracts": 4
+    },
+    "huliang": {
+      "status": "ambiguous",
+      "reason": "存在8个同名上海交通大学作者档案"
+    },
+    "huweisheng": {
+      "status": "ambiguous",
+      "reason": "存在4个同名上海交通大学作者档案"
+    },
+    "jiangchun": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5054927807",
+      "papers": 5,
+      "abstracts": 5
+    },
+    "2575": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5078797388",
+      "papers": 1,
+      "abstracts": 1
+    },
+    "lixinwan": {
+      "status": "ambiguous",
+      "reason": "存在3个同名上海交通大学作者档案"
+    },
+    "lixing": {
+      "status": "ambiguous",
+      "reason": "存在7个同名上海交通大学作者档案"
+    },
+    "liyan": {
+      "status": "ambiguous",
+      "reason": "存在12个同名上海交通大学作者档案"
+    },
+    "liyu": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5100345660",
+      "papers": 1,
+      "abstracts": 1
+    },
+    "liuqingwen": {
+      "status": "ambiguous",
+      "reason": "存在2个同名上海交通大学作者档案"
+    },
+    "lujiangang": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5109815263",
+      "papers": 4,
+      "abstracts": 4
+    },
+    "luliangjun": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5073876921",
+      "papers": 5,
+      "abstracts": 2
+    },
+    "3105": {
+      "status": "ambiguous",
+      "reason": "存在3个同名上海交通大学作者档案"
+    },
+    "malin": {
+      "status": "ambiguous",
+      "reason": "存在10个同名上海交通大学作者档案"
+    },
+    "3508": {
+      "status": "unresolved",
+      "reason": "作者档案匹配，但近36个月没有带上海交通大学单位标注的作品"
+    },
+    "2986": {
+      "status": "unresolved",
+      "reason": "作者档案匹配，但近36个月没有带上海交通大学单位标注的作品"
+    },
+    "qianna": {
+      "status": "ambiguous",
+      "reason": "存在4个同名上海交通大学作者档案"
+    },
+    "qiuciyuan": {
+      "status": "unresolved",
+      "reason": "没有拼音姓名精确匹配的作者档案（检索名：Ci Yuan Qiu）"
+    },
+    "2695": {
+      "status": "ambiguous",
+      "reason": "存在4个同名上海交通大学作者档案"
+    },
+    "suyikai": {
+      "status": "ambiguous",
+      "reason": "存在10个同名上海交通大学作者档案"
+    },
+    "sunlu": {
+      "status": "ambiguous",
+      "reason": "存在7个同名上海交通大学作者档案"
+    },
+    "sunweiqiang": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5101703557",
+      "papers": 5,
+      "abstracts": 4
+    },
+    "3348": {
+      "status": "unresolved",
+      "reason": "作者档案匹配，但近36个月没有带上海交通大学单位标注的作品"
+    },
+    "2989": {
+      "status": "ambiguous",
+      "reason": "存在8个同名上海交通大学作者档案"
+    },
+    "3048": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5100378575",
+      "papers": 1,
+      "abstracts": 0
+    },
+    "3389": {
+      "status": "ambiguous",
+      "reason": "存在10个同名上海交通大学作者档案"
+    },
+    "wuguiling": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5024255536",
+      "papers": 5,
+      "abstracts": 3
+    },
+    "wukan": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5031409392",
+      "papers": 5,
+      "abstracts": 5
+    },
+    "xieweiqiang": {
+      "status": "ambiguous",
+      "reason": "存在2个同名上海交通大学作者档案"
+    },
+    "3455": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5044041379",
+      "papers": 5,
+      "abstracts": 5
+    },
+    "xushaofu": {
+      "status": "unresolved",
+      "reason": "作者档案匹配，但近36个月没有带上海交通大学单位标注的作品"
+    },
+    "yangxuelin": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5006429307",
+      "papers": 5,
+      "abstracts": 3
+    },
+    "yetong": {
+      "status": "ambiguous",
+      "reason": "存在4个同名上海交通大学作者档案"
+    },
+    "yililin": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5011327265",
+      "papers": 5,
+      "abstracts": 3
+    },
+    "zhangyong": {
+      "status": "ambiguous",
+      "reason": "存在11个同名上海交通大学作者档案"
+    },
+    "3385": {
+      "status": "ambiguous",
+      "reason": "存在3个同名上海交通大学作者档案"
+    },
+    "2811": {
+      "status": "ambiguous",
+      "reason": "存在13个同名上海交通大学作者档案"
+    },
+    "zhoulinjie": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5008158622",
+      "papers": 5,
+      "abstracts": 3
+    },
+    "2987": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5002870353",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "zhugequnbi": {
+      "status": "unresolved",
+      "reason": "没有拼音姓名精确匹配的作者档案（检索名：Ge Qun Bi Zhu）"
+    },
+    "2988": {
+      "status": "unresolved",
+      "reason": "没有拼音姓名精确匹配的作者档案（检索名：Yu Di Zhuang）"
+    },
+    "zouweiwen": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5079830710",
+      "papers": 5,
+      "abstracts": 5
+    },
+    "chenjingfeng": {
+      "status": "ambiguous",
+      "reason": "存在6个同名上海交通大学作者档案"
+    },
+    "chenwen": {
+      "status": "enriched",
+      "authorId": "https://openalex.org/A5100344189",
+      "papers": 5,
+      "abstracts": 3
+    },
+    "2810": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "chengxiulan": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "gaoyesheng": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "gengjunping": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "2725": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "hechong": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "huangpenghui": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "jiangxue": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "jinronghong": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3049": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "lixiaochun": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liangxianling": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3382": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "linyanxia": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liupeilin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liuxingzhao": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3107": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "pangjian": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "qiuliangfeng": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "shiliyun": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3106": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "tangmin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3050": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3051": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wangjunfeng": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wangkaizhi": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wenfei": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wulincheng": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "xiabin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "xiaogaobiao": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "xuqihao": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yanhao": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yingrendong": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yuanbin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhangchengrui": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhaoxin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhouliang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhujie": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhuweiren": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "chencheng": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "chenhaibao": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "fuyuzhuo": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3079": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "guoyuekang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "heweifeng": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "heguanghui": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "jizhigang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "jianghonglan": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "jiangjianfei": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "jinjing": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "jingnaifeng": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "2765": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liyongfu": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liuting": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liuyan": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "maozhigang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "qiliang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "renpengpeng": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "shengweiguang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "shiguoyong": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wangguoxing": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wangqin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wumaokun": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3373": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yangchao": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yeyaoyao": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3477": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhangchen": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhaojian": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhaoyang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhoujianjun": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "caixinghan": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "chenmingyi": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "chensujie": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "chenxiang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "cuifeng": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "daixuhan": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "dingguifu": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "dongchengyuan": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "guoshouwu": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "guoxiaojun": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "hegufeng": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3489": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "leichong": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3052": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "lixiuyan": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "linzude": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liuqingkun": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liuruili": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liuwu": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "shenwenzhuo": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "simengwei": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "sunyunna": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "tangwei": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wanghui": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wanglongchun": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wangxiaolin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wangyan": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wenhuimin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wuxiaosheng": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yangbin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yangzhuoqing": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yaojinyuan": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "youminmin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zangfahang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhangcongchun": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhangjiali": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhongmin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "2852": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "hanyanqiang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "herong": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "hunantao": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "lihaihua": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "lijinjin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "pengzhengchun": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "suyanjie": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wangqingkang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3053": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "weihao": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "weiliangming": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wukaiyu": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yangjianhua": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yangzhi": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zengmin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhangliying": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhouzhihua": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhuwenhuan": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "chenzhiyong": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "2990": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "hedazhi": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "huqiang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "lihaoyang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liuning": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wangyao": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "xuyiling": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yaojiangchao": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhangxiaoyun": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "cuimeng": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "jiangletian": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3054": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liutao": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3055": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "mengguie": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "motingting": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "xuxiong": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3056": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yangyuhong": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yuanyan": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhuqinmin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "fuxuecheng": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "guanweichang": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "huangshengli": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "quminni": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "lijinxi": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "3057": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liudan": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liumin": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "liuyuwen": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "maling": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "maohaiping": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "quanxueling": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "shenyunjing": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "tianmiao": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wangfengdan": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wuliying": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "wuweiwen": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "xujian": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "xuliping": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "yangpeiyi": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhangdi": {
+      "status": "error",
+      "reason": "HTTPError"
+    },
+    "zhangyan": {
+      "status": "error",
+      "reason": "HTTPError"
+    }
+  }
+}

@@ -1,0 +1,969 @@
+{
+  "people": {
+    "yuhui": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "gongxinbao": {
+      "status": "enriched",
+      "papers": 1,
+      "abstracts": 0
+    },
+    "zhengziyang": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 1
+    },
+    "3108": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "chenkai": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "chenli": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "chengzhengxue": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 3
+    },
+    "dingxiaowei": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "xierong": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "luguo": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "nibingbing": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "songli": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "sunjun": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wangjia": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "xiongjian": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "yanghua": {
+      "status": "enriched",
+      "papers": 3,
+      "abstracts": 0
+    },
+    "zhaiguangtao": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhangwenjun": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhangchongyang": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhoujun": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "guanyunfeng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liujing": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "2616": {
+      "status": "enriched",
+      "papers": 1,
+      "abstracts": 0
+    },
+    "sunshu": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "yangfeng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "chenjianping": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "dengxiao": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "fanxinyu": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 2
+    },
+    "guoyuyao": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 4
+    },
+    "heyu": {
+      "status": "enriched",
+      "papers": 1,
+      "abstracts": 1
+    },
+    "huliang": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "huweisheng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "lixinwan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "lixing": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liyan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liuqingwen": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3105": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "malin": {
+      "status": "enriched",
+      "papers": 1,
+      "abstracts": 0
+    },
+    "3508": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 3
+    },
+    "2986": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "qianna": {
+      "status": "enriched",
+      "papers": 4,
+      "abstracts": 3
+    },
+    "qiuciyuan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "2695": {
+      "status": "enriched",
+      "papers": 3,
+      "abstracts": 2
+    },
+    "suyikai": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "sunlu": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3348": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "2989": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3389": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "xieweiqiang": {
+      "status": "enriched",
+      "papers": 3,
+      "abstracts": 2
+    },
+    "xushaofu": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "yetong": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhangyong": {
+      "status": "enriched",
+      "papers": 1,
+      "abstracts": 1
+    },
+    "3385": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "2811": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhugequnbi": {
+      "status": "enriched",
+      "papers": 4,
+      "abstracts": 3
+    },
+    "2988": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "chenjingfeng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "2810": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 1
+    },
+    "chengxiulan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "gaoyesheng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "gengjunping": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "2725": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "hechong": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "huangpenghui": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "jiangxue": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "jinronghong": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3049": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "lixiaochun": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "liangxianling": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3382": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "linyanxia": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liupeilin": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liuxingzhao": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3107": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "pangjian": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "qiuliangfeng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "shiliyun": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3106": {
+      "status": "enriched",
+      "papers": 1,
+      "abstracts": 0
+    },
+    "tangmin": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "3050": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3051": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wangjunfeng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wangkaizhi": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wenfei": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 1
+    },
+    "wulincheng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "xiabin": {
+      "status": "enriched",
+      "papers": 1,
+      "abstracts": 0
+    },
+    "xiaogaobiao": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 5
+    },
+    "xuqihao": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "yanhao": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "yingrendong": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "yuanbin": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhangchengrui": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhaoxin": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhouliang": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhujie": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhuweiren": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "chencheng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "chenhaibao": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 2
+    },
+    "fuyuzhuo": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3079": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "guoyuekang": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "heweifeng": {
+      "status": "enriched",
+      "papers": 1,
+      "abstracts": 0
+    },
+    "heguanghui": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "jizhigang": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "jianghonglan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "jiangjianfei": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "jinjing": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "jingnaifeng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "2765": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liyongfu": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liuting": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liuyan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "maozhigang": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "qiliang": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "renpengpeng": {
+      "status": "enriched",
+      "papers": 4,
+      "abstracts": 0
+    },
+    "shengweiguang": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "shiguoyong": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wangguoxing": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wangqin": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wumaokun": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 3
+    },
+    "3373": {
+      "status": "enriched",
+      "papers": 3,
+      "abstracts": 0
+    },
+    "yangchao": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "yeyaoyao": {
+      "status": "enriched",
+      "papers": 4,
+      "abstracts": 0
+    },
+    "3477": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhangchen": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhaojian": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "zhaoyang": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhoujianjun": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "caixinghan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "chenmingyi": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "chensujie": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "chenxiang": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "cuifeng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "daixuhan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "dingguifu": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "dongchengyuan": {
+      "status": "enriched",
+      "papers": 2,
+      "abstracts": 0
+    },
+    "guoshouwu": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "guoxiaojun": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "hegufeng": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 1
+    },
+    "3489": {
+      "status": "enriched",
+      "papers": 2,
+      "abstracts": 0
+    },
+    "leichong": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3052": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "lixiuyan": {
+      "status": "enriched",
+      "papers": 2,
+      "abstracts": 0
+    },
+    "linzude": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liuqingkun": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liuruili": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liuwu": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "shenwenzhuo": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "simengwei": {
+      "status": "enriched",
+      "papers": 1,
+      "abstracts": 0
+    },
+    "sunyunna": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "tangwei": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wanghui": {
+      "status": "enriched",
+      "papers": 2,
+      "abstracts": 0
+    },
+    "wanglongchun": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wangxiaolin": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wangyan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wenhuimin": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wuxiaosheng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "yangbin": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "yangzhuoqing": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "yaojinyuan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "youminmin": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zangfahang": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 2
+    },
+    "zhangcongchun": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhangjiali": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhongmin": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "2852": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "hanyanqiang": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "herong": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "hunantao": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "lihaihua": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "lijinjin": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "pengzhengchun": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "suyanjie": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wangqingkang": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3053": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "weihao": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "weiliangming": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wukaiyu": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "yangjianhua": {
+      "status": "enriched",
+      "papers": 3,
+      "abstracts": 0
+    },
+    "yangzhi": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zengmin": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhangliying": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhouzhihua": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhuwenhuan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "chenzhiyong": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "2990": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "hedazhi": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "huqiang": {
+      "status": "enriched",
+      "papers": 5,
+      "abstracts": 0
+    },
+    "lihaoyang": {
+      "status": "enriched",
+      "papers": 1,
+      "abstracts": 0
+    },
+    "liuning": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wangyao": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "xuyiling": {
+      "status": "enriched",
+      "papers": 2,
+      "abstracts": 0
+    },
+    "yaojiangchao": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhangxiaoyun": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "cuimeng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "jiangletian": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3054": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liutao": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3055": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "mengguie": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "motingting": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "xuxiong": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3056": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "yangyuhong": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "yuanyan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhuqinmin": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "fuxuecheng": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "guanweichang": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "huangshengli": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "quminni": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "lijinxi": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "3057": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liudan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liumin": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "liuyuwen": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "maling": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "maohaiping": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "quanxueling": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "shenyunjing": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "tianmiao": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wangfengdan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wuliying": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "wuweiwen": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "xujian": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "xuliping": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "yangpeiyi": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhangdi": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    },
+    "zhangyan": {
+      "status": "unresolved",
+      "reason": "官网个人页没有可解析的2023年以来代表作题名"
+    }
+  },
+  "updatedAt": "2026-10-20T09:59:57.072349+00:00"
+}
