@@ -36,7 +36,9 @@ def is_sjtu(values):
 
 def romanize(name):
     parts = lazy_pinyin(name)
-    return ' '.join(parts[1:] + parts[:1]).title()
+    # Chinese academic indexes normally join a two-character given name, e.g.
+    # 曹杰彰 -> "Jiezhang Cao", rather than "Jie Zhang Cao".
+    return (''.join(parts[1:]) + ' ' + parts[0]).title()
 
 def normalized(value):
     return re.sub(r'[^a-z0-9]', '', value.lower())

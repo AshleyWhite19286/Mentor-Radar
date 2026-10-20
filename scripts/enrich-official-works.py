@@ -1,5 +1,6 @@
 """Add recent papers explicitly listed on official teacher profiles via exact Crossref titles."""
 import argparse, datetime, html, json, pathlib, re, time, urllib.error, urllib.parse, urllib.request
+from pypinyin import lazy_pinyin
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SEED = ROOT / 'data' / 'seed.json'
@@ -9,6 +10,13 @@ CUTOFF = '2023-10-20'
 DAY = '2026-10-20'
 
 def normalize(value): return re.sub(r'[^a-z0-9]', '', value.lower())
+
+def author_matches(profile, message):
+    name=profile['name']
+    parts=lazy_pinyin(name)
+    expected={''.join(parts), ''.join(reversed(parts))}
+    authors={normalize(' '.join(filter(None,[author.get('given',''),author.get('family','')]))) for author in message.get('author',[])}
+    return bool(expected & authors)
 
 def request(url):
     req=urllib.request.Request(url,headers={'User-Agent':'MentorRadar/0.2 (official profile title verification; mailto=icisee@sjtu.edu.cn)'})
@@ -46,7 +54,7 @@ def paper(message,profile,title):
     # Exact title matches are preferred. Bibliographic lines also contain author,
     # venue, and pages, so accepting a returned title requires it to occur in the
     # official line verbatim after normalization.
-    if normalize(actual)!=normalize(title) and normalize(actual) not in normalize(title): return None
+    if (normalize(actual)!=normalize(title) and normalize(actual) not in normalize(title)) or not author_matches(profile,message): return None
     abstract=html.unescape(re.sub('<[^>]+>','',message.get('abstract',''))) or None
     url='https://doi.org/'+doi
     return {
@@ -56,20 +64,24 @@ def paper(message,profile,title):
       'abstract':abstract, 'url':url, 'status':'preprint' if message.get('type')=='posted-content' else 'published',
       'versions':[{'kind':'Crossref正式发表元信息','date':date,'url':url}],
       'source':{'id':'crossref-'+doi,'title':actual,'url':url,'kind':'paper','retrievedAt':DAY},
-      'identity':f'学院官方个人页将该论文列为{profile["name"]}的代表作；Crossref题名精确匹配。',
+      'identity':f'学院官方个人页将该论文列为{profile["name"]}的代表作；Crossref题名与作者姓名均匹配。',
     }
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--limit',type=int,default=0);parser.add_argument('--retry-unresolved',action='store_true');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--limit',type=int,default=0);parser.add_argument('--retry-unresolved',action='store_true');parser.add_argument('--retry-errors',action='store_true');parser.add_argument('--only-bibliography',action='store_true');parser.add_argument('--max-candidates',type=int,default=40);args=parser.parse_args()
+    if args.max_candidates<1: raise ValueError('--max-candidates must be at least 1')
     seed=json.loads(SEED.read_text()); profiles={item['id']:item for item in json.loads(PROFILES.read_text())}
     state=json.loads(STATE.read_text()) if STATE.exists() else {'people':{}}
-    pending=[mentor for mentor in seed['mentors'] if not mentor.get('papers') and mentor['id'] in profiles and (mentor['id'] not in state['people'] or args.retry_unresolved and state['people'][mentor['id']].get('status')=='unresolved')]
+    retryable={'unresolved'} | ({'error'} if args.retry_errors else set())
+    pending=[mentor for mentor in seed['mentors'] if not mentor.get('papers') and mentor['id'] in profiles and (mentor['id'] not in state['people'] or (args.retry_unresolved and state['people'][mentor['id']].get('status') in retryable))]
+    if args.only_bibliography:
+        pending=[mentor for mentor in pending if candidate_titles(profiles[mentor['id']])]
     if args.limit: pending=pending[:args.limit]
     print(json.dumps({'event':'started','pending':len(pending)},ensure_ascii=False),flush=True)
     for current,mentor in enumerate(pending,1):
         profile=profiles[mentor['id']]; matched=[]; reason='官网个人页没有可解析的2023年以来代表作题名'
         try:
-            for title in candidate_titles(profile):
+            for title in candidate_titles(profile)[:args.max_candidates]:
                 if len(matched)>=5: break
                 parameter='query.title' if len(title)<450 else 'query.bibliographic'
                 query='https://api.crossref.org/works?'+parameter+'='+urllib.parse.quote(title)+'&rows=1'

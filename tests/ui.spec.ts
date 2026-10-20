@@ -1,4 +1,53 @@
 import { test,expect } from '@playwright/test';
+import { selectRecent } from '../lib/papers';
+import type { Mentor } from '../lib/types';
+test('第二列直接显示公开摘要，不依赖模型或折叠操作',async({page})=>{
+ const catalog=await (await page.request.get('/api/catalog')).json();
+ const entries=(catalog.mentors as Mentor[]).flatMap(mentor=>selectRecent(mentor.papers).papers.map(paper=>({mentor,paper})));
+ const raw=entries.find(({paper})=>paper.abstract&&!paper.analysis)!;
+ await page.goto(`/#mentor=${raw.mentor.id}`);
+ const rawColumn=page.locator(`[id="${raw.paper.id}"] .paper-abstract`);
+ await expect(rawColumn.locator(':scope > p')).toHaveText(raw.paper.abstract!);
+ await expect(rawColumn.locator(':scope > p')).toBeVisible();
+ await expect(rawColumn.locator('details')).toHaveCount(0);
+ await expect(page.getByText('已获取公开摘要，可点击生成中文解读。',{exact:true})).toHaveCount(0);
+ const analyzed=entries.find(({paper})=>paper.abstract&&paper.analysis)!;
+ await page.goto(`/#mentor=${analyzed.mentor.id}`);
+ const analyzedColumn=page.locator(`[id="${analyzed.paper.id}"] .paper-abstract`);
+ await expect(analyzedColumn.locator(':scope > p')).toHaveText(analyzed.paper.analysis!.summary);
+ await expect(analyzedColumn.getByText('展开原始摘要',{exact:true})).toBeVisible();
+ const missing=entries.find(({paper})=>!paper.abstract)!;
+ await page.goto(`/#mentor=${missing.mentor.id}`);
+ await expect(page.locator(`[id="${missing.paper.id}"] .paper-abstract`)).toContainText('尚未获取公开摘要');
+});
+test('补全论文可展开查看，Scholar链接及跨单位代表作可访问',async({page})=>{
+ await page.goto('/#mentor=chenyitong');
+ await expect(page.locator('.mentor-profile h1')).toContainText('陈一彤');
+ await expect(page.locator('.paper-row')).toHaveCount(5);
+ await expect(page.locator('.profile-links').getByRole('link',{name:'Google Scholar↗',exact:true})).toHaveAttribute('href','https://scholar.google.com/citations?user=BIg-cOMAAAAJ');
+ const expand=page.getByRole('button',{name:/查看全部已收录论文|收起，查看近期论文/});
+ await expand.click();
+ await expect(expand).toHaveAttribute('aria-expanded','true');
+ while(await page.getByRole('button',{name:/继续显示20篇/}).count())await page.getByRole('button',{name:/继续显示20篇/}).click();
+ await expect(page.locator('.paper-row h3').filter({hasText:'All-analog photoelectronic chip for high-speed vision tasks'})).toHaveCount(1);
+ await expect(page.locator('.paper-row h3').filter({hasText:'All-optical synthesis chip for large-scale intelligent semantic vision generation'})).toHaveCount(1);
+ await page.getByRole('button',{name:'收起，查看近期论文',exact:true}).click();
+ await expect(page.locator('.paper-row')).toHaveCount(5);
+ await page.screenshot({path:'test-results/chenyitong-completed.png',fullPage:false});
+});
+
+test('展开的大书目分页展示，切换老师时恢复近期列表',async({page})=>{
+ await page.goto('/#mentor=zhaiguangtao');
+ await expect(page.locator('.mentor-profile h1')).toContainText('翟广涛');
+ await page.getByRole('button',{name:/查看全部已收录论文/}).click();
+ await expect(page.locator('.paper-row')).toHaveCount(20);
+ await page.getByRole('button',{name:/继续显示20篇/}).click();
+ await expect(page.locator('.paper-row')).toHaveCount(40);
+ await page.evaluate(()=>{location.hash='mentor=chenyitong';});
+ await expect(page.locator('.mentor-profile h1')).toContainText('陈一彤');
+ await expect(page.locator('.paper-row')).toHaveCount(5);
+});
+
 test('目录搜索、机构筛选、详情三列和审阅表可用',async({page})=>{
   const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/');await expect(page.locator('.mentor-card')).toHaveCount(273);
  await page.getByRole('textbox',{name:'搜索姓名或研究方向'}).fill('戴文睿');await expect(page.locator('.mentor-card')).toHaveCount(1);await page.locator('.mentor-card').click();await expect(page.locator('.mentor-profile h1')).toContainText('戴文睿');await expect(page.locator('.paper-row')).toHaveCount(5);await expect(page.locator('.paper-header')).toContainText('通俗解读与入门');

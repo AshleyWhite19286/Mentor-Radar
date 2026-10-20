@@ -5,17 +5,25 @@ export function monthsAgo(date: Date, months: number) {
   const last = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() + 1, 0)).getUTCDate(); d.setUTCDate(Math.min(day, last)); return d;
 }
 function normalize(s: string) { return s.toLowerCase().normalize('NFKC').replace(/[^\p{L}\p{N}]/gu, ''); }
+function sameTitle(a: string, b: string) {
+  const left=normalize(a),right=normalize(b);
+  if(left===right)return true;
+  const suffix=(title:string)=>{const index=title.indexOf(':');return index>0&&index<=32?normalize(title.slice(index+1)):'';};
+  return suffix(a)===right||suffix(b)===left;
+}
 export function deduplicate(papers: Paper[]) {
   const result: Paper[] = [];
   for (const p of papers) {
-    const old = result.find(x => (x.doi && p.doi && normalize(x.doi) === normalize(p.doi)) || (x.arxivId && p.arxivId && x.arxivId.replace(/v\d+$/, '') === p.arxivId.replace(/v\d+$/, '')) || normalize(x.title) === normalize(p.title));
+    const old = result.find(x => (x.doi && p.doi && normalize(x.doi) === normalize(p.doi)) || (x.arxivId && p.arxivId && x.arxivId.replace(/v\d+$/, '') === p.arxivId.replace(/v\d+$/, '')) || sameTitle(x.title,p.title));
     if (!old) result.push(structuredClone(p));
     else {
       const arxivId=old.arxivId||p.arxivId,doi=old.doi||p.doi;
       const versions = [...old.versions, ...p.versions].filter((v,i,all) => all.findIndex(a => a.url === v.url && a.date === v.date) === i);
+      const evidenceSource=old.analysis?old.source:p.analysis?p.source:undefined;
       if (p.status === 'published' && old.status !== 'published') Object.assign(old, p);
       else if (p.status === 'published' && old.status === 'published' && p.date < old.date) Object.assign(old,p);
       old.versions = versions; old.abstract ||= p.abstract; old.analysis ||= p.analysis;old.arxivId=arxivId;old.doi=doi;
+      if(evidenceSource)old.source=evidenceSource;
     }
   }
   return result;

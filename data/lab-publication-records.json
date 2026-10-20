@@ -1,0 +1,3196 @@
+{
+  "checkedAt": "2026-10-20",
+  "indexUrl": "https://medialab.sjtu.edu.cn/publication",
+  "people": {
+    "luguo": {
+      "id": "luguo",
+      "name": "鲁国",
+      "authorUrl": "https://medialab.sjtu.edu.cn/author/guo-lu/",
+      "papers": [
+        {
+          "id": "paper-lab-6e084001431a0a93c843",
+          "title": "EffiHDR: An Efficient Framework for HDRTV Reconstruction and Enhancement in UHD Systems",
+          "date": "2024",
+          "precision": "year",
+          "venue": "IEEE Transactions on Broadcasting",
+          "doi": "10.1109/TBC.2023.3345657",
+          "arxivId": null,
+          "authors": [
+            "Hengsheng Zhang",
+            "Xueyi Zou",
+            "Guo Lu",
+            "Li Chen",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/TBC.2023.3345657",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-eef/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-6e084001431a0a93c843",
+            "title": "EffiHDR: An Efficient Framework for HDRTV Reconstruction and Enhancement in UHD Systems",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-eef/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-76f13a63ecb7db3b9ae1",
+          "title": "Neural Rate Control for Learned Video Compression",
+          "date": "2024",
+          "precision": "year",
+          "venue": "The Twelfth International Conference on Learning Representations, ICLR 2024, Vienna, Austria, May 7-11, 2024",
+          "doi": null,
+          "arxivId": null,
+          "authors": [
+            "Yiwei Zhang",
+            "Guo Lu",
+            "Yunuo Chen",
+            "Shen Wang",
+            "Yibo Shi",
+            "Jing Wang",
+            "Li Song"
+          ],
+          "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-nrc/",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-nrc/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-76f13a63ecb7db3b9ae1",
+            "title": "Neural Rate Control for Learned Video Compression",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-nrc/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-b22a6b7f453e55957ac0",
+          "title": "Efficient Dynamic-NeRF Based Volumetric Video Coding with Rate Distortion Optimization",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2402.01380",
+          "arxivId": "2402.01380",
+          "authors": [
+            "Zhiyu Zhang",
+            "Guo Lu",
+            "Huanxiong Liang",
+            "Anni Tang",
+            "Qiang Hu",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2402.01380",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-edb/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-b22a6b7f453e55957ac0",
+            "title": "Efficient Dynamic-NeRF Based Volumetric Video Coding with Rate Distortion Optimization",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-edb/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-12beb8f74619abe167bf",
+          "title": "High-Fidelity Free-View Talking Head Synthesis for Low-Bandwidth Video Conference",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Conference on Visual Communications and Image Processing, VCIP 2023, Jeju, Republic of Korea, December 4-7, 2023",
+          "doi": "10.1109/VCIP59821.2023.10402733",
+          "arxivId": null,
+          "authors": [
+            "Zhiyu Zhang",
+            "Anni Tang",
+            "Chen Zhu",
+            "Guo Lu",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1109/VCIP59821.2023.10402733",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-hft/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-12beb8f74619abe167bf",
+            "title": "High-Fidelity Free-View Talking Head Synthesis for Low-Bandwidth Video Conference",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-hft/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-2244acca02f30b156316",
+          "title": "Content Adaptive Checkerboard Context Model for Learned Image Compression",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Symposium on Circuits and Systems, ISCAS 2023, Monterey, CA, USA, May 21-25, 2023",
+          "doi": "10.1109/ISCAS46773.2023.10181947",
+          "arxivId": null,
+          "authors": [
+            "Yiwei Zhang",
+            "Guo Lu",
+            "Donghui Feng",
+            "Chen Zhu",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1109/ISCAS46773.2023.10181947",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-cac/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-2244acca02f30b156316",
+            "title": "Content Adaptive Checkerboard Context Model for Learned Image Compression",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-cac/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        }
+      ]
+    },
+    "chenli": {
+      "id": "chenli",
+      "name": "陈立",
+      "authorUrl": "https://medialab.sjtu.edu.cn/author/li-chen/",
+      "papers": [
+        {
+          "id": "paper-lab-6e084001431a0a93c843",
+          "title": "EffiHDR: An Efficient Framework for HDRTV Reconstruction and Enhancement in UHD Systems",
+          "date": "2024",
+          "precision": "year",
+          "venue": "IEEE Transactions on Broadcasting",
+          "doi": "10.1109/TBC.2023.3345657",
+          "arxivId": null,
+          "authors": [
+            "Hengsheng Zhang",
+            "Xueyi Zou",
+            "Guo Lu",
+            "Li Chen",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/TBC.2023.3345657",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-eef/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-6e084001431a0a93c843",
+            "title": "EffiHDR: An Efficient Framework for HDRTV Reconstruction and Enhancement in UHD Systems",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-eef/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-71eb1dcfb25965d2b3ad",
+          "title": "Local Bidirection Recurrent Network for Efficient Video Deblurring with the Fused Temporal Merge Module",
+          "date": "2023",
+          "precision": "year",
+          "venue": "ACM Trans. Multim. Comput. Commun. Appl.",
+          "doi": "10.1145/3587468",
+          "arxivId": null,
+          "authors": [
+            "Chen Li",
+            "Li Song",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3587468",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/li-2023-lbr/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-71eb1dcfb25965d2b3ad",
+            "title": "Local Bidirection Recurrent Network for Efficient Video Deblurring with the Fused Temporal Merge Module",
+            "url": "https://medialab.sjtu.edu.cn/publication/li-2023-lbr/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-98d6e1bf7338fba5fe3b",
+          "title": "Deep Online Video Stabilization Using IMU Sensors",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE Trans. Multim.",
+          "doi": "10.1109/TMM.2022.3142429",
+          "arxivId": null,
+          "authors": [
+            "Chen Li",
+            "Li Song",
+            "Shuai Chen",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/TMM.2022.3142429",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/li-2023-dov/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-98d6e1bf7338fba5fe3b",
+            "title": "Deep Online Video Stabilization Using IMU Sensors",
+            "url": "https://medialab.sjtu.edu.cn/publication/li-2023-dov/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        }
+      ]
+    },
+    "songli": {
+      "id": "songli",
+      "name": "宋利",
+      "authorUrl": "https://medialab.sjtu.edu.cn/author/li-song/",
+      "papers": [
+        {
+          "id": "paper-lab-6e084001431a0a93c843",
+          "title": "EffiHDR: An Efficient Framework for HDRTV Reconstruction and Enhancement in UHD Systems",
+          "date": "2024",
+          "precision": "year",
+          "venue": "IEEE Transactions on Broadcasting",
+          "doi": "10.1109/TBC.2023.3345657",
+          "arxivId": null,
+          "authors": [
+            "Hengsheng Zhang",
+            "Xueyi Zou",
+            "Guo Lu",
+            "Li Chen",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/TBC.2023.3345657",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-eef/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-6e084001431a0a93c843",
+            "title": "EffiHDR: An Efficient Framework for HDRTV Reconstruction and Enhancement in UHD Systems",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-eef/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-d0f366b75a9451cde417",
+          "title": "Real-Time Free Viewpoint Video Synthesis System Based on DIBR and a Depth Estimation Network",
+          "date": "2024",
+          "precision": "year",
+          "venue": "IEEE Transactions on Multimedia",
+          "doi": "10.1109/TMM.2024.3355639",
+          "arxivId": null,
+          "authors": [
+            "Shuai Guo",
+            "Jingchuan Hu",
+            "Kai Zhou",
+            "Jionghao Wang",
+            "Li Song",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/TMM.2024.3355639",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/guo-2024-rfv/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-d0f366b75a9451cde417",
+            "title": "Real-Time Free Viewpoint Video Synthesis System Based on DIBR and a Depth Estimation Network",
+            "url": "https://medialab.sjtu.edu.cn/publication/guo-2024-rfv/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-fe3174ff19b4b5667cda",
+          "title": "Pioneer: Offline Reinforcement Learning Based Bandwidth Estimation for Real-Time Communication",
+          "date": "2024",
+          "precision": "year",
+          "venue": "Proceedings of the 15th ACM Multimedia Systems Conference, Mmsys 2024, Bari, Italy, April 15-18, 2024",
+          "doi": "10.1145/3625468.3652174",
+          "arxivId": null,
+          "authors": [
+            "Bingcong Lu",
+            "Keyu Wang",
+            "Jun Xu",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3625468.3652174",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/lu-2024-p-or/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-fe3174ff19b4b5667cda",
+            "title": "Pioneer: Offline Reinforcement Learning Based Bandwidth Estimation for Real-Time Communication",
+            "url": "https://medialab.sjtu.edu.cn/publication/lu-2024-p-or/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-0528c196e1867193c3e8",
+          "title": "No-Reference Quality Assessment of Text-to-Image Generation",
+          "date": "2024",
+          "precision": "year",
+          "venue": "IEEE International Symposium on Broadband Multimedia Systems and Broadcasting, BMSB 2024, Toronto, on, Canada, June 19-21, 2024",
+          "doi": "10.1109/BMSB62888.2024.10608192",
+          "arxivId": null,
+          "authors": [
+            "Haitao Huang",
+            "Rongli Jia",
+            "Rong Xie",
+            "Li Song",
+            "Lin Li",
+            "Yanan Feng"
+          ],
+          "url": "https://doi.org/10.1109/BMSB62888.2024.10608192",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/huang-2024-nqa/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-0528c196e1867193c3e8",
+            "title": "No-Reference Quality Assessment of Text-to-Image Generation",
+            "url": "https://medialab.sjtu.edu.cn/publication/huang-2024-nqa/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-76f13a63ecb7db3b9ae1",
+          "title": "Neural Rate Control for Learned Video Compression",
+          "date": "2024",
+          "precision": "year",
+          "venue": "The Twelfth International Conference on Learning Representations, ICLR 2024, Vienna, Austria, May 7-11, 2024",
+          "doi": null,
+          "arxivId": null,
+          "authors": [
+            "Yiwei Zhang",
+            "Guo Lu",
+            "Yunuo Chen",
+            "Shen Wang",
+            "Yibo Shi",
+            "Jing Wang",
+            "Li Song"
+          ],
+          "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-nrc/",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-nrc/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-76f13a63ecb7db3b9ae1",
+            "title": "Neural Rate Control for Learned Video Compression",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-nrc/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-d60e8e3ef2c59d02c83f",
+          "title": "Multimodal Semantic-Aware Automatic Colorization with Diffusion Prior",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2404.16678",
+          "arxivId": "2404.16678",
+          "authors": [
+            "Han Wang",
+            "Xinning Chai",
+            "Yiwen Wang",
+            "Yuhong Zhang",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2404.16678",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/wang-2024-msa/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-d60e8e3ef2c59d02c83f",
+            "title": "Multimodal Semantic-Aware Automatic Colorization with Diffusion Prior",
+            "url": "https://medialab.sjtu.edu.cn/publication/wang-2024-msa/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-8f3038f0c959dac3d896",
+          "title": "MRIR: Integrating Multimodal Insights for Diffusion-Based Realistic Image Restoration",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2407.03635",
+          "arxivId": "2407.03635",
+          "authors": [
+            "Yuhong Zhang",
+            "Hengsheng Zhang",
+            "Xinning Chai",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2407.03635",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-mim/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-8f3038f0c959dac3d896",
+            "title": "MRIR: Integrating Multimodal Insights for Diffusion-Based Realistic Image Restoration",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-mim/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-a13c85b4791659bda606",
+          "title": "JointRF: End-to-end Joint Optimization for Dynamic Neural Radiance Field Representation and Compression",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2405.14452",
+          "arxivId": "2405.14452",
+          "authors": [
+            "Zihan Zheng",
+            "Houqiang Zhong",
+            "Qiang Hu",
+            "Xiaoyun Zhang",
+            "Li Song",
+            "Ya Zhang",
+            "Yanfeng Wang"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2405.14452",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zheng-2024-j-ej/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-a13c85b4791659bda606",
+            "title": "JointRF: End-to-end Joint Optimization for Dynamic Neural Radiance Field Representation and Compression",
+            "url": "https://medialab.sjtu.edu.cn/publication/zheng-2024-j-ej/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-777662e75bf2d32c357c",
+          "title": "HPC: Hierarchical Progressive Coding Framework for Volumetric Video",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2407.09026",
+          "arxivId": "2407.09026",
+          "authors": [
+            "Zihan Zheng",
+            "Houqiang Zhong",
+            "Qiang Hu",
+            "Xiaoyun Zhang",
+            "Li Song",
+            "Ya Zhang",
+            "Yanfeng Wang"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2407.09026",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zheng-2024-hhp/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-777662e75bf2d32c357c",
+            "title": "HPC: Hierarchical Progressive Coding Framework for Volumetric Video",
+            "url": "https://medialab.sjtu.edu.cn/publication/zheng-2024-hhp/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-80c768b83e588b1371ec",
+          "title": "Hdrtvformer: Efficient Sdrtv-to-Hdrtv via Affine Transformation and Spatial-Aware Transformer",
+          "date": "2024",
+          "precision": "year",
+          "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP 2024, Seoul, Republic of Korea, April 14-19, 2024",
+          "doi": "10.1109/ICASSP48485.2024.10447187",
+          "arxivId": null,
+          "authors": [
+            "Hengsheng Zhang",
+            "Xinning Chai",
+            "Yuhong Zhang",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1109/ICASSP48485.2024.10447187",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-h-es/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-80c768b83e588b1371ec",
+            "title": "Hdrtvformer: Efficient Sdrtv-to-Hdrtv via Affine Transformation and Spatial-Aware Transformer",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-h-es/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-b22a6b7f453e55957ac0",
+          "title": "Efficient Dynamic-NeRF Based Volumetric Video Coding with Rate Distortion Optimization",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2402.01380",
+          "arxivId": "2402.01380",
+          "authors": [
+            "Zhiyu Zhang",
+            "Guo Lu",
+            "Huanxiong Liang",
+            "Anni Tang",
+            "Qiang Hu",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2402.01380",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-edb/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-b22a6b7f453e55957ac0",
+            "title": "Efficient Dynamic-NeRF Based Volumetric Video Coding with Rate Distortion Optimization",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-edb/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-92740c27ba2d0737a510",
+          "title": "Diff-Restorer: Unleashing Visual Prompts for Diffusion-Based Universal Image Restoration",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2407.03636",
+          "arxivId": "2407.03636",
+          "authors": [
+            "Yuhong Zhang",
+            "Hengsheng Zhang",
+            "Xinning Chai",
+            "Zhengxue Cheng",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2407.03636",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-d-uv/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-92740c27ba2d0737a510",
+            "title": "Diff-Restorer: Unleashing Visual Prompts for Diffusion-Based Universal Image Restoration",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-d-uv/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-db8881c35dc910a53244",
+          "title": "Depth-Guided Robust and Fast Point Cloud Fusion NeRF for Sparse Input Views",
+          "date": "2024",
+          "precision": "year",
+          "venue": "Thirty-Eighth AAAI Conference on Artificial Intelligence, AAAI 2024, Thirty-Sixth Conference on Innovative Applications of Artificial Intelligence, IAAI 2024, Fourteenth Symposium on Educational Advances in Artificial Intelligence, EAAI 2014, February 20-27, 2024, Vancouver, Canada",
+          "doi": "10.1609/aaai.v38i3.27968",
+          "arxivId": null,
+          "authors": [
+            "Shuai Guo",
+            "Qiuwen Wang",
+            "Yijie Gao",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1609/aaai.v38i3.27968",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/guo-2024-dr-fa/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-db8881c35dc910a53244",
+            "title": "Depth-Guided Robust and Fast Point Cloud Fusion NeRF for Sparse Input Views",
+            "url": "https://medialab.sjtu.edu.cn/publication/guo-2024-dr-fa/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-c4d243e4115a711dcaaf",
+          "title": "A Priority Aware Free Viewpoint Video Transmit Scheme Based on QUIC",
+          "date": "2024",
+          "precision": "year",
+          "venue": "IEEE International Symposium on Broadband Multimedia Systems and Broadcasting, BMSB 2024, Toronto, on, Canada, June 19-21, 2024",
+          "doi": "10.1109/BMSB62888.2024.10608226",
+          "arxivId": null,
+          "authors": [
+            "Junyi Lu",
+            "Bingcong Lu",
+            "Jun Xu",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/BMSB62888.2024.10608226",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/lu-2024-paf/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-c4d243e4115a711dcaaf",
+            "title": "A Priority Aware Free Viewpoint Video Transmit Scheme Based on QUIC",
+            "url": "https://medialab.sjtu.edu.cn/publication/lu-2024-paf/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-5dfe964a20c7ba6e0aaf",
+          "title": "StableFace: Analyzing and Improving Motion Stability for Talking Face Generation",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE J. Sel. Top. Signal Process.",
+          "doi": "10.1109/JSTSP.2023.3333552",
+          "arxivId": null,
+          "authors": [
+            "Jun Ling",
+            "Xu Tan",
+            "Liyang Chen",
+            "Runnan Li",
+            "Yuchao Zhang",
+            "Sheng Zhao",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1109/JSTSP.2023.3333552",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/ling-2023-s-ai/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-5dfe964a20c7ba6e0aaf",
+            "title": "StableFace: Analyzing and Improving Motion Stability for Talking Face Generation",
+            "url": "https://medialab.sjtu.edu.cn/publication/ling-2023-s-ai/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-a61096af00b1173e92bf",
+          "title": "SAFR: A Real-Time Communication System with Adaptive Frame Rate",
+          "date": "2023",
+          "precision": "year",
+          "venue": "Proceedings of the 1st International Workshop on Networked AI Systems, NetAISys 2023, Helsinki, Finland, 18 June 2023",
+          "doi": "10.1145/3597062.3597277",
+          "arxivId": null,
+          "authors": [
+            "Wenpei Yin",
+            "Bingcong Lu",
+            "Yan Zhao",
+            "Jun Xu",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3597062.3597277",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/yin-2023-src/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-a61096af00b1173e92bf",
+            "title": "SAFR: A Real-Time Communication System with Adaptive Frame Rate",
+            "url": "https://medialab.sjtu.edu.cn/publication/yin-2023-src/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-be380b39aa1d4562eb67",
+          "title": "Quality of Experience Assessment for Free-Viewpoint Video",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Symposium on Broadband Multimedia Systems and Broadcasting, BMSB 2023, Beijing, China, June 14-16, 2023",
+          "doi": "10.1109/BMSB58369.2023.10211612",
+          "arxivId": null,
+          "authors": [
+            "Rongli Jia",
+            "Yuhong Zhang",
+            "Jun Xu",
+            "Wenjun Zhang",
+            "Li Song",
+            "Lin Li",
+            "Yanan Feng"
+          ],
+          "url": "https://doi.org/10.1109/BMSB58369.2023.10211612",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/jia-2023-qea/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-be380b39aa1d4562eb67",
+            "title": "Quality of Experience Assessment for Free-Viewpoint Video",
+            "url": "https://medialab.sjtu.edu.cn/publication/jia-2023-qea/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-45bb72b2da181aa3f982",
+          "title": "Precise Encoding Complexity Control for Versatile Video Coding",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE Transactions on Broadcasting",
+          "doi": "10.1109/TBC.2022.3187813",
+          "arxivId": null,
+          "authors": [
+            "Yan Huang",
+            "Jun Xu",
+            "Chen Zhu",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/TBC.2022.3187813",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/huang-2023-pec/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-45bb72b2da181aa3f982",
+            "title": "Precise Encoding Complexity Control for Versatile Video Coding",
+            "url": "https://medialab.sjtu.edu.cn/publication/huang-2023-pec/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-24b359d877353bdd0143",
+          "title": "Perceptual Video Coding Based on Spatial Masking for Medical Video Communication",
+          "date": "2023",
+          "precision": "year",
+          "venue": "Proceedings of the 2023 12th International Conference on Computing and Pattern Recognition, ICCPR 2023, Qingdao, China, October 27-29, 2023",
+          "doi": "10.1145/3633637.3633710",
+          "arxivId": null,
+          "authors": [
+            "Haoqiang Ren",
+            "Luheng Jia",
+            "Yifan Zang",
+            "Li Song",
+            "Jun Ma",
+            "Hua Chen"
+          ],
+          "url": "https://doi.org/10.1145/3633637.3633710",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/ren-2023-pvc/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-24b359d877353bdd0143",
+            "title": "Perceptual Video Coding Based on Spatial Masking for Medical Video Communication",
+            "url": "https://medialab.sjtu.edu.cn/publication/ren-2023-pvc/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-5fa2ed27bcd19085efc6",
+          "title": "PACC: Perception Aware Congestion Control for Real-Time Communication",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Conference on Multimedia and Expo, ICME 2023, Brisbane, Australia, July 10-14, 2023",
+          "doi": "10.1109/ICME55011.2023.00172",
+          "arxivId": null,
+          "authors": [
+            "Feng Peng",
+            "Bingcong Lu",
+            "Li Song",
+            "Rong Xie",
+            "Yanmei Liu",
+            "Ying Chen"
+          ],
+          "url": "https://doi.org/10.1109/ICME55011.2023.00172",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/peng-2023-ppa/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-5fa2ed27bcd19085efc6",
+            "title": "PACC: Perception Aware Congestion Control for Real-Time Communication",
+            "url": "https://medialab.sjtu.edu.cn/publication/peng-2023-ppa/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-17236ac489b6c7dd3ada",
+          "title": "Old-Photo Restoration with Detail- and Structure-Enhanced Cascaded Learning",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Conference on Multimedia and Expo Workshops, ICMEW Workshops 2023, Brisbane, Australia, July 10-14, 2023",
+          "doi": "10.1109/ICMEW59549.2023.00059",
+          "arxivId": null,
+          "authors": [
+            "Xibei Liu",
+            "Xinning Chai",
+            "Hengsheng Zhang",
+            "Rong Xie",
+            "Xiao Gu",
+            "Li Song",
+            "Liean Cao"
+          ],
+          "url": "https://doi.org/10.1109/ICMEW59549.2023.00059",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/liu-2023-ord/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-17236ac489b6c7dd3ada",
+            "title": "Old-Photo Restoration with Detail- and Structure-Enhanced Cascaded Learning",
+            "url": "https://medialab.sjtu.edu.cn/publication/liu-2023-ord/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-e57953e8a4e2e38943c8",
+          "title": "NeRF-SDP: Efficient Generalizable Neural Radiance Field with Scene Depth Perception",
+          "date": "2023",
+          "precision": "year",
+          "venue": "ACM Multimedia Asia 2023, Mmasia 2023, Tainan, Taiwan, December 6-8, 2023",
+          "doi": "10.1145/3595916.3626380",
+          "arxivId": null,
+          "authors": [
+            "Qiuwen Wang",
+            "Shuai Guo",
+            "Haoning Wu",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3595916.3626380",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-n-eg/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-e57953e8a4e2e38943c8",
+            "title": "NeRF-SDP: Efficient Generalizable Neural Radiance Field with Scene Depth Perception",
+            "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-n-eg/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-9024f4a07c4d70181c29",
+          "title": "Multi-Scale-Based Joint Super-Resolution and Inverse Tone-Mapping with Data Synthesis for UHD HDR Video",
+          "date": "2023",
+          "precision": "year",
+          "venue": "Displays",
+          "doi": "10.1016/j.displa.2023.102492",
+          "arxivId": null,
+          "authors": [
+            "Hengsheng Zhang",
+            "Li Song",
+            "Wenyao Gan",
+            "Rong Xie"
+          ],
+          "url": "https://doi.org/10.1016/j.displa.2023.102492",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-mjs/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-9024f4a07c4d70181c29",
+            "title": "Multi-Scale-Based Joint Super-Resolution and Inverse Tone-Mapping with Data Synthesis for UHD HDR Video",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-mjs/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-71eb1dcfb25965d2b3ad",
+          "title": "Local Bidirection Recurrent Network for Efficient Video Deblurring with the Fused Temporal Merge Module",
+          "date": "2023",
+          "precision": "year",
+          "venue": "ACM Trans. Multim. Comput. Commun. Appl.",
+          "doi": "10.1145/3587468",
+          "arxivId": null,
+          "authors": [
+            "Chen Li",
+            "Li Song",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3587468",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/li-2023-lbr/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-71eb1dcfb25965d2b3ad",
+            "title": "Local Bidirection Recurrent Network for Efficient Video Deblurring with the Fused Temporal Merge Module",
+            "url": "https://medialab.sjtu.edu.cn/publication/li-2023-lbr/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-e2f2698723ed20316073",
+          "title": "Learning Dense UV Completion for Human Mesh Recovery",
+          "date": "2023",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2307.11074",
+          "arxivId": "2307.11074",
+          "authors": [
+            "Yanjun Wang",
+            "Qingping Sun",
+            "Wenjia Wang",
+            "Jun Ling",
+            "Zhongang Cai",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2307.11074",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-ld-u/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-e2f2698723ed20316073",
+            "title": "Learning Dense UV Completion for Human Mesh Recovery",
+            "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-ld-u/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-dbd9d842ad050777489f",
+          "title": "Learned Image Compression Using Cross-Component Attention Mechanism",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE Transactions on Image Processing",
+          "doi": "10.1109/TIP.2023.3319275",
+          "arxivId": null,
+          "authors": [
+            "Wenhong Duan",
+            "Zheng Chang",
+            "Chuanmin Jia",
+            "Shanshe Wang",
+            "Siwei Ma",
+            "Li Song",
+            "Wen Gao"
+          ],
+          "url": "https://doi.org/10.1109/TIP.2023.3319275",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/duan-2023-lic/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-dbd9d842ad050777489f",
+            "title": "Learned Image Compression Using Cross-Component Attention Mechanism",
+            "url": "https://medialab.sjtu.edu.cn/publication/duan-2023-lic/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-12beb8f74619abe167bf",
+          "title": "High-Fidelity Free-View Talking Head Synthesis for Low-Bandwidth Video Conference",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Conference on Visual Communications and Image Processing, VCIP 2023, Jeju, Republic of Korea, December 4-7, 2023",
+          "doi": "10.1109/VCIP59821.2023.10402733",
+          "arxivId": null,
+          "authors": [
+            "Zhiyu Zhang",
+            "Anni Tang",
+            "Chen Zhu",
+            "Guo Lu",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1109/VCIP59821.2023.10402733",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-hft/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-12beb8f74619abe167bf",
+            "title": "High-Fidelity Free-View Talking Head Synthesis for Low-Bandwidth Video Conference",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-hft/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-d6554a2c4e98106aa148",
+          "title": "High-Fidelity Face Reenactment via Identity-Matched Correspondence Learning",
+          "date": "2023",
+          "precision": "year",
+          "venue": "ACM Trans. Multim. Comput. Commun. Appl.",
+          "doi": "10.1145/3571857",
+          "arxivId": null,
+          "authors": [
+            "Han Xue",
+            "Jun Ling",
+            "Anni Tang",
+            "Li Song",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3571857",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/xue-2023-hfr/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-d6554a2c4e98106aa148",
+            "title": "High-Fidelity Face Reenactment via Identity-Matched Correspondence Learning",
+            "url": "https://medialab.sjtu.edu.cn/publication/xue-2023-hfr/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-b2b72a12e4c44948dc46",
+          "title": "Freestyle Layout-to-Image Synthesis",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2023, Vancouver, BC, Canada, June 17-24, 2023",
+          "doi": "10.1109/CVPR52729.2023.01370",
+          "arxivId": null,
+          "authors": [
+            "Han Xue",
+            "Zhiwu Huang",
+            "Qianru Sun",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/CVPR52729.2023.01370",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/xue-2023-fls/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-b2b72a12e4c44948dc46",
+            "title": "Freestyle Layout-to-Image Synthesis",
+            "url": "https://medialab.sjtu.edu.cn/publication/xue-2023-fls/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-e6cccdc799c4c6c2d782",
+          "title": "Efficient Human Rendering with Geometric and Semantic Priors",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Symposium on Broadband Multimedia Systems and Broadcasting, BMSB 2023, Beijing, China, June 14-16, 2023",
+          "doi": "10.1109/BMSB58369.2023.10211397",
+          "arxivId": null,
+          "authors": [
+            "Jionghao Wang",
+            "Shuai Guo",
+            "Qiuwen Wang",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1109/BMSB58369.2023.10211397",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-ehr/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-e6cccdc799c4c6c2d782",
+            "title": "Efficient Human Rendering with Geometric and Semantic Priors",
+            "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-ehr/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-17b4cb37baeae21b904f",
+          "title": "Dual-Head Fusion Network for Image Enhancement",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing ICASSP 2023, Rhodes Island, Greece, June 4-10, 2023",
+          "doi": "10.1109/ICASSP49357.2023.10096665",
+          "arxivId": null,
+          "authors": [
+            "Yuhong Zhang",
+            "Hengsheng Zhang",
+            "Li Song",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/ICASSP49357.2023.10096665",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-dfn/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-17b4cb37baeae21b904f",
+            "title": "Dual-Head Fusion Network for Image Enhancement",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-dfn/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-602f8d77debc9f2a7f79",
+          "title": "Divide and Conquer: A Two-Step Method for High Quality Face de-Identification with Model Explainability",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE/CVF International Conference on Computer Vision, ICCV 2023, Paris, France, October 1-6, 2023",
+          "doi": "10.1109/ICCV51070.2023.00475",
+          "arxivId": null,
+          "authors": [
+            "Yunqian Wen",
+            "Bo Liu",
+            "Jingyi Cao",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1109/ICCV51070.2023.00475",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/wen-2023-dct/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-602f8d77debc9f2a7f79",
+            "title": "Divide and Conquer: A Two-Step Method for High Quality Face de-Identification with Model Explainability",
+            "url": "https://medialab.sjtu.edu.cn/publication/wen-2023-dct/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-98d6e1bf7338fba5fe3b",
+          "title": "Deep Online Video Stabilization Using IMU Sensors",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE Trans. Multim.",
+          "doi": "10.1109/TMM.2022.3142429",
+          "arxivId": null,
+          "authors": [
+            "Chen Li",
+            "Li Song",
+            "Shuai Chen",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/TMM.2022.3142429",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/li-2023-dov/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-98d6e1bf7338fba5fe3b",
+            "title": "Deep Online Video Stabilization Using IMU Sensors",
+            "url": "https://medialab.sjtu.edu.cn/publication/li-2023-dov/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-2244acca02f30b156316",
+          "title": "Content Adaptive Checkerboard Context Model for Learned Image Compression",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Symposium on Circuits and Systems, ISCAS 2023, Monterey, CA, USA, May 21-25, 2023",
+          "doi": "10.1109/ISCAS46773.2023.10181947",
+          "arxivId": null,
+          "authors": [
+            "Yiwei Zhang",
+            "Guo Lu",
+            "Donghui Feng",
+            "Chen Zhu",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1109/ISCAS46773.2023.10181947",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-cac/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-2244acca02f30b156316",
+            "title": "Content Adaptive Checkerboard Context Model for Learned Image Compression",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-cac/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-b40ddb3df52d36bfea9f",
+          "title": "Boosting Video Object Segmentation via Space-Time Correspondence Learning",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2023, Vancouver, BC, Canada, June 17-24, 2023",
+          "doi": "10.1109/CVPR52729.2023.00223",
+          "arxivId": null,
+          "authors": [
+            "Yurong Zhang",
+            "Liulei Li",
+            "Wenguan Wang",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/CVPR52729.2023.00223",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-bvo/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-b40ddb3df52d36bfea9f",
+            "title": "Boosting Video Object Segmentation via Space-Time Correspondence Learning",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-bvo/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-e881b88db274cebb150c",
+          "title": "Achieving Privacy-Preserving Multi-View Consistency with Advanced 3D-aware Face de-Identification",
+          "date": "2023",
+          "precision": "year",
+          "venue": "ACM Multimedia Asia 2023, Mmasia 2023, Tainan, Taiwan, December 6-8, 2023",
+          "doi": "10.1145/3595916.3626407",
+          "arxivId": null,
+          "authors": [
+            "Jingyi Cao",
+            "Bo Liu",
+            "Yunqian Wen",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1145/3595916.3626407",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/cao-2023-apm/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-e881b88db274cebb150c",
+            "title": "Achieving Privacy-Preserving Multi-View Consistency with Advanced 3D-aware Face de-Identification",
+            "url": "https://medialab.sjtu.edu.cn/publication/cao-2023-apm/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-2ee088aff6eac88d8e0a",
+          "title": "360-Degree Panorama Generation from Few Unregistered NFoV Images",
+          "date": "2023",
+          "precision": "year",
+          "venue": "Proceedings of the 31st ACM International Conference on Multimedia, MM 2023, Ottawa, on, Canada, 29 October 2023- 3 November 2023",
+          "doi": "10.1145/3581783.3612508",
+          "arxivId": null,
+          "authors": [
+            "Jionghao Wang",
+            "Ziyu Chen",
+            "Jun Ling",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1145/3581783.3612508",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-3-pg/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-2ee088aff6eac88d8e0a",
+            "title": "360-Degree Panorama Generation from Few Unregistered NFoV Images",
+            "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-3-pg/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        }
+      ]
+    },
+    "zhangwenjun": {
+      "id": "zhangwenjun",
+      "name": "张文军",
+      "authorUrl": "https://medialab.sjtu.edu.cn/author/wenjun-zhang/",
+      "papers": [
+        {
+          "id": "paper-lab-6e084001431a0a93c843",
+          "title": "EffiHDR: An Efficient Framework for HDRTV Reconstruction and Enhancement in UHD Systems",
+          "date": "2024",
+          "precision": "year",
+          "venue": "IEEE Transactions on Broadcasting",
+          "doi": "10.1109/TBC.2023.3345657",
+          "arxivId": null,
+          "authors": [
+            "Hengsheng Zhang",
+            "Xueyi Zou",
+            "Guo Lu",
+            "Li Chen",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/TBC.2023.3345657",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-eef/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-6e084001431a0a93c843",
+            "title": "EffiHDR: An Efficient Framework for HDRTV Reconstruction and Enhancement in UHD Systems",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-eef/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-d0f366b75a9451cde417",
+          "title": "Real-Time Free Viewpoint Video Synthesis System Based on DIBR and a Depth Estimation Network",
+          "date": "2024",
+          "precision": "year",
+          "venue": "IEEE Transactions on Multimedia",
+          "doi": "10.1109/TMM.2024.3355639",
+          "arxivId": null,
+          "authors": [
+            "Shuai Guo",
+            "Jingchuan Hu",
+            "Kai Zhou",
+            "Jionghao Wang",
+            "Li Song",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/TMM.2024.3355639",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/guo-2024-rfv/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-d0f366b75a9451cde417",
+            "title": "Real-Time Free Viewpoint Video Synthesis System Based on DIBR and a Depth Estimation Network",
+            "url": "https://medialab.sjtu.edu.cn/publication/guo-2024-rfv/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-fe3174ff19b4b5667cda",
+          "title": "Pioneer: Offline Reinforcement Learning Based Bandwidth Estimation for Real-Time Communication",
+          "date": "2024",
+          "precision": "year",
+          "venue": "Proceedings of the 15th ACM Multimedia Systems Conference, Mmsys 2024, Bari, Italy, April 15-18, 2024",
+          "doi": "10.1145/3625468.3652174",
+          "arxivId": null,
+          "authors": [
+            "Bingcong Lu",
+            "Keyu Wang",
+            "Jun Xu",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3625468.3652174",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/lu-2024-p-or/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-fe3174ff19b4b5667cda",
+            "title": "Pioneer: Offline Reinforcement Learning Based Bandwidth Estimation for Real-Time Communication",
+            "url": "https://medialab.sjtu.edu.cn/publication/lu-2024-p-or/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-8f3038f0c959dac3d896",
+          "title": "MRIR: Integrating Multimodal Insights for Diffusion-Based Realistic Image Restoration",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2407.03635",
+          "arxivId": "2407.03635",
+          "authors": [
+            "Yuhong Zhang",
+            "Hengsheng Zhang",
+            "Xinning Chai",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2407.03635",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-mim/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-8f3038f0c959dac3d896",
+            "title": "MRIR: Integrating Multimodal Insights for Diffusion-Based Realistic Image Restoration",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-mim/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-92740c27ba2d0737a510",
+          "title": "Diff-Restorer: Unleashing Visual Prompts for Diffusion-Based Universal Image Restoration",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2407.03636",
+          "arxivId": "2407.03636",
+          "authors": [
+            "Yuhong Zhang",
+            "Hengsheng Zhang",
+            "Xinning Chai",
+            "Zhengxue Cheng",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2407.03636",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-d-uv/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-92740c27ba2d0737a510",
+            "title": "Diff-Restorer: Unleashing Visual Prompts for Diffusion-Based Universal Image Restoration",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-d-uv/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-c4d243e4115a711dcaaf",
+          "title": "A Priority Aware Free Viewpoint Video Transmit Scheme Based on QUIC",
+          "date": "2024",
+          "precision": "year",
+          "venue": "IEEE International Symposium on Broadband Multimedia Systems and Broadcasting, BMSB 2024, Toronto, on, Canada, June 19-21, 2024",
+          "doi": "10.1109/BMSB62888.2024.10608226",
+          "arxivId": null,
+          "authors": [
+            "Junyi Lu",
+            "Bingcong Lu",
+            "Jun Xu",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/BMSB62888.2024.10608226",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/lu-2024-paf/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-c4d243e4115a711dcaaf",
+            "title": "A Priority Aware Free Viewpoint Video Transmit Scheme Based on QUIC",
+            "url": "https://medialab.sjtu.edu.cn/publication/lu-2024-paf/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-a61096af00b1173e92bf",
+          "title": "SAFR: A Real-Time Communication System with Adaptive Frame Rate",
+          "date": "2023",
+          "precision": "year",
+          "venue": "Proceedings of the 1st International Workshop on Networked AI Systems, NetAISys 2023, Helsinki, Finland, 18 June 2023",
+          "doi": "10.1145/3597062.3597277",
+          "arxivId": null,
+          "authors": [
+            "Wenpei Yin",
+            "Bingcong Lu",
+            "Yan Zhao",
+            "Jun Xu",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3597062.3597277",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/yin-2023-src/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-a61096af00b1173e92bf",
+            "title": "SAFR: A Real-Time Communication System with Adaptive Frame Rate",
+            "url": "https://medialab.sjtu.edu.cn/publication/yin-2023-src/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-be380b39aa1d4562eb67",
+          "title": "Quality of Experience Assessment for Free-Viewpoint Video",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Symposium on Broadband Multimedia Systems and Broadcasting, BMSB 2023, Beijing, China, June 14-16, 2023",
+          "doi": "10.1109/BMSB58369.2023.10211612",
+          "arxivId": null,
+          "authors": [
+            "Rongli Jia",
+            "Yuhong Zhang",
+            "Jun Xu",
+            "Wenjun Zhang",
+            "Li Song",
+            "Lin Li",
+            "Yanan Feng"
+          ],
+          "url": "https://doi.org/10.1109/BMSB58369.2023.10211612",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/jia-2023-qea/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-be380b39aa1d4562eb67",
+            "title": "Quality of Experience Assessment for Free-Viewpoint Video",
+            "url": "https://medialab.sjtu.edu.cn/publication/jia-2023-qea/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-45bb72b2da181aa3f982",
+          "title": "Precise Encoding Complexity Control for Versatile Video Coding",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE Transactions on Broadcasting",
+          "doi": "10.1109/TBC.2022.3187813",
+          "arxivId": null,
+          "authors": [
+            "Yan Huang",
+            "Jun Xu",
+            "Chen Zhu",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/TBC.2022.3187813",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/huang-2023-pec/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-45bb72b2da181aa3f982",
+            "title": "Precise Encoding Complexity Control for Versatile Video Coding",
+            "url": "https://medialab.sjtu.edu.cn/publication/huang-2023-pec/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-e57953e8a4e2e38943c8",
+          "title": "NeRF-SDP: Efficient Generalizable Neural Radiance Field with Scene Depth Perception",
+          "date": "2023",
+          "precision": "year",
+          "venue": "ACM Multimedia Asia 2023, Mmasia 2023, Tainan, Taiwan, December 6-8, 2023",
+          "doi": "10.1145/3595916.3626380",
+          "arxivId": null,
+          "authors": [
+            "Qiuwen Wang",
+            "Shuai Guo",
+            "Haoning Wu",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3595916.3626380",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-n-eg/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-e57953e8a4e2e38943c8",
+            "title": "NeRF-SDP: Efficient Generalizable Neural Radiance Field with Scene Depth Perception",
+            "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-n-eg/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-71eb1dcfb25965d2b3ad",
+          "title": "Local Bidirection Recurrent Network for Efficient Video Deblurring with the Fused Temporal Merge Module",
+          "date": "2023",
+          "precision": "year",
+          "venue": "ACM Trans. Multim. Comput. Commun. Appl.",
+          "doi": "10.1145/3587468",
+          "arxivId": null,
+          "authors": [
+            "Chen Li",
+            "Li Song",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3587468",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/li-2023-lbr/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-71eb1dcfb25965d2b3ad",
+            "title": "Local Bidirection Recurrent Network for Efficient Video Deblurring with the Fused Temporal Merge Module",
+            "url": "https://medialab.sjtu.edu.cn/publication/li-2023-lbr/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-d6554a2c4e98106aa148",
+          "title": "High-Fidelity Face Reenactment via Identity-Matched Correspondence Learning",
+          "date": "2023",
+          "precision": "year",
+          "venue": "ACM Trans. Multim. Comput. Commun. Appl.",
+          "doi": "10.1145/3571857",
+          "arxivId": null,
+          "authors": [
+            "Han Xue",
+            "Jun Ling",
+            "Anni Tang",
+            "Li Song",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3571857",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/xue-2023-hfr/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-d6554a2c4e98106aa148",
+            "title": "High-Fidelity Face Reenactment via Identity-Matched Correspondence Learning",
+            "url": "https://medialab.sjtu.edu.cn/publication/xue-2023-hfr/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-b2b72a12e4c44948dc46",
+          "title": "Freestyle Layout-to-Image Synthesis",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2023, Vancouver, BC, Canada, June 17-24, 2023",
+          "doi": "10.1109/CVPR52729.2023.01370",
+          "arxivId": null,
+          "authors": [
+            "Han Xue",
+            "Zhiwu Huang",
+            "Qianru Sun",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/CVPR52729.2023.01370",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/xue-2023-fls/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-b2b72a12e4c44948dc46",
+            "title": "Freestyle Layout-to-Image Synthesis",
+            "url": "https://medialab.sjtu.edu.cn/publication/xue-2023-fls/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-17b4cb37baeae21b904f",
+          "title": "Dual-Head Fusion Network for Image Enhancement",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing ICASSP 2023, Rhodes Island, Greece, June 4-10, 2023",
+          "doi": "10.1109/ICASSP49357.2023.10096665",
+          "arxivId": null,
+          "authors": [
+            "Yuhong Zhang",
+            "Hengsheng Zhang",
+            "Li Song",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/ICASSP49357.2023.10096665",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-dfn/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-17b4cb37baeae21b904f",
+            "title": "Dual-Head Fusion Network for Image Enhancement",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-dfn/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-98d6e1bf7338fba5fe3b",
+          "title": "Deep Online Video Stabilization Using IMU Sensors",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE Trans. Multim.",
+          "doi": "10.1109/TMM.2022.3142429",
+          "arxivId": null,
+          "authors": [
+            "Chen Li",
+            "Li Song",
+            "Shuai Chen",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/TMM.2022.3142429",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/li-2023-dov/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-98d6e1bf7338fba5fe3b",
+            "title": "Deep Online Video Stabilization Using IMU Sensors",
+            "url": "https://medialab.sjtu.edu.cn/publication/li-2023-dov/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-b40ddb3df52d36bfea9f",
+          "title": "Boosting Video Object Segmentation via Space-Time Correspondence Learning",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2023, Vancouver, BC, Canada, June 17-24, 2023",
+          "doi": "10.1109/CVPR52729.2023.00223",
+          "arxivId": null,
+          "authors": [
+            "Yurong Zhang",
+            "Liulei Li",
+            "Wenguan Wang",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/CVPR52729.2023.00223",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-bvo/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-b40ddb3df52d36bfea9f",
+            "title": "Boosting Video Object Segmentation via Space-Time Correspondence Learning",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-bvo/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        }
+      ]
+    },
+    "xierong": {
+      "id": "xierong",
+      "name": "解蓉",
+      "authorUrl": "https://medialab.sjtu.edu.cn/author/rong-xie/",
+      "papers": [
+        {
+          "id": "paper-lab-d0f366b75a9451cde417",
+          "title": "Real-Time Free Viewpoint Video Synthesis System Based on DIBR and a Depth Estimation Network",
+          "date": "2024",
+          "precision": "year",
+          "venue": "IEEE Transactions on Multimedia",
+          "doi": "10.1109/TMM.2024.3355639",
+          "arxivId": null,
+          "authors": [
+            "Shuai Guo",
+            "Jingchuan Hu",
+            "Kai Zhou",
+            "Jionghao Wang",
+            "Li Song",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/TMM.2024.3355639",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/guo-2024-rfv/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-d0f366b75a9451cde417",
+            "title": "Real-Time Free Viewpoint Video Synthesis System Based on DIBR and a Depth Estimation Network",
+            "url": "https://medialab.sjtu.edu.cn/publication/guo-2024-rfv/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-fe3174ff19b4b5667cda",
+          "title": "Pioneer: Offline Reinforcement Learning Based Bandwidth Estimation for Real-Time Communication",
+          "date": "2024",
+          "precision": "year",
+          "venue": "Proceedings of the 15th ACM Multimedia Systems Conference, Mmsys 2024, Bari, Italy, April 15-18, 2024",
+          "doi": "10.1145/3625468.3652174",
+          "arxivId": null,
+          "authors": [
+            "Bingcong Lu",
+            "Keyu Wang",
+            "Jun Xu",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3625468.3652174",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/lu-2024-p-or/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-fe3174ff19b4b5667cda",
+            "title": "Pioneer: Offline Reinforcement Learning Based Bandwidth Estimation for Real-Time Communication",
+            "url": "https://medialab.sjtu.edu.cn/publication/lu-2024-p-or/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-0528c196e1867193c3e8",
+          "title": "No-Reference Quality Assessment of Text-to-Image Generation",
+          "date": "2024",
+          "precision": "year",
+          "venue": "IEEE International Symposium on Broadband Multimedia Systems and Broadcasting, BMSB 2024, Toronto, on, Canada, June 19-21, 2024",
+          "doi": "10.1109/BMSB62888.2024.10608192",
+          "arxivId": null,
+          "authors": [
+            "Haitao Huang",
+            "Rongli Jia",
+            "Rong Xie",
+            "Li Song",
+            "Lin Li",
+            "Yanan Feng"
+          ],
+          "url": "https://doi.org/10.1109/BMSB62888.2024.10608192",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/huang-2024-nqa/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-0528c196e1867193c3e8",
+            "title": "No-Reference Quality Assessment of Text-to-Image Generation",
+            "url": "https://medialab.sjtu.edu.cn/publication/huang-2024-nqa/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-d60e8e3ef2c59d02c83f",
+          "title": "Multimodal Semantic-Aware Automatic Colorization with Diffusion Prior",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2404.16678",
+          "arxivId": "2404.16678",
+          "authors": [
+            "Han Wang",
+            "Xinning Chai",
+            "Yiwen Wang",
+            "Yuhong Zhang",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2404.16678",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/wang-2024-msa/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-d60e8e3ef2c59d02c83f",
+            "title": "Multimodal Semantic-Aware Automatic Colorization with Diffusion Prior",
+            "url": "https://medialab.sjtu.edu.cn/publication/wang-2024-msa/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-8f3038f0c959dac3d896",
+          "title": "MRIR: Integrating Multimodal Insights for Diffusion-Based Realistic Image Restoration",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2407.03635",
+          "arxivId": "2407.03635",
+          "authors": [
+            "Yuhong Zhang",
+            "Hengsheng Zhang",
+            "Xinning Chai",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2407.03635",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-mim/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-8f3038f0c959dac3d896",
+            "title": "MRIR: Integrating Multimodal Insights for Diffusion-Based Realistic Image Restoration",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-mim/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-80c768b83e588b1371ec",
+          "title": "Hdrtvformer: Efficient Sdrtv-to-Hdrtv via Affine Transformation and Spatial-Aware Transformer",
+          "date": "2024",
+          "precision": "year",
+          "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP 2024, Seoul, Republic of Korea, April 14-19, 2024",
+          "doi": "10.1109/ICASSP48485.2024.10447187",
+          "arxivId": null,
+          "authors": [
+            "Hengsheng Zhang",
+            "Xinning Chai",
+            "Yuhong Zhang",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1109/ICASSP48485.2024.10447187",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-h-es/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-80c768b83e588b1371ec",
+            "title": "Hdrtvformer: Efficient Sdrtv-to-Hdrtv via Affine Transformation and Spatial-Aware Transformer",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-h-es/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-92740c27ba2d0737a510",
+          "title": "Diff-Restorer: Unleashing Visual Prompts for Diffusion-Based Universal Image Restoration",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2407.03636",
+          "arxivId": "2407.03636",
+          "authors": [
+            "Yuhong Zhang",
+            "Hengsheng Zhang",
+            "Xinning Chai",
+            "Zhengxue Cheng",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2407.03636",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-d-uv/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-92740c27ba2d0737a510",
+            "title": "Diff-Restorer: Unleashing Visual Prompts for Diffusion-Based Universal Image Restoration",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-d-uv/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-db8881c35dc910a53244",
+          "title": "Depth-Guided Robust and Fast Point Cloud Fusion NeRF for Sparse Input Views",
+          "date": "2024",
+          "precision": "year",
+          "venue": "Thirty-Eighth AAAI Conference on Artificial Intelligence, AAAI 2024, Thirty-Sixth Conference on Innovative Applications of Artificial Intelligence, IAAI 2024, Fourteenth Symposium on Educational Advances in Artificial Intelligence, EAAI 2014, February 20-27, 2024, Vancouver, Canada",
+          "doi": "10.1609/aaai.v38i3.27968",
+          "arxivId": null,
+          "authors": [
+            "Shuai Guo",
+            "Qiuwen Wang",
+            "Yijie Gao",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1609/aaai.v38i3.27968",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/guo-2024-dr-fa/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-db8881c35dc910a53244",
+            "title": "Depth-Guided Robust and Fast Point Cloud Fusion NeRF for Sparse Input Views",
+            "url": "https://medialab.sjtu.edu.cn/publication/guo-2024-dr-fa/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-5fa2ed27bcd19085efc6",
+          "title": "PACC: Perception Aware Congestion Control for Real-Time Communication",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Conference on Multimedia and Expo, ICME 2023, Brisbane, Australia, July 10-14, 2023",
+          "doi": "10.1109/ICME55011.2023.00172",
+          "arxivId": null,
+          "authors": [
+            "Feng Peng",
+            "Bingcong Lu",
+            "Li Song",
+            "Rong Xie",
+            "Yanmei Liu",
+            "Ying Chen"
+          ],
+          "url": "https://doi.org/10.1109/ICME55011.2023.00172",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/peng-2023-ppa/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-5fa2ed27bcd19085efc6",
+            "title": "PACC: Perception Aware Congestion Control for Real-Time Communication",
+            "url": "https://medialab.sjtu.edu.cn/publication/peng-2023-ppa/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-17236ac489b6c7dd3ada",
+          "title": "Old-Photo Restoration with Detail- and Structure-Enhanced Cascaded Learning",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Conference on Multimedia and Expo Workshops, ICMEW Workshops 2023, Brisbane, Australia, July 10-14, 2023",
+          "doi": "10.1109/ICMEW59549.2023.00059",
+          "arxivId": null,
+          "authors": [
+            "Xibei Liu",
+            "Xinning Chai",
+            "Hengsheng Zhang",
+            "Rong Xie",
+            "Xiao Gu",
+            "Li Song",
+            "Liean Cao"
+          ],
+          "url": "https://doi.org/10.1109/ICMEW59549.2023.00059",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/liu-2023-ord/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-17236ac489b6c7dd3ada",
+            "title": "Old-Photo Restoration with Detail- and Structure-Enhanced Cascaded Learning",
+            "url": "https://medialab.sjtu.edu.cn/publication/liu-2023-ord/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-e57953e8a4e2e38943c8",
+          "title": "NeRF-SDP: Efficient Generalizable Neural Radiance Field with Scene Depth Perception",
+          "date": "2023",
+          "precision": "year",
+          "venue": "ACM Multimedia Asia 2023, Mmasia 2023, Tainan, Taiwan, December 6-8, 2023",
+          "doi": "10.1145/3595916.3626380",
+          "arxivId": null,
+          "authors": [
+            "Qiuwen Wang",
+            "Shuai Guo",
+            "Haoning Wu",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3595916.3626380",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-n-eg/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-e57953e8a4e2e38943c8",
+            "title": "NeRF-SDP: Efficient Generalizable Neural Radiance Field with Scene Depth Perception",
+            "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-n-eg/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-9024f4a07c4d70181c29",
+          "title": "Multi-Scale-Based Joint Super-Resolution and Inverse Tone-Mapping with Data Synthesis for UHD HDR Video",
+          "date": "2023",
+          "precision": "year",
+          "venue": "Displays",
+          "doi": "10.1016/j.displa.2023.102492",
+          "arxivId": null,
+          "authors": [
+            "Hengsheng Zhang",
+            "Li Song",
+            "Wenyao Gan",
+            "Rong Xie"
+          ],
+          "url": "https://doi.org/10.1016/j.displa.2023.102492",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-mjs/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-9024f4a07c4d70181c29",
+            "title": "Multi-Scale-Based Joint Super-Resolution and Inverse Tone-Mapping with Data Synthesis for UHD HDR Video",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-mjs/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-71eb1dcfb25965d2b3ad",
+          "title": "Local Bidirection Recurrent Network for Efficient Video Deblurring with the Fused Temporal Merge Module",
+          "date": "2023",
+          "precision": "year",
+          "venue": "ACM Trans. Multim. Comput. Commun. Appl.",
+          "doi": "10.1145/3587468",
+          "arxivId": null,
+          "authors": [
+            "Chen Li",
+            "Li Song",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3587468",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/li-2023-lbr/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-71eb1dcfb25965d2b3ad",
+            "title": "Local Bidirection Recurrent Network for Efficient Video Deblurring with the Fused Temporal Merge Module",
+            "url": "https://medialab.sjtu.edu.cn/publication/li-2023-lbr/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-e2f2698723ed20316073",
+          "title": "Learning Dense UV Completion for Human Mesh Recovery",
+          "date": "2023",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2307.11074",
+          "arxivId": "2307.11074",
+          "authors": [
+            "Yanjun Wang",
+            "Qingping Sun",
+            "Wenjia Wang",
+            "Jun Ling",
+            "Zhongang Cai",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2307.11074",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-ld-u/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-e2f2698723ed20316073",
+            "title": "Learning Dense UV Completion for Human Mesh Recovery",
+            "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-ld-u/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-12beb8f74619abe167bf",
+          "title": "High-Fidelity Free-View Talking Head Synthesis for Low-Bandwidth Video Conference",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Conference on Visual Communications and Image Processing, VCIP 2023, Jeju, Republic of Korea, December 4-7, 2023",
+          "doi": "10.1109/VCIP59821.2023.10402733",
+          "arxivId": null,
+          "authors": [
+            "Zhiyu Zhang",
+            "Anni Tang",
+            "Chen Zhu",
+            "Guo Lu",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1109/VCIP59821.2023.10402733",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-hft/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-12beb8f74619abe167bf",
+            "title": "High-Fidelity Free-View Talking Head Synthesis for Low-Bandwidth Video Conference",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-hft/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-d6554a2c4e98106aa148",
+          "title": "High-Fidelity Face Reenactment via Identity-Matched Correspondence Learning",
+          "date": "2023",
+          "precision": "year",
+          "venue": "ACM Trans. Multim. Comput. Commun. Appl.",
+          "doi": "10.1145/3571857",
+          "arxivId": null,
+          "authors": [
+            "Han Xue",
+            "Jun Ling",
+            "Anni Tang",
+            "Li Song",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1145/3571857",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/xue-2023-hfr/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-d6554a2c4e98106aa148",
+            "title": "High-Fidelity Face Reenactment via Identity-Matched Correspondence Learning",
+            "url": "https://medialab.sjtu.edu.cn/publication/xue-2023-hfr/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-e6cccdc799c4c6c2d782",
+          "title": "Efficient Human Rendering with Geometric and Semantic Priors",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Symposium on Broadband Multimedia Systems and Broadcasting, BMSB 2023, Beijing, China, June 14-16, 2023",
+          "doi": "10.1109/BMSB58369.2023.10211397",
+          "arxivId": null,
+          "authors": [
+            "Jionghao Wang",
+            "Shuai Guo",
+            "Qiuwen Wang",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1109/BMSB58369.2023.10211397",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-ehr/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-e6cccdc799c4c6c2d782",
+            "title": "Efficient Human Rendering with Geometric and Semantic Priors",
+            "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-ehr/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-17b4cb37baeae21b904f",
+          "title": "Dual-Head Fusion Network for Image Enhancement",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing ICASSP 2023, Rhodes Island, Greece, June 4-10, 2023",
+          "doi": "10.1109/ICASSP49357.2023.10096665",
+          "arxivId": null,
+          "authors": [
+            "Yuhong Zhang",
+            "Hengsheng Zhang",
+            "Li Song",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/ICASSP49357.2023.10096665",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-dfn/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-17b4cb37baeae21b904f",
+            "title": "Dual-Head Fusion Network for Image Enhancement",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-dfn/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-602f8d77debc9f2a7f79",
+          "title": "Divide and Conquer: A Two-Step Method for High Quality Face de-Identification with Model Explainability",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE/CVF International Conference on Computer Vision, ICCV 2023, Paris, France, October 1-6, 2023",
+          "doi": "10.1109/ICCV51070.2023.00475",
+          "arxivId": null,
+          "authors": [
+            "Yunqian Wen",
+            "Bo Liu",
+            "Jingyi Cao",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1109/ICCV51070.2023.00475",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/wen-2023-dct/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-602f8d77debc9f2a7f79",
+            "title": "Divide and Conquer: A Two-Step Method for High Quality Face de-Identification with Model Explainability",
+            "url": "https://medialab.sjtu.edu.cn/publication/wen-2023-dct/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-98d6e1bf7338fba5fe3b",
+          "title": "Deep Online Video Stabilization Using IMU Sensors",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE Trans. Multim.",
+          "doi": "10.1109/TMM.2022.3142429",
+          "arxivId": null,
+          "authors": [
+            "Chen Li",
+            "Li Song",
+            "Shuai Chen",
+            "Rong Xie",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/TMM.2022.3142429",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/li-2023-dov/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-98d6e1bf7338fba5fe3b",
+            "title": "Deep Online Video Stabilization Using IMU Sensors",
+            "url": "https://medialab.sjtu.edu.cn/publication/li-2023-dov/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-b40ddb3df52d36bfea9f",
+          "title": "Boosting Video Object Segmentation via Space-Time Correspondence Learning",
+          "date": "2023",
+          "precision": "year",
+          "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2023, Vancouver, BC, Canada, June 17-24, 2023",
+          "doi": "10.1109/CVPR52729.2023.00223",
+          "arxivId": null,
+          "authors": [
+            "Yurong Zhang",
+            "Liulei Li",
+            "Wenguan Wang",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.1109/CVPR52729.2023.00223",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-bvo/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-b40ddb3df52d36bfea9f",
+            "title": "Boosting Video Object Segmentation via Space-Time Correspondence Learning",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2023-bvo/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-e881b88db274cebb150c",
+          "title": "Achieving Privacy-Preserving Multi-View Consistency with Advanced 3D-aware Face de-Identification",
+          "date": "2023",
+          "precision": "year",
+          "venue": "ACM Multimedia Asia 2023, Mmasia 2023, Tainan, Taiwan, December 6-8, 2023",
+          "doi": "10.1145/3595916.3626407",
+          "arxivId": null,
+          "authors": [
+            "Jingyi Cao",
+            "Bo Liu",
+            "Yunqian Wen",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1145/3595916.3626407",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/cao-2023-apm/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-e881b88db274cebb150c",
+            "title": "Achieving Privacy-Preserving Multi-View Consistency with Advanced 3D-aware Face de-Identification",
+            "url": "https://medialab.sjtu.edu.cn/publication/cao-2023-apm/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-2ee088aff6eac88d8e0a",
+          "title": "360-Degree Panorama Generation from Few Unregistered NFoV Images",
+          "date": "2023",
+          "precision": "year",
+          "venue": "Proceedings of the 31st ACM International Conference on Multimedia, MM 2023, Ottawa, on, Canada, 29 October 2023- 3 November 2023",
+          "doi": "10.1145/3581783.3612508",
+          "arxivId": null,
+          "authors": [
+            "Jionghao Wang",
+            "Ziyu Chen",
+            "Jun Ling",
+            "Rong Xie",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.1145/3581783.3612508",
+          "status": "published",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2023",
+              "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-3-pg/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-2ee088aff6eac88d8e0a",
+            "title": "360-Degree Panorama Generation from Few Unregistered NFoV Images",
+            "url": "https://medialab.sjtu.edu.cn/publication/wang-2023-3-pg/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        }
+      ]
+    },
+    "huqiang": {
+      "id": "huqiang",
+      "name": "胡强",
+      "authorUrl": "https://medialab.sjtu.edu.cn/author/qiang-hu/",
+      "papers": [
+        {
+          "id": "paper-lab-a13c85b4791659bda606",
+          "title": "JointRF: End-to-end Joint Optimization for Dynamic Neural Radiance Field Representation and Compression",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2405.14452",
+          "arxivId": "2405.14452",
+          "authors": [
+            "Zihan Zheng",
+            "Houqiang Zhong",
+            "Qiang Hu",
+            "Xiaoyun Zhang",
+            "Li Song",
+            "Ya Zhang",
+            "Yanfeng Wang"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2405.14452",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zheng-2024-j-ej/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-a13c85b4791659bda606",
+            "title": "JointRF: End-to-end Joint Optimization for Dynamic Neural Radiance Field Representation and Compression",
+            "url": "https://medialab.sjtu.edu.cn/publication/zheng-2024-j-ej/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-777662e75bf2d32c357c",
+          "title": "HPC: Hierarchical Progressive Coding Framework for Volumetric Video",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2407.09026",
+          "arxivId": "2407.09026",
+          "authors": [
+            "Zihan Zheng",
+            "Houqiang Zhong",
+            "Qiang Hu",
+            "Xiaoyun Zhang",
+            "Li Song",
+            "Ya Zhang",
+            "Yanfeng Wang"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2407.09026",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zheng-2024-hhp/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-777662e75bf2d32c357c",
+            "title": "HPC: Hierarchical Progressive Coding Framework for Volumetric Video",
+            "url": "https://medialab.sjtu.edu.cn/publication/zheng-2024-hhp/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-b22a6b7f453e55957ac0",
+          "title": "Efficient Dynamic-NeRF Based Volumetric Video Coding with Rate Distortion Optimization",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2402.01380",
+          "arxivId": "2402.01380",
+          "authors": [
+            "Zhiyu Zhang",
+            "Guo Lu",
+            "Huanxiong Liang",
+            "Anni Tang",
+            "Qiang Hu",
+            "Li Song"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2402.01380",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-edb/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-b22a6b7f453e55957ac0",
+            "title": "Efficient Dynamic-NeRF Based Volumetric Video Coding with Rate Distortion Optimization",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-edb/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        }
+      ]
+    },
+    "zhangxiaoyun": {
+      "id": "zhangxiaoyun",
+      "name": "张小云",
+      "authorUrl": "https://medialab.sjtu.edu.cn/author/xiaoyun-zhang/",
+      "papers": [
+        {
+          "id": "paper-lab-a13c85b4791659bda606",
+          "title": "JointRF: End-to-end Joint Optimization for Dynamic Neural Radiance Field Representation and Compression",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2405.14452",
+          "arxivId": "2405.14452",
+          "authors": [
+            "Zihan Zheng",
+            "Houqiang Zhong",
+            "Qiang Hu",
+            "Xiaoyun Zhang",
+            "Li Song",
+            "Ya Zhang",
+            "Yanfeng Wang"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2405.14452",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zheng-2024-j-ej/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-a13c85b4791659bda606",
+            "title": "JointRF: End-to-end Joint Optimization for Dynamic Neural Radiance Field Representation and Compression",
+            "url": "https://medialab.sjtu.edu.cn/publication/zheng-2024-j-ej/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        },
+        {
+          "id": "paper-lab-777662e75bf2d32c357c",
+          "title": "HPC: Hierarchical Progressive Coding Framework for Volumetric Video",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2407.09026",
+          "arxivId": "2407.09026",
+          "authors": [
+            "Zihan Zheng",
+            "Houqiang Zhong",
+            "Qiang Hu",
+            "Xiaoyun Zhang",
+            "Li Song",
+            "Ya Zhang",
+            "Yanfeng Wang"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2407.09026",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zheng-2024-hhp/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-777662e75bf2d32c357c",
+            "title": "HPC: Hierarchical Progressive Coding Framework for Volumetric Video",
+            "url": "https://medialab.sjtu.edu.cn/publication/zheng-2024-hhp/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        }
+      ]
+    },
+    "chengzhengxue": {
+      "id": "chengzhengxue",
+      "name": "程正雪",
+      "authorUrl": "https://medialab.sjtu.edu.cn/author/zhengxue-cheng/",
+      "papers": [
+        {
+          "id": "paper-lab-92740c27ba2d0737a510",
+          "title": "Diff-Restorer: Unleashing Visual Prompts for Diffusion-Based Universal Image Restoration",
+          "date": "2024",
+          "precision": "year",
+          "venue": "CoRR",
+          "doi": "10.48550/ARXIV.2407.03636",
+          "arxivId": "2407.03636",
+          "authors": [
+            "Yuhong Zhang",
+            "Hengsheng Zhang",
+            "Xinning Chai",
+            "Zhengxue Cheng",
+            "Rong Xie",
+            "Li Song",
+            "Wenjun Zhang"
+          ],
+          "url": "https://doi.org/10.48550/ARXIV.2407.03636",
+          "status": "preprint",
+          "versions": [
+            {
+              "kind": "上海交大 Media Lab 官方论文书目",
+              "date": "2024",
+              "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-d-uv/"
+            }
+          ],
+          "source": {
+            "id": "source-lab-92740c27ba2d0737a510",
+            "title": "Diff-Restorer: Unleashing Visual Prompts for Diffusion-Based Universal Image Restoration",
+            "url": "https://medialab.sjtu.edu.cn/publication/zhang-2024-d-uv/",
+            "kind": "official",
+            "retrievedAt": "2026-10-20"
+          },
+          "identity": "上海交大 Media Lab 官方论文目录明确列出完整作者，并链接到对应作者页；与学院教师姓名及研究所归属核对。",
+          "dateNote": "团队书目仅给出发表年份；网站发布/修改时间不作为论文发表日期，也不把默认一月一日当作真实日期。"
+        }
+      ]
+    }
+  }
+}

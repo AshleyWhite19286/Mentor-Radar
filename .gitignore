@@ -4,6 +4,14 @@ node_modules/
 .env*
 !.env.example
 data/local*
+data/.publication-cache/
+data/publication-*.log
+data/anchored-authors.log
+data/crossref-authors.log
+data/crossref-author-recheck.log
+data/crossref-affiliation.log
+data/scholar-details.log
+data/additional-official-sites.log
 *.tsbuildinfo
 test-results/
 dist/
