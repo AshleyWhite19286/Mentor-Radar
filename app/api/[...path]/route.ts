@@ -12,7 +12,7 @@ import type { Paper,Task } from '@/lib/types';
 export const runtime='nodejs';export const dynamic='force-dynamic';
 const response=(v:unknown,status=200)=>NextResponse.json(v,{status,headers:{'Cache-Control':'no-store'}});
 export async function GET(req:Request,{params}:{params:Promise<{path:string[]}>}) {
-  try{localRequest(req);const p=(await params).path;if(p[0]==='catalog')return response(catalog());if(p[0]==='tasks'){const task=get<Task>('task',p[1]);return task?response(task):response({error:'任务不存在'},404);}return response({error:'接口不存在'},404);}catch{return response({error:'无法读取本机数据'},400);}
+  try{localRequest(req);const p=(await params).path;if(p[0]==='catalog')return response(catalog());if(p[0]==='tasks'){const task=get<Task>('task',p[1]);return task?response(task):response({error:'任务不存在'},404);}return response({error:'接口不存在'},404);}catch{return response({error:'无法读取数据'},400);}
 }
 export async function POST(req:Request,{params}:{params:Promise<{path:string[]}>}) {
   try {

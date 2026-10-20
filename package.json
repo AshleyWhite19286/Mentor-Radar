@@ -6,6 +6,7 @@
     "dev": "next dev --hostname 127.0.0.1",
     "build": "next build --webpack",
     "start": "next start --hostname 127.0.0.1",
+    "start:public": "next start --hostname 0.0.0.0",
     "test": "node --import tsx --test tests/*.test.ts",
     "test:publication-import": "python3 -B -m unittest discover -s tests -p test_publication_verification.py",
     "typecheck": "tsc --noEmit",
