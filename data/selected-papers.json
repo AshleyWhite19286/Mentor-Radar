@@ -1,0 +1,4229 @@
+{
+  "wang-xinbing": {
+    "authorId": "https://openalex.org/A5034483183",
+    "papers": [
+      {
+        "id": "https://openalex.org/W7208729783",
+        "title": "DoPR: Reusable Compressed Document Prefixes for Efficient LLM Reranking",
+        "date": "2026-09-03",
+        "doi": "https://doi.org/10.48550/arxiv.2609.03311",
+        "type": "preprint",
+        "venue": "arXiv (Cornell University)",
+        "url": "https://doi.org/10.48550/arxiv.2609.03311",
+        "abstract": "Large language models (LLMs) are effective rerankers, but pointwise reranking repeatedly processes the same document across different queries, causing substantial redundant document-side computation. We propose \\textbf{DoPR}, a compressed document prefix framework that decouples offline document processing from online reranking. DoPR first selects query-independent document representations and converts them into compressed document prefix states, which are precomputed offline and reused whenever the document is retrieved. During online reranking, the model scores each query-document pair by processing only the query and scoring token, with document information supplied by the stored prefix states. This design reduces online cost through both document-side compression and cross-query prefix-state reuse. Experiments on TREC DL, BEIR, and BRIGHT with Qwen3 models from $0.6$B to $8$B show that DoPR achieves up to 8.0$\\times$ online document-side memory reduction and up to 8.04$\\times$ latency speedup, while retaining \\textbf{97.1\\%-99.5\\%} of the average NDCG@10 of matched full-document rerankers.",
+        "authors": [
+          [
+            "Beiya Dai",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yifan Wei",
+            [
+              "ByteDance (China)"
+            ]
+          ],
+          [
+            "Guang Yang",
+            [
+              "ByteDance (China)"
+            ]
+          ],
+          [
+            "Xing Shi",
+            [
+              "ByteDance (China)"
+            ]
+          ],
+          [
+            "Xinbing Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zhouhan Lin",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Information Retrieval and Search Behavior",
+          "Topic Modeling",
+          "Recommender Systems and Techniques"
+        ],
+        "locations": [
+          {
+            "url": "https://arxiv.org/abs/2609.03311",
+            "pdf": "https://arxiv.org/pdf/2609.03311"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2609.03311",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://openalex.org/W7208729783"
+      },
+      {
+        "id": "https://openalex.org/W7204257342",
+        "title": "HAP: Head-Adaptive Visual Token Pruning via Cross-Modal Alignment",
+        "date": "2026-08-24",
+        "doi": "https://doi.org/10.48550/arxiv.2608.23921",
+        "type": "preprint",
+        "venue": "arXiv (Cornell University)",
+        "url": "https://doi.org/10.48550/arxiv.2608.23921",
+        "abstract": "Recent Vision-Language Models encode high-resolution images into long visual token sequences, incurring prohibitive prefill costs. To compress them, existing methods score each visual token by averaging text-to-visual attention uniformly across all heads, which assumes every head matches the query. However, our empirical analysis shows that misaligned heads dominate the average, amplifying background tokens and drowning out fine-grained cues. To address this, we propose PAQ (Prompt-Grounded Attention Quality), a metric quantifying how well each head aligns the prompt with image regions. Built on PAQ, our pruning proceeds in three stages. Given a target FLOPs budget, we first partition the transformer layers into groups and allocate a visual token budget to each. Within each group, we then aggregate per-head attention maps via PAQ-weighted softmax into a group-level matrix. Finally, we score visual tokens by this matrix's magnitude and retain the allocated budget per group. By weighting heads with PAQ, our method scores tokens by attention signals that more faithfully reflect prompt relevance, rather than diluting them through uniform averaging. Across 18 benchmarks, our method delivers state-of-the-art trade-offs. Specifically, on LLaVA-1.5-7B (9 tasks), retaining only \\textbf{5.6\\%} tokens preserves \\textbf{99.1\\%} of the original performance, surpassing the strongest baseline AutoPrune by 4.2 points. Code is available in https://github.com/baokou-fw2/HAP.",
+        "authors": [
+          [
+            "Yuanhao Sun",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Huawei Ji",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yuan Jin",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Cheng Deng",
+            [
+              "University of Edinburgh"
+            ]
+          ],
+          [
+            "Luoyi Fu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xinbing Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Multimodal Machine Learning Applications",
+          "Advanced Neural Network Applications",
+          "Visual Attention and Saliency Detection"
+        ],
+        "locations": [
+          {
+            "url": "https://arxiv.org/abs/2608.23921",
+            "pdf": "https://arxiv.org/pdf/2608.23921"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2608.23921",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://openalex.org/W7204257342"
+      },
+      {
+        "id": "https://openalex.org/W7196958642",
+        "title": "OceanVerse: Evaluable 4D Ocean Element Reconstruction Dataset under Realistic Sparsity",
+        "date": "2026-08-08",
+        "doi": "https://doi.org/10.1145/3770855.3817534",
+        "type": "conference-paper",
+        "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+        "url": "https://doi.org/10.1145/3770855.3817534",
+        "abstract": "The vast oceans record the impacts of climate change and human activities on the Earth system. Over the past century, oceanographic scientists have collected extensive ocean profile data to reflect variations of oceanic elements, such as dissolved oxygen. However, due to the sophisticated measurements and high costs, historical ocean element observation data remains highly sparse and uneven across the global ocean, with the annual missing rate exceeding 90%. Thus, quantitatively understanding the four-dimensional (4D) spatiotemporal evolution of oceanic elements continues to pose a significant challenge. Machine learning (ML) techniques demonstrate superior capabilities in perceiving spatiotemporal variations within large-scale data, presenting promising opportunities to harness implicit correlations for global reconstruction. However, fragmented data and interdisciplinary differences create barriers to the availability of AI-ready open data, further hindering ML practitioners from designing specialized models. To solve this problem, we present the first oceanic 4D sparse observation reconstruction dataset, named OceanVerse. By integrating nearly 2 million real-world profiles since 1900 and three differentiated Earth system numerical simulation, we construct a comprehensively evaluable dataset with missing patterns that align with real-world conditions through a digital twin sampling. OceanVerse provides a novel large-scale (~100× nodes vs. existing datasets) dataset that meets the MNAR (Missing Not at Random) condition, supporting more effective model comparison, generalization evaluation and potential advancement of scientific reconstruction architectures. The OceanVerse dataset and codebase are publicly available. The OceanVerse resource is available at https://github.com/jingwei-sjtu/OceanVerse.",
+        "authors": [
+          [
+            "Bin Lü",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jingjing Shen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Ze Zhao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jianping Zhou",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Haonan Qi",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Luyu Han",
+            [
+              "University of California San Diego"
+            ]
+          ],
+          [
+            "Xiaoying Gan",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Meng Jin",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Lei Zhou",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Luoyi Fu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xinbing Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Chenghu Zhou",
+            [
+              "Institute of Geographic Sciences and Natural Resources Research"
+            ]
+          ]
+        ],
+        "topics": [
+          "Oceanographic and Atmospheric Processes",
+          "Model Reduction and Neural Networks",
+          "Marine and coastal ecosystems"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1145/3770855.3817534",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1145/3770855.3817534"
+      },
+      {
+        "id": "https://openalex.org/W7196960514",
+        "title": "From Surface to Depth: Diagnosing Ocean Vertical Velocity with 3D Frequency Operator",
+        "date": "2026-08-08",
+        "doi": "https://doi.org/10.1145/3770855.3819028",
+        "type": "conference-paper",
+        "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+        "url": "https://doi.org/10.1145/3770855.3819028",
+        "abstract": "Ocean vertical velocity plays a crucial role in influencing heat exchange, water mass movement, and biogeochemical processes between the surface and deep waters. Due to the difficulty in directly measuring subsurface vertical velocity w, a promising approach is to diagnose w from high-resolution surface observations, like horizontal surface velocity and sea surface height anomaly, via remote sensing. However, both existing traditional dynamic methods and classic machine learning algorithms struggle to provide accurate estimates due to their inability to capture the multi-scale spatiotemporal structures and intense vertical fluctuations. To address these challenges, combined with theoretical ocean dynamics, we propose TriSEFormer, a novel approach that leverages frequency-embedded attention mechanism from a tri-dimensional (3D) frequency perspective. Specifically, TriSEFormer comprises cascaded TriSE blocks, each consisting of a neural dynamics cell following a refinement attention module. The 3D spectral transformation within the neural dynamics cell decomposes the attention-enhanced surface embedding into different spectral components, improving the understanding of multi-scale turbulent structures. Meanwhile, we propose depth-encoded vertical weights to selectively modulate both real and imaginary parts, enhancing the vertical representation compared to dynamic estimation. Extensive experiments on one ideal simulation and three regional ocean datasets demonstrate that TriSEFormer outperforms all baselines, achieving up to a 9.9% improvement, particularly enhancing deep-ocean w diagnosis from 300 m to 2100 m in the Indian Ocean. Code is available at https://github.com/JessiQi25/TriSEFormer.",
+        "authors": [
+          [
+            "Haonan Qi",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Bin Lü",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yimian Hu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Ze Zhao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Meng Jin",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Lixin Qu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Shuai Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Shizhen Zhao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Lei Zhou",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xiaoying Gan",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xinbing Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Chenghu Zhou",
+            [
+              "Chinese Academy of Sciences",
+              "Institute of Geographic Sciences and Natural Resources Research"
+            ]
+          ]
+        ],
+        "topics": [
+          "Oceanographic and Atmospheric Processes",
+          "Ocean Waves and Remote Sensing",
+          "Model Reduction and Neural Networks"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1145/3770855.3819028",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1145/3770855.3819028"
+      },
+      {
+        "id": "https://openalex.org/W7196971840",
+        "title": "Hybrid Graph Learning Reconstructs Global Ocean Oxygen Spatiotemporal Changes",
+        "date": "2026-08-08",
+        "doi": "https://doi.org/10.1145/3770855.3818938",
+        "type": "conference-paper",
+        "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+        "url": "https://doi.org/10.1145/3770855.3818938",
+        "abstract": "Climate change and anthropogenic activities have exacerbated hypoxic conditions in the global ocean, posing a serious threat to marine ecosystems. Quantifying changes in dissolved oxygen levels is crucial for understanding the impact of these factors on marine life and earth sustainability. However, dissolved oxygen observations are severely sparse, limiting comprehensive analysis. Here we present Jingwei, a 4D spatiotemporal graph transfer learning model that reconstructs ocean oxygen levels globally over the past six decades on a 1◦ x 1◦ grid, covering depths of 0-5500 meters. Jingwei simultaneously leverages intra-profile knowledge transfer using a pattern bank from simulations and captures inter-profile correlations through zoning-varying message passing among observations. It significantly reduces reconstruction error by 27.26% compared to CMIP6, demonstrates high consistency with cruise surveys, and provides satisfactory visual quality. Furthermore, Jingwei produces interpretable results, effectively identifying vertical profile patterns and distinguishing fine-grained spatial distributions. Jingwei provides cartography and quantitative analysis of oxygen minimum zones (OMZ) evolution since 1960. We foresee Jingwei revolutionizing observation-based ocean modeling and deepening our understanding of the breathless ocean. Alongside, we have released an open-source online platform (https://jingwei.acemap.info/ https://jingwei.acemap.info/), providing data visualization, resource sharing and ongoing updates.",
+        "authors": [
+          [
+            "Bin Lü",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Luyu Han",
+            [
+              "University of California San Diego"
+            ]
+          ],
+          [
+            "Ze Zhao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jingjing Shen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Haonan Qi",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xiaoying Gan",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Lei Zhou",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Meng Jin",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Lixin Qu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yuntao Zhou",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Luoyi Fu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xinbing Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Chenghu Zhou",
+            [
+              "Chinese Academy of Sciences",
+              "Institute of Geographic Sciences and Natural Resources Research"
+            ]
+          ],
+          [
+            "Jing Zhang",
+            [
+              "State Key Laboratory of Estuarine and Coastal Research",
+              "East China Normal University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Oceanographic and Atmospheric Processes",
+          "Marine and coastal ecosystems",
+          "Model Reduction and Neural Networks"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1145/3770855.3818938",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1145/3770855.3818938"
+      }
+    ]
+  },
+  "dai-wenrui": {
+    "authorId": "https://openalex.org/A5045342512",
+    "papers": [
+      {
+        "id": "https://openalex.org/W7203552616",
+        "title": "Gauge Equivariant Capsule Networks",
+        "date": "2026-08-15",
+        "doi": "https://doi.org/10.1145/3840283",
+        "type": "article",
+        "venue": "ACM Transactions on Graphics",
+        "url": "https://doi.org/10.1145/3840283",
+        "abstract": "Gauge equivariant networks are emerging for equivariant representation learning on manifolds. However, existing gauge equivariant networks suffer from the dilemma between restricted SO(2) irreducible representations with equivariance guarantee to arbitrary continuous gauge transformations and enhanced C N regular representations with limited equivariance to finite discretized gauge transformations. In this paper, we propose a gauge equivariant capsule network (GECN) for manifolds that guarantees mathematically provable gauge equivariance in SO(2) without sacrificing the expressive capability. We develop a novel gauge equivariant capsule (GEC) that leverages the spatio-capsule dynamic routing algorithm to jointly exploit the capsule-wise and spatial dependencies in a local region of manifolds and achieve gauge equivariant representation based on real irreducible representations of SO(2). Furthermore, we propose a gauge equivariant capsule network (GECN) for manifolds by designing initial pose extractor, GEC-based residual block, and gauge equivariant pooling and unpooling based on GECs. We show that GECN is general to unify existing gauge equivariant networks and demonstrate in theory that it is equivariant to continuous gauge transformations in SO(2). Experimental results demonstrate that GECN achieves state-of-the-art performance in the tasks of deformable shape classification and segmentation and classification of spherical image and 3-D objects without principal curvature direction.",
+        "authors": [
+          [
+            "Lisha Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wenrui Dai",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Junni Zou",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Ziyang Zheng",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Shaohui Li",
+            [
+              "Zhejiang University"
+            ]
+          ],
+          [
+            "Chenglin Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Hongkai Xiong",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "3D Shape Modeling and Analysis",
+          "Topological and Geometric Data Analysis",
+          "Advanced Neural Network Applications"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1145/3840283",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://openalex.org/W7203552616",
+        "metadataNote": "Crossref补充暂不可用，日期来自OpenAlex，首次在线日期待复核"
+      },
+      {
+        "id": "https://openalex.org/W7204157663",
+        "title": "Resilient Distributed Joint Source-Channel Coding with Non-Stationary Side Information",
+        "date": "2026-06-01",
+        "doi": "https://doi.org/10.1109/isit62367.2026.11653986",
+        "type": "conference-paper",
+        "venue": "IEEE International Symposium on Information Theory (ISIT)",
+        "url": "https://doi.org/10.1109/isit62367.2026.11653986",
+        "abstract": "",
+        "authors": [
+          [
+            "Kangning Ma",
+            [
+              "Purple Mountain Laboratories"
+            ]
+          ],
+          [
+            "Shuo Shao",
+            [
+              "University of Shanghai for Science and Technology"
+            ]
+          ],
+          [
+            "Jincheng Dai",
+            [
+              "Beijing University of Posts and Telecommunications"
+            ]
+          ],
+          [
+            "Zhou Zhong",
+            []
+          ],
+          [
+            "Wenrui Dai",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Hongkai Xiong",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Error Correcting Code Techniques",
+          "Advanced Data Compression Techniques",
+          "Cooperative Communication and Network Coding"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/isit62367.2026.11653986",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/isit62367.2026.11653986",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7155864685",
+        "title": "Bridging the Gap Between Implicit and Explicit Representation for Efficient Image Compression",
+        "date": "2026-04-27",
+        "doi": "https://doi.org/10.1109/tcsvt.2026.3687408",
+        "type": "article",
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+        "url": "https://doi.org/10.1109/tcsvt.2026.3687408",
+        "abstract": "Neural Image Compression (NIC) has achieved superior compression performance by modeling images as implicit feature representations, yet its practical deployment is severely hindered by computational overhead. Recently, GaussianImage was proposed as a computationally efficient explicit image representation paradigm, which renders images from 2D Gaussians. However, it suffers from inferior compression performance relative to mainstream NIC frameworks, mainly due to low compressibility and representation capability of explicit Gaussian parameters. To this end, we propose Pixel-Aligned Generalized 2D Splatting (PA-G2DS) as a computation-efficient and compression-friendly image representation format. Specifically, we deploy a learnable rendering function with implicit coefficients to enhance the reconstructed image quality and improve the compression ratio over explicit Gaussian coefficients. Incorporating the proposed PA-G2DS as a computationally efficient decoder, we further develop a suite of image codecs optimized for either compression ratios or flexible deployment scenarios. Experiments prove that the proposed codecs could achieve 30ms compression latency and millisecond-level decompression latency, reducing the performance and efficiency gap between implicit and explicit image representation. Furthermore, the proposed codec opens potential applications for NIC such as JPEG-like sequential decompression and random-access during decompression.",
+        "authors": [
+          [
+            "Yufeng Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yuxuan Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wenrui Dai",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Chern Hong Lim",
+            [
+              "Monash University Malaysia"
+            ]
+          ],
+          [
+            "Carl James Debono",
+            [
+              "University of Malta"
+            ]
+          ],
+          [
+            "Thittaporn Ganokratanaa",
+            [
+              "King Mongkut's University of Technology Thonburi"
+            ]
+          ],
+          [
+            "Junhui Hou",
+            [
+              "City University of Hong Kong"
+            ]
+          ],
+          [
+            "Weiyao Lin",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Data Compression Techniques",
+          "Video Coding and Compression Technologies",
+          "Advanced Neural Network Applications"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/tcsvt.2026.3687408",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/tcsvt.2026.3687408",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7154094636",
+        "title": "Information-Theoretic Optimization for Task-Adapted Compressed Sensing Magnetic Resonance Imaging",
+        "date": "2026-04-13",
+        "doi": "https://doi.org/10.1109/tpami.2026.3683201",
+        "type": "article",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "url": "https://doi.org/10.1109/tpami.2026.3683201",
+        "abstract": "Task-adapted compressed sensing magnetic resonance imaging (CS-MRI) is emerging to address the specific demands of downstream clinical tasks with significantly fewer k-space measurements than required by Nyquist sampling. However, existing task-adapted CS-MRI methods suffer from the uncertainty problem for medical diagnosis and cannot achieve adaptive sampling in end-to-end optimization with reconstruction or clinical tasks. To address these limitations, we propose the first task-adapted CS-MRI from the information-theoretic perspective to simultaneously achieve probabilistic inference for uncertainty prediction and adapt to arbitrary sampling ratios and versatile clinical applications. Specifically, we formalize the task-adapted CS-MRI optimization problem by maximizing the mutual information between undersampled k-space measurements and clinical tasks to enable probabilistic inference for addressing the uncertainty problem. We leverage amortized optimization and construct tractable variational bounds for mutual information to jointly optimize sampling, reconstruction, and task-inference models, which enables flexible sampling ratio control using a single end-to-end trained model. Furthermore, the proposed framework addresses two kinds of distinct clinical scenarios within a unified approach, i.e., i) joint task and reconstruction, where reconstruction serves as an auxiliary process to enhance task performance; and ii) task implementation with suppressed reconstruction, applicable for privacy protection. Extensive experiments on large-scale MRI datasets demonstrate that the proposed framework achieves highly competitive performance on standard metrics like Dice compared to deterministic counterpart but provides better distribution matching to the ground-truth posterior distribution as measured by the generalized energy distance (GED).",
+        "authors": [
+          [
+            "Xinyu Peng",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Ziyang Zheng",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wenrui Dai",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Duoduo Xue",
+            [
+              "City University of Hong Kong"
+            ]
+          ],
+          [
+            "Shaohui Li",
+            [
+              "Zhejiang University"
+            ]
+          ],
+          [
+            "Chenglin Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Junni Zou",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Hongkai Xiong",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced MRI Techniques and Applications",
+          "Sparse and Compressive Sensing Techniques",
+          "Medical Imaging Techniques and Applications"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/tpami.2026.3683201",
+            "pdf": null
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41973592",
+            "pdf": null
+          },
+          {
+            "url": "https://arxiv.org/abs/2604.12709",
+            "pdf": "https://arxiv.org/pdf/2604.12709"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2604.12709",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/tpami.2026.3683201",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7147562096",
+        "title": "Sparse Representation via Unfolding ℓ 0 -Regularized Dictionary Learning for Image Restoration",
+        "date": "2026-03-31",
+        "doi": "https://doi.org/10.1109/tcsvt.2026.3679293",
+        "type": "article",
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+        "url": "https://doi.org/10.1109/tcsvt.2026.3679293",
+        "abstract": "Sparse representation via dedicated dictionary learning facilitates image restoration by simultaneously preserving significant representation and removing trivial perturbations. However, existing dictionary learning under strict ℓ0-norm based sparsity constraint lacks of convergence guarantees and suffers from the dilemma between block artifacts and degraded quality in restoring fine details, and could hamper the consequent deep unfolded networks (DUNs). To address these problems, in this paper, we propose the first ℓ0-regularized dictionary learning with a theoretical guarantee of global convergence that achieves globally consistent sparse approximation for image restoration. Specifically, we first formulate an ℓ0-norm based optimization for dictionary learning that simultaneously achieves sparse approximation of local patches and ensures global consistency between the recovered and observed images. Consequently, we develop ℓ0-regularized global-local dictionary learning (ℓ0-GLDL) that alternately achieves sparse code pursuit, local dictionary update, and global image reconstruction based on alternating proximal linearized method. We demonstrate in theory that ℓ0-GLDL converges globally to a critical point. Furthermore, we design a deep unfolded network by unrolling ℓ0 -GLDL into diverse subblocks to strictly realize alternating optimization for stable image restoration. Experimental results demonstrate that the proposed methods achieve state-of-the-art performance and outperform existing deep learning based methods in image restoration tasks such as image denoising, image deblurring, and image inpainting.",
+        "authors": [
+          [
+            "Yifan Zhao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Ziyang Zheng",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wenrui Dai",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yong Li",
+            []
+          ],
+          [
+            "Duoduo Xue",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Chenglin Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Junni Zou",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Hongkai Xiong",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Image and Signal Denoising Methods",
+          "Sparse and Compressive Sensing Techniques",
+          "Advanced Image Processing Techniques"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/tcsvt.2026.3679293",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/tcsvt.2026.3679293",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      }
+    ]
+  },
+  "min-xiongkuo": {
+    "authorId": "https://openalex.org/A5043405654",
+    "papers": [
+      {
+        "id": "https://openalex.org/W7221775995",
+        "title": "EmoGenie: Benchmarking and Evaluating Expressed and Evoked Emotion in T2I Generation with MLLMs",
+        "date": "2026-10-13",
+        "doi": "https://doi.org/10.48550/arxiv.2610.18455",
+        "type": "preprint",
+        "venue": "arXiv (Cornell University)",
+        "url": "https://doi.org/10.48550/arxiv.2610.18455",
+        "abstract": "Rapid advances in artificial intelligence-generated content (AIGC) have significantly promoted using text-to-image (T2I) models to generate images with specific affective intentions. However, the emotional effects conveyed by generated images frequently deviate from target expectations, and it remains unclear whether multimodal large language models (MLLMs) can reliably interpret the emotion of AI-generated visual content. Existing affective benchmarks are predominantly built on natural images, while affective studies of generated images have largely focused on emotions expressed in portraits, lacking a unified benchmark for studying the emotions expressed and evoked by generated images. We therefore introduce EmoGenie, a benchmark of emotion for AI-generated images that evaluates capabilities in T2I generation and MLLM understanding across expressed and evoked emotions. It comprises 6,400 images generated by eight T2I models using 800 emotion-targeted prompts, annotated with question-answer (QA) pairs, termed EmoGenie-QA, and continuous human ratings, termed EmoGenie-Assess. EmoGenie-QA contains 90,000 closed-set questions in single-image and image-pair settings, as well as 1,057 open-ended questions for emotion description. EmoGenie-Assess benchmarks continuous affective and aesthetic prediction using 13,175 mean opinion scores (MOSs) aggregated from human ratings in terms of valence, arousal, dominance, and aesthetic quality. We further develop EmoProbe, which combines emotion question answering with response-aligned, dimension-specific regression heads for continuous score prediction. Experimental results show that EmoProbe achieves superior results on emotion-related QA tasks, while its affective and aesthetic predictions correlate better with human ratings, demonstrating its state-of-the-art capabilities of unified coarse-to-fine affective understanding for AI-generated images.",
+        "authors": [
+          [
+            "Zixuan Xing",
+            []
+          ],
+          [
+            "Lancheng Gao",
+            []
+          ],
+          [
+            "Shengyan Li",
+            []
+          ],
+          [
+            "Huiyu Duan",
+            []
+          ],
+          [
+            "Zhaolin Cai",
+            []
+          ],
+          [
+            "Guangtao Zhai",
+            []
+          ],
+          [
+            "Xiongkuo Min",
+            []
+          ]
+        ],
+        "topics": [
+          "Emotion and Mood Recognition",
+          "Multimodal Machine Learning Applications",
+          "Generative Adversarial Networks and Image Synthesis"
+        ],
+        "locations": [
+          {
+            "url": "https://arxiv.org/abs/2610.18455",
+            "pdf": "https://arxiv.org/pdf/2610.18455"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2610.18455",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://openalex.org/W7221775995"
+      },
+      {
+        "id": "https://openalex.org/W7201973190",
+        "title": "DHQA-4D: A large-scale dataset and LMM-based metric for dynamic 4D digital human quality assessment",
+        "date": "2026-08-08",
+        "doi": "https://doi.org/10.1016/j.patcog.2026.114567",
+        "type": "article",
+        "venue": "Pattern Recognition",
+        "url": "https://doi.org/10.1016/j.patcog.2026.114567",
+        "abstract": "",
+        "authors": [
+          [
+            "Yunhao Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Sijing Wu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yucheng Zhu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Huiyu Duan",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zicheng Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wei Sun",
+            [
+              "East China Normal University"
+            ]
+          ],
+          [
+            "Xiongkuo Min",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Guangtao Zhai",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Image and Video Quality Assessment",
+          "3D Shape Modeling and Analysis",
+          "Face recognition and analysis"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1016/j.patcog.2026.114567",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1016/j.patcog.2026.114567",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7172428692",
+        "title": "MIEScore: Human-Aligned Evaluation for Multi-Source Image Editing",
+        "date": "2026-08-03",
+        "doi": "https://doi.org/10.48550/arxiv.2608.02059",
+        "type": "preprint",
+        "venue": "arXiv (Cornell University)",
+        "url": "https://doi.org/10.48550/arxiv.2608.02059",
+        "abstract": "Recent advances in unified multimodal models have significantly improved text-guided image editing abilities. In particular, models such as Nano-Banana-Pro and GPT-Image-2 demonstrate emerging capabilities in multi-source image editing (MIE), including tasks such as object synthesis, person-background composition, and cross-image style fusion. However, existing benchmarks and image editing assessment (IEQA) methods remain primarily focused on single-image editing tasks and largely overlook the more challenging setting of MIE. This highlights the urgent need for a comprehensive and human-aligned benchmark for MIE. To this end, we introduce MIE-Bench, the first large-scale multiple image editing benchmark with fine-grained human preference annotations. Specifically, MIE-Bench includes 3,000 editing instances across 16 tasks, each involving more than two source images and an editing prompt, together with 36K edited images produced by 12 state-of-the-art editing models and over 108K mean opinion scores (MOSs) covering visual quality, instruction following, and attribute preservation. Based on MIE-Bench, we propose MIEScore, a multimodal large language model (MLLM)-based evaluation model enhanced with skill optimization and multi-dimensional supervised fine-tuning, to provide human-aligned feedback for MIE. Extensive experiments show that MIEScore achieves state-of-the-art performance in aligning with human preferences and generalizes well across other IEQA datasets. Both the dataset and the model are available at https://github.com/IntMeGroup/MIEScore.",
+        "authors": [
+          [
+            "Zitong Xu",
+            [
+              "China Mobile (China)",
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Huiyu Duan",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xinyun Zhang",
+            [
+              "University of Electronic Science and Technology of China"
+            ]
+          ],
+          [
+            "Weifei Xiong",
+            [
+              "University of Electronic Science and Technology of China"
+            ]
+          ],
+          [
+            "Tianyi Zheng",
+            [
+              "China Mobile (China)"
+            ]
+          ],
+          [
+            "Xiongkuo Min",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Qiang Hu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zhengxue Cheng",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Bo Li",
+            [
+              "China Mobile (China)"
+            ]
+          ],
+          [
+            "Guangtao Zhai",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Generative Adversarial Networks and Image Synthesis",
+          "Digital Media Forensic Detection",
+          "Multimodal Machine Learning Applications"
+        ],
+        "locations": [
+          {
+            "url": "https://arxiv.org/abs/2608.02059",
+            "pdf": "https://arxiv.org/pdf/2608.02059"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2608.02059",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://openalex.org/W7172428692"
+      },
+      {
+        "id": "https://openalex.org/W7169830951",
+        "title": "Multi-Dimensional Quality Assessment for AI-Generated Human-Centric Videos: Dataset and Model",
+        "date": "2026-07-18",
+        "doi": "https://doi.org/10.48550/arxiv.2607.16742",
+        "type": "preprint",
+        "venue": "arXiv (Cornell University)",
+        "url": "https://doi.org/10.48550/arxiv.2607.16742",
+        "abstract": "AI-generated human-centric videos play a crucial role in a wide range of modern applications. However, they often suffer from quality issues and semantic mismatches, underscoring the importance of effective quality assessment for such videos. To this end, we extend our previous dataset HVEval with pairwise preference annotations, resulting in HVEval+, the largest holistic quality assessment dataset for AI-generated human-centric videos, which comprises 1k prompts based on a comprehensive taxonomy, 20k videos generated by 24 text-to-video (T2V) models, and extensive human annotations, including 60k mean opinion scores (MOSs) and 60k preference pairs across 3 dimensions (i.e., spatial quality, temporal quality, and text-video correspondence), as well as 20k category-specific question-answer (Q&A) pairs. Along with the HVEval+ dataset, we further propose MoE-Rater, a Mixture-of-Experts (MoE)-inspired and multimodal large language model (MLLM)-based all-in-one method that supports multi-dimensional quality rating, multi-dimensional pairwise comparison, and category-specific question answering within a single model. Specifically, we introduce Mixture of Projector Experts (MoPE) and Mixture of LoRA Experts (MoLE), together with a three-stage training strategy consisting of task-aware pre-training, task-specific adaptation, and adaptive routing optimization, to effectively unify multiple tasks, resulting in superior performance on both HVEval+ and Human-AGVQA datasets. Extensive experiments and comprehensive analysis demonstrate the significant potential of the HVEval+ dataset and the MoE-Rater method in advancing AI-generated video quality assessment and further facilitating the evaluation and optimization of T2V models.",
+        "authors": [
+          [
+            "Sijing Wu",
+            []
+          ],
+          [
+            "Yunhao Li",
+            []
+          ],
+          [
+            "Huiyu Duan",
+            []
+          ],
+          [
+            "Yucheng Zhu",
+            []
+          ],
+          [
+            "Xiongkuo Min",
+            []
+          ],
+          [
+            "Patrick Le Callet",
+            []
+          ],
+          [
+            "Guangtao Zhai",
+            []
+          ]
+        ],
+        "topics": [
+          "Image and Video Quality Assessment",
+          "Multimodal Machine Learning Applications",
+          "Generative Adversarial Networks and Image Synthesis"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.48550/arxiv.2607.16742",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://openalex.org/W7169830951"
+      },
+      {
+        "id": "https://openalex.org/W7163573008",
+        "title": "Subjective and Objective QoE Assessment for Real-Time Streaming Interactive Digital Human",
+        "date": "2026-06-04",
+        "doi": "https://doi.org/10.1145/3820052",
+        "type": "article",
+        "venue": "ACM Transactions on Multimedia Computing Communications and Applications",
+        "url": "https://doi.org/10.1145/3820052",
+        "abstract": "Web3 technologies enable novel forms of real-time digital human streaming media by supporting both high-fidelity transmission and interactive user engagement. However, Real-Time Streaming Interactive Digital Humans (RTSIDHs) remain vulnerable to network instability, resulting in buffering, latency, visual degradation, and audio–video desynchronization that substantially impair user Quality of Experience (QoE). To effectively perceive these distortions, we present RDHQA, the first large-scale RTSIDH Quality Assessment dataset. RDHQA comprises 134 representative interaction scenarios with eight digital human avatars as high-quality references, along with 1,340 distorted samples generated by simulating five common streaming degradations. Based on extensive subjective evaluations, we further propose SAV-PF, an audio–visual quality assessment method built on the human foundation model Sapiens and informed by cognitive principles such as the primacy effect and forgetting curve. Experimental results demonstrate that SAV-PF achieves superior performance over existing objective QoE assessment approaches, providing a more accurate prediction of user experience. This work is open-sourced at https://github.com/zyj-2000/RDHQA under the CC BY-NC 4.0 licence.",
+        "authors": [
+          [
+            "Y Zhou",
+            [
+              "Shanghai Jiao Tong University",
+              "China University of Mining and Technology"
+            ]
+          ],
+          [
+            "Jing Wan",
+            [
+              "China University of Mining and Technology"
+            ]
+          ],
+          [
+            "Farong Wen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zicheng Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xiaohong Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Y Zhou",
+            [
+              "Shanghai Jiao Tong University",
+              "China University of Mining and Technology"
+            ]
+          ],
+          [
+            "Jiezhang Cao",
+            [
+              "Harvard University"
+            ]
+          ],
+          [
+            "Yue Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xiongkuo Min",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Guangtao Zhai",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Image and Video Quality Assessment",
+          "Speech and Audio Processing",
+          "Multimedia Communication and Technology"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1145/3820052",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1145/3820052"
+      }
+    ]
+  },
+  "tao-meixia": {
+    "authorId": "https://openalex.org/A5016127527",
+    "papers": [
+      {
+        "id": "https://openalex.org/W7140827468",
+        "title": "Towards semantic-based agent communication networks: vision, technologies, and challenges",
+        "date": "2026-09-24",
+        "doi": "https://doi.org/10.1007/s11432-026-5054-3",
+        "type": "article",
+        "venue": "Science China Information Sciences",
+        "url": "https://doi.org/10.1007/s11432-026-5054-3",
+        "abstract": "Abstract The International Telecommunication Union (ITU) identifies “artificial intelligence (AI) and communication” as one of six key usage scenarios for 6G. Agentic AI, characterized by its capabilities in multi-modal environmental sensing, complex task coordination, and continuous self-optimization, is anticipated to drive the evolution toward agent-based communication networks. Semantic communication (SemCom), in turn, has emerged as a transformative paradigm that offers task-oriented efficiency, enhanced reliability in complex environments, and dynamic adaptation in resource allocation. However, comprehensive reviews that trace their technological evolution in the contexts of agent communications remain scarce. Addressing this gap, this paper systematically explores the role of semantics in agent communication networks. We first propose a novel architecture for semantic-based agent communication networks, structured into three layers, four entities, and four stages. Three wireless agent network layers define the logical structure and organization of entity interactions: the intention extraction and understanding layer, the semantic encoding and processing layer, and the distributed autonomy and collaboration layer. Across these layers, four AI agent entities, namely embodied agents, communication agents, network agents, and application agents, coexist and perform distinct tasks. Furthermore, four operational stages of semantic-enhanced agentic AI systems, namely perception, memory, reasoning, and action, form a cognitive cycle guiding agent behavior. Based on the proposed architecture, we provide a comprehensive review of the state-of-the-art on how semantics enhance agent communication networks. Finally, we identify key challenges and present potential solutions to offer directional guidance for future research in this emerging field.",
+        "authors": [
+          [
+            "Ping Zhang",
+            [
+              "Beijing University of Posts and Telecommunications",
+              "State Key Laboratory of Networking and Switching Technology"
+            ]
+          ],
+          [
+            "Rui Meng",
+            [
+              "Beijing University of Posts and Telecommunications",
+              "State Key Laboratory of Networking and Switching Technology"
+            ]
+          ],
+          [
+            "Xiaodong Xu",
+            [
+              "Beijing University of Posts and Telecommunications",
+              "State Key Laboratory of Networking and Switching Technology"
+            ]
+          ],
+          [
+            "Yaheng Wang",
+            [
+              "Beijing University of Posts and Telecommunications",
+              "State Key Laboratory of Networking and Switching Technology"
+            ]
+          ],
+          [
+            "Zixuan Huang",
+            [
+              "Beijing University of Posts and Telecommunications",
+              "State Key Laboratory of Networking and Switching Technology"
+            ]
+          ],
+          [
+            "Yiming Liu",
+            [
+              "Beijing University of Posts and Telecommunications",
+              "Nanyang Technological University",
+              "State Key Laboratory of Networking and Switching Technology"
+            ]
+          ],
+          [
+            "Ruichen Zhang",
+            [
+              "Nanyang Technological University"
+            ]
+          ],
+          [
+            "Yinqiu Liu",
+            [
+              "Beijing University of Posts and Telecommunications",
+              "Nanyang Technological University",
+              "State Key Laboratory of Networking and Switching Technology"
+            ]
+          ],
+          [
+            "Haonan Tong",
+            [
+              "Chinese Academy of Sciences",
+              "Aerospace Information Research Institute"
+            ]
+          ],
+          [
+            "Huishi Song",
+            [
+              "Ubiquitous Energy (United States)"
+            ]
+          ],
+          [
+            "Gang Wu",
+            [
+              "University of Electronic Science and Technology of China"
+            ]
+          ],
+          [
+            "Zhaoming Lu",
+            [
+              "Beijing University of Posts and Telecommunications"
+            ]
+          ],
+          [
+            "Jiawen Kang",
+            [
+              "Guangdong University of Technology"
+            ]
+          ],
+          [
+            "Geng Sun",
+            [
+              "Jilin University"
+            ]
+          ],
+          [
+            "Qinghe Du",
+            [
+              "Xi'an Jiaotong University"
+            ]
+          ],
+          [
+            "Zhaohui Yang",
+            [
+              "Zhejiang University"
+            ]
+          ],
+          [
+            "Jingxuan Zhang",
+            []
+          ],
+          [
+            "Han Meng",
+            [
+              "China Mobile (China)"
+            ]
+          ],
+          [
+            "Lexi Xu",
+            [
+              "China United Network Communications Group (China)"
+            ]
+          ],
+          [
+            "Haitao Zhao",
+            [
+              "National University of Defense Technology"
+            ]
+          ],
+          [
+            "Zesong Fei",
+            [
+              "Beijing Institute of Technology"
+            ]
+          ],
+          [
+            "Yiqing Zhou",
+            [
+              "Chinese Academy of Sciences",
+              "Institute of Computing Technology",
+              "University of Chinese Academy of Sciences"
+            ]
+          ],
+          [
+            "Pei Xiao",
+            [
+              "University of Surrey"
+            ]
+          ],
+          [
+            "Meixia Tao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Qinyu Zhang",
+            [
+              "Harbin Institute of Technology"
+            ]
+          ],
+          [
+            "Shuguang Robert Cui",
+            [
+              "Chinese University of Hong Kong, Shenzhen"
+            ]
+          ],
+          [
+            "Rahim Tafazolli",
+            [
+              "University of Surrey"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Wireless Communication Technologies",
+          "Multi-Agent Systems and Negotiation",
+          "IoT and Edge/Fog Computing"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1007/s11432-026-5054-3",
+            "pdf": "https://link.springer.com/content/pdf/10.1007/s11432-026-5054-3.pdf"
+          },
+          {
+            "url": "http://arxiv.org/abs/2603.24328",
+            "pdf": "https://arxiv.org/pdf/2603.24328"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2603.24328",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1007/s11432-026-5054-3"
+      },
+      {
+        "id": "https://openalex.org/W7162668204",
+        "title": "E3-Agent: an executable and evolving agent for resource management of edge generative inference",
+        "date": "2026-09-08",
+        "doi": "https://doi.org/10.1007/s11432-026-5035-1",
+        "type": "article",
+        "venue": "Science China Information Sciences",
+        "url": "https://doi.org/10.1007/s11432-026-5035-1",
+        "abstract": "",
+        "authors": [
+          [
+            "Rui Bao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yaping Sun",
+            [
+              "Chinese University of Hong Kong, Shenzhen",
+              "Peng Cheng Laboratory"
+            ]
+          ],
+          [
+            "Zhiyong Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Feng Yang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Meixia Tao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Nan Li",
+            [
+              "China Mobile Research Institute"
+            ]
+          ],
+          [
+            "Wenjun Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "IoT and Edge/Fog Computing",
+          "Energy Efficiency in Computing",
+          "Cloud Computing and Resource Management"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1007/s11432-026-5035-1",
+            "pdf": null
+          },
+          {
+            "url": "https://arxiv.org/abs/2605.27428",
+            "pdf": "https://arxiv.org/pdf/2605.27428"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2605.27428",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1007/s11432-026-5035-1"
+      },
+      {
+        "id": "https://openalex.org/W7211991240",
+        "title": "Lightweight Generative Image Semantic Communication over Packet Erasure Channels",
+        "date": "2026-09-07",
+        "doi": "https://doi.org/10.48550/arxiv.2609.06989",
+        "type": "preprint",
+        "venue": "arXiv (Cornell University)",
+        "url": "https://doi.org/10.48550/arxiv.2609.06989",
+        "abstract": "This paper addresses packet loss in semantic communication caused by network congestion or channel fluctuations. We propose LGSemCom, a lightweight generative packet-level joint source-channel coding (JSCC) framework for efficient and robust image transmission over packet erasure channels. Unlike conventional distortion-oriented recovery methods that yield blurry averages over erased regions, LGSemCom reformulates image recovery under packet erasures as a conditional generative task. By leveraging adversarial learning, the proposed decoder synthesizes plausible details without increasing complexity during inference. A key innovation of our framework is an erasure-aware weighting (EAW) strategy, which prioritizes generation in erased regions while preserving pixel fidelity in correctly received areas. To ensure computational efficiency, LGSemCom employs a fully convolutional codec based on efficient long-range attention blocks (ELABs) that capture global semantic dependencies with low complexity. Extensive experiments show that LGSemCom achieves superior perceptual reconstruction quality compared with existing benchmarks under severe packet loss, while achieving an order of magnitude faster inference. These attributes make LGSemCom highly suitable for latency-sensitive applications on resource-constrained edge devices.",
+        "authors": [
+          [
+            "Yufei Bo",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Haoshuo Zhang",
+            [
+              "National University of Defense Technology",
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Meixia Tao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jing He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xinming Huang",
+            []
+          ]
+        ],
+        "topics": [
+          "Advanced Data Compression Techniques",
+          "Generative Adversarial Networks and Image Synthesis",
+          "Image and Video Quality Assessment"
+        ],
+        "locations": [
+          {
+            "url": "https://arxiv.org/abs/2609.06989",
+            "pdf": "https://arxiv.org/pdf/2609.06989"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2609.06989",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://openalex.org/W7211991240"
+      },
+      {
+        "id": "https://openalex.org/W7213400083",
+        "title": "Joint Coding-Shaping-Modulation for Digital Semantic Communications",
+        "date": "2026-08-01",
+        "doi": "https://doi.org/10.1109/iccc70295.2026.11680354",
+        "type": "conference-paper",
+        "venue": "IEEE/CIC International Conference on Communications in China (ICCC)",
+        "url": "https://doi.org/10.1109/iccc70295.2026.11680354",
+        "abstract": "",
+        "authors": [
+          [
+            "Leyan Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yufei Bo",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Meixia Tao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Wireless Communication Technologies",
+          "Molecular Communication and Nanonetworks",
+          "Advanced Data Compression Techniques"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/iccc70295.2026.11680354",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/iccc70295.2026.11680354",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7171557934",
+        "title": "Restoration Flow Matching-Based Channel Refinement and Equalization Correction for MIMO Semantic Communications",
+        "date": "2026-07-26",
+        "doi": "https://doi.org/10.48550/arxiv.2607.23615",
+        "type": "preprint",
+        "venue": "arXiv (Cornell University)",
+        "url": "https://doi.org/10.48550/arxiv.2607.23615",
+        "abstract": "In multiple-input multiple-output (MIMO) semantic communication, imperfect channel state information (CSI) and equalization mismatch can seriously degrade semantic reconstruction quality. To address this issue, we propose a unified restoration flow matching (RFM)-based framework for channel refinement and equalization correction. Specifically, the channel RFM (CRFM) module is developed to refine the coarse channel, thereby improving channel estimation accuracy. Based on the refined channel, the developed semantic RFM (SRFM) module is employed to correct the residual distortions in the post-equalization latent space. The key idea is to formulate the two cascaded inverse problems of channel estimation and equalization as the unified conditional restoration task, in which the learned conditional velocity field guides the perturbed distribution towards the target distribution. To enhance the robustness of these two modules under various distortion conditions, we develop a dual-anchor perturbation training strategy that jointly learns near-manifold refinement and large-error correction, and implement inference through a few-step deterministic ordinary differential equation (ODE) solver. Extensive experiments on MIMO channels and visual semantic transmission tasks demonstrate that the proposed scheme improves key metrics for channel estimation and semantic reconstruction quality. Moreover, compared with representative diffusion-based generative baselines, the proposed method requires fewer sampling steps.",
+        "authors": [
+          [
+            "Wenkai Liu",
+            []
+          ],
+          [
+            "Nan Ma",
+            []
+          ],
+          [
+            "Jianqiao Chen",
+            []
+          ],
+          [
+            "Xiaodong Xu",
+            []
+          ],
+          [
+            "Meixia Tao",
+            []
+          ],
+          [
+            "Ping Zhang",
+            []
+          ]
+        ],
+        "topics": [
+          "Advanced Wireless Communication Techniques",
+          "Advanced Wireless Communication Technologies",
+          "Wireless Signal Modulation Classification"
+        ],
+        "locations": [
+          {
+            "url": "https://arxiv.org/abs/2607.23615",
+            "pdf": "https://arxiv.org/pdf/2607.23615"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2607.23615",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://openalex.org/W7171557934"
+      }
+    ]
+  },
+  "zhang-wenjia": {
+    "authorId": "https://openalex.org/A5100719744",
+    "papers": [
+      {
+        "id": "https://openalex.org/W7204905751",
+        "title": "Programmable optical differential Ising machines",
+        "date": "2026-09-01",
+        "doi": "https://doi.org/10.1038/s42005-026-02838-7",
+        "type": "article",
+        "venue": "Communications Physics",
+        "url": "https://doi.org/10.1038/s42005-026-02838-7",
+        "abstract": "Optical Ising machines provide a hardware approach for combinatorial optimization and physical-system emulation, but their scalability is limited by redundant matrix operations and analog modulation precision. Here we show a programmable optical differential Ising machine that directly evaluates Hamiltonian changes rather than the full Hamiltonian. Numerical simulations from 60 to 2000 spins show that 6-bit analog–digital conversion and 5-bit digital–analog conversion are sufficient to obtain solution quality close to high-precision digital references, with a phase-error tolerance of about 0.3–0.4 rad. Experiments on a dual-channel fiber-optic prototype reproduce phase-transition behavior in representative Ising models and solve MaxCut benchmarks through a multi-spin parallel tempering (PT) routine. The system reaches the best-known cut for the 800-spin G1 instance and 99.66% of the best-known cut for the 2000-spin G22 instance within fewer than 500 PT iterations. These results establish differential optical feedback as a route for scalable Ising-model computation. The authors develop a programmable optical differential Ising machine that directly computes Hamiltonian variations to eliminate redundant full-matrix calculations for Ising combinatorial optimization and physical system emulation. Simulations and fiber-optic prototype experiments verify that the hardware only requires 5-bit DACs and 6-bit ADCs with a phase-error tolerance of 0.3–0.4 rad, and it yields optimal MaxCut solutions for the 800-spin benchmark and 99.66% of the known optimum for the 2000-spin instance via multi-spin parallel tempering.",
+        "authors": [
+          [
+            "Xin Ye",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wenjia Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jinmin Yang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zuyuan He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Neural Networks and Reservoir Computing",
+          "Quantum Computing Algorithms and Architecture",
+          "Metaheuristic Optimization Algorithms Research"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1038/s42005-026-02838-7",
+            "pdf": "https://www.nature.com/articles/s42005-026-02838-7_reference.pdf"
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1038/s42005-026-02838-7"
+      },
+      {
+        "id": "https://openalex.org/W7165536009",
+        "title": "Integer factorization via spatial photonic Ising machine using a lattice sieve method",
+        "date": "2026-06-29",
+        "doi": "https://doi.org/10.1364/oe.591485",
+        "type": "article",
+        "venue": "Optics Express",
+        "url": "https://doi.org/10.1364/oe.591485",
+        "abstract": "Integer factorization, a cryptographic cornerstone, remains exponentially hard for classical computers, while quantum approaches, though theoretically polynomial-time, still face hardware limitations. We propose an Ising-accelerated lattice sieve method using a photonic Ising machine to solve the NP-hard closest vector problem efficiently. Our approach requires only sub-linear growth in spin number and stable dynamic range of the interaction matrix as integer bit-length increases, minimizing hardware demands. We construct a programmable spatial photonic Ising machine based on a Dammann grating. Through multi-path simulated annealing experiments on the constructed SPIM, we experimentally achieved the complete factorization of a 32-bit integer and demonstrated the identification of multiple distinct smooth relation pairs required for factorizing a 100-bit integer. To further validate the generality and scalability of the proposed method, we performed classical computer simulations of the multi-path annealing process, achieving factorization of integers up to 120 bits and establishing a benchmark for lattice sieve-based factorization.",
+        "authors": [
+          [
+            "Jie Yang",
+            []
+          ],
+          [
+            "Wenjia Zhang",
+            []
+          ],
+          [
+            "Junjie Yu",
+            [
+              "Shanghai Institute of Optics and Fine Mechanics"
+            ]
+          ],
+          [
+            "Songsong Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zuyuan He",
+            []
+          ]
+        ],
+        "topics": [
+          "Neural Networks and Reservoir Computing",
+          "Quantum Computing Algorithms and Architecture",
+          "Cryptography and Residue Arithmetic"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1364/oe.591485",
+            "pdf": null
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42596112",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1364/oe.591485"
+      },
+      {
+        "id": "https://openalex.org/W4416840752",
+        "title": "Nanosecond-latency all-optical fiber sensing with in-sensor computing",
+        "date": "2026-05-25",
+        "doi": "https://doi.org/10.1038/s41377-026-02265-x",
+        "type": "article",
+        "venue": "Light Science & Applications",
+        "url": "https://doi.org/10.1038/s41377-026-02265-x",
+        "abstract": "Optical fiber sensing plays a crucial role in modern measurement systems and holds significant promise for a wide range of applications. This potential, though, has been fundamentally constrained by the intrinsic latency and power limitations associated with electronic signal processing. Here, we propose an all-optical fiber sensing architecture with in-sensor computing (AOFS-IC) that achieves fully optical-domain sensing signal demodulation at the speed of light. By integrating a scattering medium with an optimized diffractive optical network, AOFS-IC enables linear mapping of physical perturbations to detected intensity, and sensing results can be directly read out without electronic processing. The proposed system maintains high accuracy across various sensing tasks, providing sub-nano strain resolution and 100% torsional angle classification accuracy, as well as multiplexed sensing of multiple physical quantities, and performing multi-degree-of-freedom robot arm monitoring. AOFS-IC eliminates computing hardware requirements while providing <3 ns demodulation delay, which is more than 2 orders of magnitude faster than conventional fiber optic sensing systems. This work demonstrates the potential of next-generation optical sensing systems empowered by all-optical computing and paves the way for expanded applications of fiber sensing through the integration of fully optical components, ultrafast measurement speed, and low power consumption.",
+        "authors": [
+          [
+            "Yu Tao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yangyang Wan",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Ziwen Long",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wenjia Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jiangbing Du",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zuyuan He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Fiber Optic Sensors",
+          "Photonic Crystal and Fiber Optics",
+          "Random lasers and scattering media"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1038/s41377-026-02265-x",
+            "pdf": "https://www.nature.com/articles/s41377-026-02265-x.pdf"
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42185251",
+            "pdf": null
+          },
+          {
+            "url": "https://arxiv.org/abs/2507.15376",
+            "pdf": "https://arxiv.org/pdf/2507.15376"
+          },
+          {
+            "url": "https://doaj.org/article/4529198bf6874bc3949fb85ca0d08d27",
+            "pdf": null
+          },
+          {
+            "url": "https://figshare.com/articles/preprint/Nanosecond-latency_all-optical_fiber_sensing_with_in-sensor_computing/29888168",
+            "pdf": null
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42185251/",
+            "pdf": null
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2507.15376",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1038/s41377-026-02265-x"
+      },
+      {
+        "id": "https://openalex.org/W7154580023",
+        "title": "Dammann grating–enabled spatial-temporal photonic Ising machine for large-scale combinatorial optimization problems",
+        "date": "2026-05-12",
+        "doi": "https://doi.org/10.1103/hc5s-pwcd",
+        "type": "article",
+        "venue": "Physical Review Applied",
+        "url": "https://doi.org/10.1103/hc5s-pwcd",
+        "abstract": "",
+        "authors": [
+          [
+            "Jinmin Yang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wenjia Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xin Ye",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zuyuan He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Junze Yao",
+            [
+              "Shanghai Institute of Optics and Fine Mechanics"
+            ]
+          ],
+          [
+            "Junjie Yu",
+            [
+              "Shanghai Institute of Optics and Fine Mechanics"
+            ]
+          ]
+        ],
+        "topics": [
+          "Neural Networks and Reservoir Computing",
+          "Quantum Computing Algorithms and Architecture",
+          "Semiconductor Lasers and Optical Devices"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1103/hc5s-pwcd",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1103/hc5s-pwcd"
+      },
+      {
+        "id": "https://openalex.org/W4416891790",
+        "title": "High-spectral-uniformity micro-rings with artificial gauge fields for scalable photonic tensor computing",
+        "date": "2026-03-26",
+        "doi": "https://doi.org/10.1364/prj.579636",
+        "type": "article",
+        "venue": "Photonics Research",
+        "url": "https://doi.org/10.1364/prj.579636",
+        "abstract": "Wavelength division multiplexing is a crucial technique for scalable photonic tensor computation, imposing extremely stringent requirements on spectral uniformity. Based on the dispersionless coupling characteristics of artificial gauge fields, we theoretically derive the high spectral uniformity and weighted robustness of micro-rings based on artificial gauge fields. We present a micro-ring resonator (MRR) design utilizing the artificial-gauge-field method to achieve near-zero dispersion across the C-band and L-band, enabling full optical linewidth utilization and multi-band weighted sharing. Introducing periodic curved waveguides into the coupling architecture, coupling coefficient fluctuation is within 1 dB for the gap from 290 to 330 nm. Experimental characterization across 20 frequency bands yielded a linewidth of 36.70±2.38 GHz and an extinction ratio of 22.40±0.54 dB , significantly mitigating the frequency-dependent limitations inherent in conventional MRRs. The designed micro-ring facilitates multi-band parallel processing without incurring additional area or power overhead. Validation via simulation confirms that a photonic convolutional neural network implementing physical noise awareness and 4-bit nonlinear weighting achieves 96.8% accuracy on the MNIST recognition task.",
+        "authors": [
+          [
+            "Jiayuan Guo",
+            []
+          ],
+          [
+            "Wenjia Zhang",
+            []
+          ],
+          [
+            "Xuelin Zhang",
+            []
+          ],
+          [
+            "Jiangbing Du",
+            []
+          ],
+          [
+            "Zuyuan He",
+            []
+          ]
+        ],
+        "topics": [
+          "Photonic and Optical Devices",
+          "Neural Networks and Reservoir Computing",
+          "Metamaterials and Metasurfaces Applications"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1364/prj.579636",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1364/prj.579636"
+      }
+    ]
+  },
+  "wu-qingqing": {
+    "authorId": "https://openalex.org/A5048817096",
+    "papers": [
+      {
+        "id": "https://openalex.org/W7167213640",
+        "title": "Reconfigurable intelligent surface-enhanced satellite networks: deployment strategies, key capabilities, practical solutions, and future directions",
+        "date": "2026-07-03",
+        "doi": "https://doi.org/10.1038/s44459-026-00051-0",
+        "type": "article",
+        "venue": "npj Wireless Technology",
+        "url": "https://doi.org/10.1038/s44459-026-00051-0",
+        "abstract": "Abstract Satellite networks promise 6G coverage, but blockage and spectrum coexistence constrain performance. Reconfigurable intelligent surfaces (RISs) can redirect signals and reshape wireless environments for satellite networks. This perspective investigates RIS-enhanced satellite networks, distilling four typical RIS deployment strategies as transceivers or relays, presenting key capabilities for seamless coverage and spectrum sharing, providing practical solutions to dominant signaling and hardware challenges, and discussing promising future directions for enhanced integration.",
+        "authors": [
+          [
+            "Z H Zheng",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xiangyu Li",
+            [
+              "Shanghai Jiao Tong University",
+              "Eastern Institute of Technology, Ningbo"
+            ]
+          ],
+          [
+            "Shirui Zuo",
+            [
+              "Beijing University of Posts and Telecommunications"
+            ]
+          ],
+          [
+            "Yu Wan",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Bodong Shang",
+            [
+              "Eastern Institute of Technology, Ningbo"
+            ]
+          ],
+          [
+            "Wenpeng Jing",
+            [
+              "Beijing University of Posts and Telecommunications"
+            ]
+          ],
+          [
+            "Qingqing Wu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xin Lin",
+            []
+          ]
+        ],
+        "topics": [
+          "Advanced Wireless Communication Technologies",
+          "Satellite Communication Systems",
+          "Advanced Antenna and Metasurface Technologies"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1038/s44459-026-00051-0",
+            "pdf": "https://www.nature.com/articles/s44459-026-00051-0.pdf"
+          },
+          {
+            "url": "https://arxiv.org/abs/2512.20982",
+            "pdf": "https://arxiv.org/pdf/2512.20982"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2512.20982",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1038/s44459-026-00051-0"
+      },
+      {
+        "id": "https://openalex.org/W7168237009",
+        "title": "Near-Field IRS Deployment for Channel Decorrelation in Sparse MIMO",
+        "date": "2026-05-24",
+        "doi": "https://doi.org/10.1109/icc59461.2026.11587621",
+        "type": "conference-paper",
+        "venue": "International Conference on Communications",
+        "url": "https://doi.org/10.1109/icc59461.2026.11587621",
+        "abstract": "The rank-deficient nature of the far-field cascaded channel fundamentally constrains the performance of intelligent reflecting surface (IRS) assisted multi-user MIMO systems, precluding effective spatial multiplexing. To overcome this limitation, sparse arrays are introduced at the base station (BS) and IRS to create an expanded near-field region. A deterministic deployment criterion is then established, which strategically positions the IRS to leverage spherical wavefront propagation for channel decorrelation. This approach is shown to fundamentally resolve the rank-deficiency issue. Furthermore, a theoretical performance bound is established, proving that for a sufficiently large number of IRS elements, perfect user channel orthogonality is achievable. Numerical results validate the analytical model for channel correlation and confirm the capability of the proposed deployment to engineer nearly orthogonal user channels.",
+        "authors": [
+          [
+            "Yuxuan Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Qingqing Wu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Guangji Chen",
+            [
+              "Nanjing University of Science and Technology"
+            ]
+          ],
+          [
+            "Wen Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Wireless Communication Technologies",
+          "Millimeter-Wave Propagation and Modeling",
+          "Advanced Wireless Communication Techniques"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/icc59461.2026.11587621",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/icc59461.2026.11587621",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认",
+        "abstractSource": "https://www.semanticscholar.org/paper/225c891a7df56880cd59675975f2af60501c8a40"
+      },
+      {
+        "id": "https://openalex.org/W7168282182",
+        "title": "An Alternating Directional Dual-RBF Approach for Joint Multi-BSs and Multi-RISs Deployment",
+        "date": "2026-05-24",
+        "doi": "https://doi.org/10.1109/icc59461.2026.11587885",
+        "type": "conference-paper",
+        "venue": "International Conference on Communications",
+        "url": "https://doi.org/10.1109/icc59461.2026.11587885",
+        "abstract": "",
+        "authors": [
+          [
+            "Simin Wang",
+            [
+              "Shanghai University"
+            ]
+          ],
+          [
+            "Tao Yu",
+            [
+              "Shanghai University"
+            ]
+          ],
+          [
+            "Shunqing Zhang",
+            [
+              "Shanghai University"
+            ]
+          ],
+          [
+            "Jihong Li",
+            [
+              "Shanghai University"
+            ]
+          ],
+          [
+            "Kaixuan Huang",
+            [
+              "Shanghai University"
+            ]
+          ],
+          [
+            "Wen Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Qingqing Wu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Wireless Communication Technologies",
+          "Millimeter-Wave Propagation and Modeling",
+          "Advanced MIMO Systems Optimization"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/icc59461.2026.11587885",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/icc59461.2026.11587885",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7168289003",
+        "title": "Beamforming Design for Beyond Diagonal RIS Assisted Integrated Sensing and Communication",
+        "date": "2026-05-24",
+        "doi": "https://doi.org/10.1109/icc59461.2026.11587248",
+        "type": "conference-paper",
+        "venue": "International Conference on Communications",
+        "url": "https://doi.org/10.1109/icc59461.2026.11587248",
+        "abstract": "",
+        "authors": [
+          [
+            "Jiang Guo",
+            [
+              "Southwest Jiaotong University"
+            ]
+          ],
+          [
+            "Gang Liu",
+            [
+              "Southwest Jiaotong University"
+            ]
+          ],
+          [
+            "Qingqing Wu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zheng Ma",
+            [
+              "Southwest Jiaotong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Wireless Communication Technologies",
+          "Radar Systems and Signal Processing",
+          "Millimeter-Wave Propagation and Modeling"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/icc59461.2026.11587248",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/icc59461.2026.11587248",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7168304189",
+        "title": "Estimating Channels for Reconfigurable Intelligent Surface in Near-Field High Frequency Systems",
+        "date": "2026-05-24",
+        "doi": "https://doi.org/10.1109/icc59461.2026.11586768",
+        "type": "conference-paper",
+        "venue": "International Conference on Communications",
+        "url": "https://doi.org/10.1109/icc59461.2026.11586768",
+        "abstract": "",
+        "authors": [
+          [
+            "Yanze Zhu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yang Liu",
+            [
+              "Dalian University of Technology"
+            ]
+          ],
+          [
+            "Qingqing Wu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Tsung-Hui Chang",
+            [
+              "Chinese University of Hong Kong",
+              "Chinese University of Hong Kong, Shenzhen"
+            ]
+          ],
+          [
+            "Qingjiang Shi",
+            [
+              "Shenzhen Research Institute of Big Data"
+            ]
+          ],
+          [
+            "Wen Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Wireless Communication Technologies",
+          "Millimeter-Wave Propagation and Modeling",
+          "Advanced Antenna and Metasurface Technologies"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/icc59461.2026.11586768",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/icc59461.2026.11586768",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      }
+    ]
+  },
+  "sun-yanan": {
+    "authorId": "https://openalex.org/A5102022581",
+    "papers": [
+      {
+        "id": "https://openalex.org/W7162538217",
+        "title": "A Full-Digital Heterogeneous Computing-in-Memory With Dual-Bit Serialized Weight Stream and Ping-Pong Computing for Efficient Transformer Acceleration",
+        "date": "2026-05-27",
+        "doi": "https://doi.org/10.1109/tcsi.2026.3695668",
+        "type": "article",
+        "venue": "IEEE Transactions on Circuits and Systems I Regular Papers",
+        "url": "https://doi.org/10.1109/tcsi.2026.3695668",
+        "abstract": "Vision Transformers (ViTs) have demonstrated remarkable performance across various computer vision tasks. However, the self-attention mechanism in transformers incurs high processing loads and costly off-chip data movement in conventional von Neumann architectures. This paper proposes a full-digital heterogeneous Computing-in-Memory (CIM)in-situhybridizing differential RRAM and SRAM to enable efficient on-chip weight storage and flexible row-column dual-directional access for efficient transformer acceleration. A Ping-Pong computing dataflow is introduced to maximize the throughput density by allocating static and dynamic computations across CIM macros. A low-toggle weight tuning algorithm is proposed to minimize the dynamic power under the dual-bit-serial CIM scheme by introducing only small weight rounding distance. Besides, a patch-channel skip mechanism is used to reduce the redundant computing for dynamic matrix with high sparsity. Experimental results on different transformer models show that the proposed DBS-CIM architecture reduces layer-wise computing energy by up to 59.9% compared to conventional digital CIM. Compared to prior homogeneous CIM designs, it achieves$2.0\\times $to$3.3\\times $higher end-to-end energy efficiency, and outperforms existing heterogeneous CIM designs by$2.13\\times $in computational density.",
+        "authors": [
+          [
+            "Dengfeng Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Liukai Xu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Shuai Yuan",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Weifeng He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Guanghui He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Fengbin Tu",
+            [
+              "Hong Kong University of Science and Technology"
+            ]
+          ],
+          [
+            "Xueqing Li",
+            [
+              "Tsinghua University"
+            ]
+          ],
+          [
+            "Yanan Sun",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Memory and Neural Computing",
+          "Advanced Neural Network Applications",
+          "Parallel Computing and Optimization Techniques"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/tcsi.2026.3695668",
+            "pdf": null
+          },
+          {
+            "url": "https://repository.hkust.edu.hk/ir/usage-metrics/download/1783.1-172398",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/tcsi.2026.3695668",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7161108681",
+        "title": "A 51.19 mm 2 , 4 TB/s bandwidth 3D Logic-on-SRAM Stacking CGRA Chip",
+        "date": "2026-04-19",
+        "doi": "https://doi.org/10.1109/cicc65509.2026.11509617",
+        "type": "conference-paper",
+        "venue": "IEEE Custom Integrated Circuits Conference (CICC)",
+        "url": "https://doi.org/10.1109/cicc65509.2026.11509617",
+        "abstract": "CGRA delivers near-ASIC efficiency while retaining software-like programmability by leveraging spatially parallel PEs and distributed SRAM. However, in 2D realizations, bank-nonuniform, long compute–memory paths elevate wire delay and latency variance, tightening timing closure, and the SRAM capacity needed for throughput drives up silicon area and design cost. To address these limitations, we present a 28nm Logic-on-SRAM 3D-stacked CGRA chip that shortens memory access links and provides high-density vertical bandwidth via fine-pitch face-to-face hybrid bonding. The top logic die integrates 16 tile-aligned PE-array slices, each vertically paired with a 192-KB SRAM slice on the bottom die to realize near-memory access. We co-design the architecture and implementation using a holistic 3D flow that integrates multi-HB/V-HB co-P&R and ILM-based two-stage partitioning, with a unified cross-die signoff method encompassing timing, thermal, and SI. This enables robust 1 GHz/0.9 V operation. Post-silicon measurements demonstrate 4 TB/s die-to-die bandwidth (80.02 GB/s/mm2) and peak efficiency of 0.12 TFLOPS/W per slice. These results validate tile-aligned logic-on-SRAM stacking as an efficient and scalable path to higher compute density and local bandwidth in future CGRA design.",
+        "authors": [
+          [
+            "Zizheng Dong",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Chen Yin",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Pi Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Shuaipeng Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Ang Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Weijia Zhu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Weifeng He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Guanghui He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Qin Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yanan Sun",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zhigang Mao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Naifeng Jing",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jianfei Jiang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "3D IC and TSV technologies",
+          "Embedded Systems Design Techniques",
+          "Interconnection Networks and Systems"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/cicc65509.2026.11509617",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/cicc65509.2026.11509617",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7140201311",
+        "title": "DS2SC-Agent: A Multi-Agent Automated Pipeline for Rapid Chiplet Model Generation",
+        "date": "2026-03-22",
+        "doi": "https://doi.org/10.48550/arxiv.2603.21190",
+        "type": "preprint",
+        "venue": "arXiv (Cornell University)",
+        "url": "https://doi.org/10.48550/arxiv.2603.21190",
+        "abstract": "Constructing behavioral-level chiplet models (e.g., SystemC) is crucial for early-stage heterogeneous architecture exploration. Traditional manual modeling is notoriously time-consuming and error-prone. Recently, Large Language Models (LLMs) have demonstrated immense potential in automating hardware code generation. However, existing LLM-assisted design frameworks predominantly target highly structured or well-defined design specifications. In practical engineering scenarios, raw datasheets typically encompass lengthy, complex, and highly unstructured information. Consequently, reliable code generation directly from these raw datasheets suffers from severe challenges, including context vanishing and logical hallucinations.To overcome this critical bottleneck, this paper proposes DS2SC-Agent(Datasheet-to-SystemC-Agent): the first end-to-end, fully automated generation pipeline that translates raw datasheets directly into SystemC chiplet models. This system establishes a highly efficient multi-agent collaborative framework. By decoupling the intricate modeling tasks, the proposed pipeline orchestrates a fully automated workflow encompassing unstructured long-document parsing, SystemC core code construction, testbench stimulus generation, and adaptive closed-loop debugging. We comprehensively evaluate the proposed framework on representative single-function chiplets across the analog, digital, and radio frequency (RF) domains--specifically, a Limiting Amplifier (LA), a Fast Fourier Transform (FFT) module, and a Power Amplifier (PA). The evaluation demonstrates that our pipeline seamlessly processes complex real-world datasheets to consistently generate functionally correct SystemC models. This provides a highly efficient and reliable paradigm for agile model library construction while drastically minimizing manual intervention.",
+        "authors": [
+          [
+            "Yiwei Wu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yifan Wu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yunhao Xiong",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Dengwei Zhao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jiaxuan Shen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jianfei Jiang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Guanghui He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Shikui Tu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yanan Sun",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Embedded Systems Design Techniques",
+          "VLSI and FPGA Design Techniques",
+          "Embedded Systems and FPGA Applications"
+        ],
+        "locations": [
+          {
+            "url": "http://arxiv.org/abs/2603.21190",
+            "pdf": "https://arxiv.org/pdf/2603.21190"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2603.21190",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://openalex.org/W7140201311"
+      },
+      {
+        "id": "https://openalex.org/W7135039026",
+        "title": "Signal integrity-aware multi-path design workflow for ultra-large-scale three-dimensional chips: A logic-on-memory stacking case study",
+        "date": "2026-03-12",
+        "doi": "https://doi.org/10.1016/j.mejo.2026.107171",
+        "type": "article",
+        "venue": "Microelectronics Journal",
+        "url": "https://doi.org/10.1016/j.mejo.2026.107171",
+        "abstract": "",
+        "authors": [
+          [
+            "Ang Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jianfei Jiang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Naifeng Jing",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yanan Sun",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zhigang Mao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Qin Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "3D IC and TSV technologies",
+          "Interconnection Networks and Systems",
+          "VLSI and Analog Circuit Testing"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1016/j.mejo.2026.107171",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1016/j.mejo.2026.107171",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7155376891",
+        "title": "HEIRS-PS: Hybrid Three-dimensional RRAM- and SRAM-CIM for Pipelined Sparse Multi-Task Transformer Acceleration",
+        "date": "2026-01-01",
+        "doi": "https://doi.org/10.1109/tcad.2026.3687152",
+        "type": "article",
+        "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+        "url": "https://doi.org/10.1109/tcad.2026.3687152",
+        "abstract": "Multi-task transformers have garnered widespread attention for fast task adaptation at edge. However, in addition to matrix-vector multiplication with static and dynamic weights in the data-intensive transformer, task adaptation introduces new challenge of weight updating. Besides, while sparsity can help mitigate the rapid growth in parameter size and computational demand, it requires great hardware flexibility. Compute-in-memory (CIM) is widely explored to overcome the memory bottleneck in neural network acceleration, mainly with single type of memory devices, but struggles to balance the storage density with computing flexibility across multiple tasks. Meanwhile, the conventional pipeline parallel dataflow for high throughput suffers from the underutilization with bubbles caused by variable input sequence length and model sparsity. In this paper, HEIRS-PS, a hybrid three-dimension RRAM- and SRAM-CIM architecture, is proposed for the pipelined multi-task transformer acceleration with sparsity. With the 3D integrated RRAM-CIM and SRAM-CIM arrays, a novel hybrid- CIM paradigm is proposed with the collaborative addition to achieve both high storage density and computing flexibility for multi-task inference. Moreover, by fully leveraging the hybrid-CIM structure in HEIRS-PS, a new dynamic workload scheduling method is proposed with a layer regrouping method to balance the computing latency across pipeline stages. By eliminating the bubbles, the model inference latency is reduced with higher throughput. Experiment shows that the proposed HEIRS-PS architecture improves the energy efficiency by up to 13.3× and 8.68×, compared with state-of-the-art (SOTA) RRAM-CIM and SRAM-CIM works on Llama-1.3B. Moreover, HEIRS-PS also reduces the computing latency by up to 29.5% with the balanced latency across pipeline stages.",
+        "authors": [
+          [
+            "Liukai Xu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Shuai Yuan",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Dengfeng Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Weifeng He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Naifeng Jing",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zhigang Ji",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jianfei Jiang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Guanghui He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xueqing Li",
+            [
+              "Tsinghua University"
+            ]
+          ],
+          [
+            "Yanan Sun",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Memory and Neural Computing",
+          "Parallel Computing and Optimization Techniques",
+          "Advanced Neural Network Applications"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/tcad.2026.3687152",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/tcad.2026.3687152",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      }
+    ]
+  },
+  "liu-jingquan": {
+    "authorId": "https://openalex.org/A5101881520",
+    "papers": [
+      {
+        "id": "https://openalex.org/W7211961385",
+        "title": "A High-Sensitivity MEMS Pressure Sensor with a Narrow Cross-Beam Membrane–Short Beam Structure",
+        "date": "2026-09-08",
+        "doi": "https://doi.org/10.3390/mi17091062",
+        "type": "article",
+        "venue": "Micromachines",
+        "url": "https://doi.org/10.3390/mi17091062",
+        "abstract": "To address the difficulty of balancing sensitivity and nonlinearity in MEMS piezoresistive pressure sensors, this study proposes an MEMS piezoresistive pressure sensor with a narrow cross-beam membrane-short beam structure. The structure introduces a tapered design at the ends of a conventional cross beam and incorporates short beams to enhance stress concentration in the sensitive regions, thereby improving output sensitivity while maintaining low nonlinearity. Finite-element analysis was performed to evaluate the stress distribution and deflection characteristics and to compare the proposed structure with conventional cross-beam and other diaphragm structures. Under identical overall dimensions, the proposed structure improves sensitivity by 61% relative to the conventional cross beam. Based on the finite-element results, multivariate fitting models for surface stress and deflection were established, and nonlinear optimization was used to determine the constrained optimal geometrical parameters within the validated design domain. Simulation results indicate that, over a pressure range of 0-1 kPa, the proposed sensor achieves a sensitivity of 12.23 mV/V/kPa and a maximum nonlinearity of 0.196% FSS, demonstrating favorable performance for micropressure detection.",
+        "authors": [
+          [
+            "T. F. Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zibang Xiao",
+            [
+              "Southeast University"
+            ]
+          ],
+          [
+            "P. Y. Chen",
+            [
+              "Xidian University"
+            ]
+          ],
+          [
+            "Meng Nie",
+            [
+              "Southeast University"
+            ]
+          ],
+          [
+            "Zhen Yan",
+            [
+              "Southeast University"
+            ]
+          ],
+          [
+            "Shijie Deng",
+            [
+              "Southeast University"
+            ]
+          ],
+          [
+            "Jing Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xiaolin Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jingquan Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced MEMS and NEMS Technologies",
+          "Advanced Sensor and Energy Harvesting Materials",
+          "Sensor Technology and Measurement Systems"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.3390/mi17091062",
+            "pdf": null
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42796181",
+            "pdf": null
+          },
+          {
+            "url": "https://doaj.org/article/5e69d4c8f42a46a6989c9b8ca6b97d71",
+            "pdf": null
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13609132/",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.3390/mi17091062"
+      },
+      {
+        "id": "https://openalex.org/W7202125630",
+        "title": "Fe-Doped Ni–Co–Mn Spinel Ceramics for Miniaturized Temperature Sensor With Tailored Temperature Characteristic and High Stability",
+        "date": "2026-08-10",
+        "doi": "https://doi.org/10.1109/jsen.2026.3719699",
+        "type": "article",
+        "venue": "IEEE Sensors Journal",
+        "url": "https://doi.org/10.1109/jsen.2026.3719699",
+        "abstract": "",
+        "authors": [
+          [
+            "Yongpeng Ran",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Y. Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xiao Ma",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yonghao Xie",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xiuyan Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zude Lin",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Bin Tang Yang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jing Chen",
+            []
+          ],
+          [
+            "Minmin You",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jingquan Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Electrical and Thermal Properties of Materials",
+          "Advanced Sensor Technologies Research",
+          "Gas Sensing Nanomaterials and Sensors"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/jsen.2026.3719699",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/jsen.2026.3719699",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7168120910",
+        "title": "Differential Electrodes Piezoelectric MEMS Hydrophone Based on Beam-Island Structure With High Sensitivity and Stability",
+        "date": "2026-07-13",
+        "doi": "https://doi.org/10.1109/jsen.2026.3710419",
+        "type": "article",
+        "venue": "IEEE Sensors Journal",
+        "url": "https://doi.org/10.1109/jsen.2026.3710419",
+        "abstract": "Piezoelectric MEMS hydrophones possess inherent advantages in miniaturization for underwater acoustic sensing. However, most existing designs employ top–bottom electrode configurations that collect only a single polarity of piezoelectric charge, limiting the achievable output amplitude. In this work, a high-sensitivity and high-stability piezoelectric MEMS hydrophone based on a cross short-beam and back-island (CBBI) architecture is proposed. The device introduces a differential electrode strategy to exploit the spatial distribution of piezoelectric stress. The cross-shaped short beams generate pronounced stress concentration with opposite polarities, and the differential electrode configuration enables simultaneous extraction and superposition of opposite-polarity charges, thereby enhancing acoustic pressure sensitivity. The device achieves a sensitivity of <inline-formula> <tex-math notation=\"LaTeX\">$- 169.2~\\pm ~1$ </tex-math></inline-formula> dB within 10 Hz–2 kHz and a directional nonuniformity of 0.8 dB. The Parylene C-coated hydrophone operates stably under hydrostatic pressures up to 20-MPa owing to the pressure equalization effect of the annular trench. The device exhibits excellent environmental robustness, with sensitivity variation confined to −0.229 dB over a temperature range of <inline-formula> <tex-math notation=\"LaTeX\">$0~^{\\circ }$ </tex-math></inline-formula>C–<inline-formula> <tex-math notation=\"LaTeX\">$95~^{\\circ }$ </tex-math></inline-formula>C. A backside island improves linearity, with a maximum nonlinearity of 2.33%. Experimental results further demonstrate enhanced transient response and improved signal recognition capability in both air and underwater environments, indicating strong potential for high-performance acoustic sensing in complex deep-sea applications.",
+        "authors": [
+          [
+            "Lixuan Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zhiyong Hu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Tao Ruan",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zhiyue Yang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Bin Tang Yang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jingquan Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced MEMS and NEMS Technologies",
+          "Acoustic Wave Resonator Technologies",
+          "Ultrasonics and Acoustic Wave Propagation"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/jsen.2026.3710419",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/jsen.2026.3710419",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认",
+        "abstractSource": "https://www.semanticscholar.org/paper/4f0483c33dca9d45d74417b44b3922584584cb96"
+      },
+      {
+        "id": "https://openalex.org/W7166847405",
+        "title": "New insights into dual-gate ISFET performance through channel and structural engineering",
+        "date": "2026-07-21",
+        "doi": "https://doi.org/10.1088/1361-6463/ae84d9",
+        "type": "article",
+        "venue": "Journal of Physics D Applied Physics",
+        "url": "https://doi.org/10.1088/1361-6463/ae84d9",
+        "abstract": "Abstract This work systematically investigates the effect of the oxide semiconductor (OS) channel and floating gate (FG) structure on pH sensing performance of dual-gate (DG) ion sensitive field effect transistors (ISFET). By comparing ZnO and In 2 O 3 channels and varying device configurations, we demonstrate that electron concentration and dimensional scaling of channel are of vital importance to pH sensitivity. The higher electron concentration in In 2 O 3 enables superior charge modulation and enhanced sensitivity compared to ZnO sample. Furthermore, the incorporation of FG structure allows flexible control over the capacitance ratio through area adjustment without changing dielectric thickness, providing a flexible strategy to balance sensitivity enhancement and device performance. These findings provide important insights into strategies for optimizing DG-ISFET performance, highlighting a crucial aspect that complements the conventional capacitive coupling theory.",
+        "authors": [
+          [
+            "Zikang Yao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Danyang Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Longchun Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jingquan Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Mengwei Si",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wei Tang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xiuyan Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Analytical Chemistry and Sensors",
+          "Analog and Mixed-Signal Circuit Design",
+          "Thin-Film Transistor Technologies"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1088/1361-6463/ae84d9",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1088/1361-6463/ae84d9"
+      },
+      {
+        "id": "https://openalex.org/W7135068598",
+        "title": "Tailore Ruthenium Oxide Films for Mems Cryogenice Thermometry with Record Sensitivity Below 10K",
+        "date": "2026-01-25",
+        "doi": "https://doi.org/10.1109/mems64181.2026.11419504",
+        "type": "conference-paper",
+        "venue": "Proceedings, IEEE micro electro mechanical systems",
+        "url": "https://doi.org/10.1109/mems64181.2026.11419504",
+        "abstract": "This work presents a cryogenic temperature sensor fabricated using a self-prepared ruthenium oxide (RuO 2) slurry rather than conventional commercial pastes. The tailored formulation enables precise control over microstructure and conduction pathways, resulting in markedly enhanced sensitivity and stability at deepcryogenic temperatures. At 1 K, the sensor achieves a sensitivity of$1769 \\Omega/\\mathrm{K}$, which is over five times that of the widely used RX-102B-RS ($316 \\Omega/\\mathrm{K}$) along with a significantly higher TCR of 0.0837/K compared to 0.0497 /K, a significantly higher Sa of 0.1284 compared to 0.0517. These results show that integrating optimized slurry chemistry with MEMS-compatible processing sets a new benchmark in cryogenic sensing and enables a scalable route to reproducible, high-performance devices for lowtemperature applications.",
+        "authors": [
+          [
+            "Yonghao Xie",
+            [
+              "Shanghai Jiao Tong University",
+              "National Key Laboratory of Science and Technology on Micro/Nano Fabrication"
+            ]
+          ],
+          [
+            "Minmin You",
+            [
+              "Shanghai Jiao Tong University",
+              "National Key Laboratory of Science and Technology on Micro/Nano Fabrication"
+            ]
+          ],
+          [
+            "Zude Lin",
+            [
+              "Shanghai Jiao Tong University",
+              "National Key Laboratory of Science and Technology on Micro/Nano Fabrication"
+            ]
+          ],
+          [
+            "Yongpeng Ran",
+            [
+              "Shanghai Jiao Tong University",
+              "National Key Laboratory of Science and Technology on Micro/Nano Fabrication"
+            ]
+          ],
+          [
+            "Xing Ma",
+            [
+              "Shanghai Jiao Tong University",
+              "National Key Laboratory of Science and Technology on Micro/Nano Fabrication"
+            ]
+          ],
+          [
+            "Yanfang Li",
+            [
+              "Shanghai Jiao Tong University",
+              "National Key Laboratory of Science and Technology on Micro/Nano Fabrication"
+            ]
+          ],
+          [
+            "Bin Yang",
+            [
+              "Shanghai Jiao Tong University",
+              "National Key Laboratory of Science and Technology on Micro/Nano Fabrication"
+            ]
+          ],
+          [
+            "Jingquan Liu",
+            [
+              "Shanghai Jiao Tong University",
+              "National Key Laboratory of Science and Technology on Micro/Nano Fabrication"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Sensor Technologies Research",
+          "Electrical and Thermal Properties of Materials",
+          "Advanced MEMS and NEMS Technologies"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/mems64181.2026.11419504",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/mems64181.2026.11419504",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      }
+    ]
+  },
+  "chen-changxin": {
+    "authorId": "https://openalex.org/A5101917695",
+    "papers": [
+      {
+        "id": "https://openalex.org/W7167062144",
+        "title": "Direct observation of non-integer quantum conductance in filamentary ITO/MoS2-Ag/Pt memristors",
+        "date": "2026-07-01",
+        "doi": "https://doi.org/10.1016/j.newton.2026.100588",
+        "type": "article",
+        "venue": "Newton",
+        "url": "https://doi.org/10.1016/j.newton.2026.100588",
+        "abstract": "Non-integer quantum conductance has been reported in both valence change memory (VCM) and electrochemical metallization (ECM) memristive devices, although well-resolved intermediate conductance features in ECM systems remain difficult to achieve. Here, we demonstrate six statistically distinguishable, non-integer conductance states ranging from 0 to 2 G 0 in filamentary ITO/MoS 2 -Ag/Pt memristors. Compared with previously reported half-integer conductance (±0.5 G 0 ), our devices exhibit finer resolution, centered around ±0.25 G 0 , with occurrence probabilities exceeding 30%. The conductance can be tuned by an external magnetic field, providing an additional control knob for ECM devices. Moreover, contrasting single- and double-magnetic-layer devices indicates that interlayer ferromagnetic coupling plays an important role in the emergence of non-integer conductance features, providing insight into spin-dependent transport in filamentary memristors.",
+        "authors": [
+          [
+            "Yuyang Zhang",
+            [
+              "California Institute of Technology",
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Kang’an Jiang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Anhua Dong",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Ke Chang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Shuai Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Changxin Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Hui Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Memory and Neural Computing",
+          "Quantum and electron transport phenomena",
+          "Molecular Junctions and Nanostructures"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1016/j.newton.2026.100588",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1016/j.newton.2026.100588",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W4413740095",
+        "title": "High-quality narrow black phosphorus nanoribbons with nearly atomically smooth edges and well-defined edge orientation",
+        "date": "2025-08-27",
+        "doi": "https://doi.org/10.1038/s41563-025-02314-7",
+        "type": "article",
+        "venue": "Nature Materials",
+        "url": "https://doi.org/10.1038/s41563-025-02314-7",
+        "abstract": "Black phosphorus nanoribbons (BPNRs) with a tunable bandgap and intriguing electronic and optical properties hold strong potential for logic applications. However, efficiently producing high-quality BPNRs with precise control over their size and structure remains a great challenge. Here we achieved high-quality, narrow and clean BPNRs with nearly atomically smooth edges and well-defined edge orientation at high yield (up to ~95%) through the sonochemical exfoliation of the synthesized bulk BP crystals with a slightly enlarged lattice parameter along the armchair direction. The resulting BPNRs have widths centred at 32 nm and can be as narrow as 1.5 nm, with edges consistently aligned along the zigzag direction in measured BPNRs with widths ≤340 nm. The formation of one-dimensional BPNRs with zigzag edges is attributed to the introduction of pre-stress along the armchair direction of the grown bulk BP and the application of suitable sonication conditions. The BPNR bandgap increases as the BPNR width decreases from 83 nm to 13 nm, with a large bandgap of 0.64 eV for a 13-nm-wide BPNR. A typical graphene-contacted field-effect transistor fabricated with a 13-nm-wide and 10-nm-thick BPNR can achieve an on/off ratio of 1.7 × 106, mobility of 1,506 cm2 V−1 s−1 and on-state channel conductivity of 1,845 µS. The devices also exhibit excellent photodetection performance. Our method opens up a route to produce BPNRs with high material quality and defined edge chirality for fundamental studies and practical applications in electronic and optoelectronic fields. Through the sonochemical exfoliation of grown black phosphorus crystals, high-quality, narrow and clean black phosphorus nanoribbons with smooth edges and defined edge chirality are achieved, enabling the realization of high-performance transistors and photodetectors.",
+        "authors": [
+          [
+            "Teng Zhang",
+            [
+              "Shanghai Jiao Tong University",
+              "State Key Laboratory of Metal Matrix Composites"
+            ]
+          ],
+          [
+            "Youxin Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zhiyan He",
+            [
+              "University of Waterloo",
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Qinran Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Le Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Kai Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wenzhe Chen",
+            [
+              "Fuzhou University"
+            ]
+          ],
+          [
+            "Kunchan Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xiaowo Ye",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zhuoyang He",
+            [
+              "University of Waterloo",
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yuyang Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yanming Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Chenghao Liao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yuan He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wenpei Gao",
+            [
+              "Shanghai Jiao Tong University",
+              "State Key Laboratory of Metal Matrix Composites"
+            ]
+          ],
+          [
+            "Tianyu Zhang",
+            [
+              "Shanghai Jiao Tong University",
+              "State Key Laboratory of Metal Matrix Composites"
+            ]
+          ],
+          [
+            "Bei Hu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Shenghao Jiang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Fangyuan Shi",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Shengguang Gao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xinyue Li",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Changxin Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "2D Materials and Applications",
+          "Graphene research and applications",
+          "Boron and Carbon Nanomaterials Research"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1038/s41563-025-02314-7",
+            "pdf": null
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40866618",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1038/s41563-025-02314-7",
+        "abstractSource": "https://www.nature.com/articles/s41563-025-02314-7"
+      },
+      {
+        "id": "https://openalex.org/W4407359918",
+        "title": "Competing Ferroelectric Polarization and Defect Migration Induced Resistive Switching in β′-In 2 Se 3",
+        "date": "2025-02-10",
+        "doi": "https://doi.org/10.1021/acs.nanolett.4c06314",
+        "type": "article",
+        "venue": "Nano Letters",
+        "url": "https://doi.org/10.1021/acs.nanolett.4c06314",
+        "abstract": "Layered β′-In 2 Se 3 has garnered significant attention due to its intriguing multiferroic properties. Until now, most studies have focused on a material-level understanding, with limited exploration of device-level properties. This work systematically investigates the in-plane resistive switching behavior of β′-In 2 Se 3 . Besides resistive switching resulting from ferroelectric polarization reversal, the critical role of defect migration is unveiled in determining the overall electrical characteristics of β′-In 2 Se 3 devices. Specifically, we elucidate the contribution of electric-field-induced Se vacancy migration to resistive switching through time-dependent current evolution, in situ electric force microscopy, and density functional theory calculations. By considering the interplay between free carriers, bound charges, and mobile defects, a comprehensive physical picture of the complex resistive switching behavior of β′-In 2 Se 3 devices is established. This work provides crucial insights into understanding and manipulating the resistive switching behavior of 2D vdW ferroelectric devices.",
+        "authors": [
+          [
+            "Yinfeng Long",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Saiyu Bu",
+            [
+              "Peking University"
+            ]
+          ],
+          [
+            "Han Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Kai Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xin Huan Zhou",
+            [
+              "National University of Singapore"
+            ]
+          ],
+          [
+            "Shiyu Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xiaotian Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Teng Zhang",
+            [
+              "Shanghai Jiao Tong University",
+              "National Key Laboratory of Science and Technology on Micro/Nano Fabrication"
+            ]
+          ],
+          [
+            "Changxin Chen",
+            [
+              "Shanghai Jiao Tong University",
+              "National Key Laboratory of Science and Technology on Micro/Nano Fabrication"
+            ]
+          ],
+          [
+            "Wugang Liao",
+            [
+              "Shenzhen University"
+            ]
+          ],
+          [
+            "Kian Ping Loh",
+            [
+              "Hong Kong Polytechnic University"
+            ]
+          ],
+          [
+            "Lin Wang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Memory and Neural Computing",
+          "2D Materials and Applications",
+          "Multiferroics and related materials"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1021/acs.nanolett.4c06314",
+            "pdf": null
+          },
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39928959",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1021/acs.nanolett.4c06314"
+      },
+      {
+        "id": "https://openalex.org/W4400623741",
+        "title": "Sensitive strain sensors with wide-range detection and high stability for intelligent human motion monitoring",
+        "date": "2024-07-14",
+        "doi": "https://doi.org/10.1016/j.sna.2024.115710",
+        "type": "article",
+        "venue": "Sensors and Actuators A Physical",
+        "url": "https://doi.org/10.1016/j.sna.2024.115710",
+        "abstract": "",
+        "authors": [
+          [
+            "Yamin Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Changxin Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Di Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jianmin Miao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Daxiang Cui",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jiajie Yu",
+            [
+              "Beihang University"
+            ]
+          ],
+          [
+            "Yiping Guo",
+            [
+              "Shanghai Jiao Tong University",
+              "State Key Laboratory of Metal Matrix Composites"
+            ]
+          ],
+          [
+            "Qichao Li",
+            [
+              "Shanghai Jiao Tong University",
+              "National Engineering Research Center for Nanotechnology",
+              "State Key Laboratory of Metal Matrix Composites",
+              "South China University of Technology"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Sensor and Energy Harvesting Materials",
+          "Nanomaterials and Printing Technologies",
+          "Carbon Nanotubes in Composites"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1016/j.sna.2024.115710",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1016/j.sna.2024.115710",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W4390457886",
+        "title": "Flexible pressure sensors based on reduced graphene oxide @ porous silicone elastomers with good resolution and wide working range",
+        "date": "2023-12-30",
+        "doi": "https://doi.org/10.1016/j.sna.2023.114991",
+        "type": "article",
+        "venue": "Sensors and Actuators A Physical",
+        "url": "https://doi.org/10.1016/j.sna.2023.114991",
+        "abstract": "",
+        "authors": [
+          [
+            "Qichao Li",
+            [
+              "Shanghai Jiao Tong University",
+              "National Engineering Research Center for Nanotechnology",
+              "State Key Laboratory of Metal Matrix Composites",
+              "South China University of Technology"
+            ]
+          ],
+          [
+            "Di Chen",
+            [
+              "Shanghai Jiao Tong University",
+              "State Key Laboratory of Metal Matrix Composites"
+            ]
+          ],
+          [
+            "Jianmin Miao",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jiajie Yu",
+            [
+              "Beihang University"
+            ]
+          ],
+          [
+            "Changxin Chen",
+            [
+              "Shanghai Jiao Tong University",
+              "State Key Laboratory of Metal Matrix Composites"
+            ]
+          ],
+          [
+            "Yamin Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Sensor and Energy Harvesting Materials",
+          "Nanomaterials and Printing Technologies",
+          "Graphene research and applications"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1016/j.sna.2023.114991",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1016/j.sna.2023.114991",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      }
+    ]
+  },
+  "xu-yin": {
+    "authorId": "https://openalex.org/A5000470166",
+    "papers": [
+      {
+        "id": "https://openalex.org/W7154744426",
+        "title": "Low-Complexity Soft-Feedback Detector for AFDM Systems",
+        "date": "2026-06-01",
+        "doi": "https://doi.org/10.1109/isit62367.2026.11654165",
+        "type": "conference-paper",
+        "venue": "IEEE International Symposium on Information Theory (ISIT)",
+        "url": "https://doi.org/10.1109/isit62367.2026.11654165",
+        "abstract": "Affine frequency division multiplexing (AFDM), an emerging multi-carrier modulation scheme, has garnered significant attention due to its resilience to Doppler shifts and capability to achieve full diversity in doubly dispersive channels. However, existing data detection algorithms for AFDM systems face a significant trade-off between computational complexity and accuracy. In this paper, a novel low-complexity data detection scheme, termed the soft-feedback detector (SFD), is proposed. Particularly, building upon a maximum ratio combining (MRC) estimator framework, the SFD leverages the a priori symbol distribution to mitigate error propagation during iterative detection. Specifically, soft-decision feedback is incorporated as extrinsic information derived from the log-likelihood ratios of the transmitted symbols. As a result, the proposed detector significantly enhances detection accuracy while maintaining low computational complexity. Simulation results demonstrate that the SFD consistently outperforms benchmark decision-feedback detectors. In particular, compared with the conventional MRC detector, the proposed scheme achieves approximately a 3 dB signal-to-noise ratio (SNR) gain at the bit error rate (BER) of $10^{-3}$.",
+        "authors": [
+          [
+            "Taohe Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yin Xu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Tianyao Ma",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Aimin Tang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Qu Luo",
+            [
+              "University of Surrey"
+            ]
+          ],
+          [
+            "Dazhi He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wenjun Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Wireless Communication Techniques",
+          "PAPR reduction in OFDM",
+          "Wireless Signal Modulation Classification"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/isit62367.2026.11654165",
+            "pdf": null
+          },
+          {
+            "url": "https://arxiv.org/abs/2604.14666",
+            "pdf": "https://arxiv.org/pdf/2604.14666"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2604.14666",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/isit62367.2026.11654165",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W4416189822",
+        "title": "MA-Aided Hierarchical Hybrid Beamforming for Multi-User Wideband Beam Squint Mitigation",
+        "date": "2026-05-24",
+        "doi": "https://doi.org/10.1109/icc59461.2026.11587557",
+        "type": "conference-paper",
+        "venue": "International Conference on Communications",
+        "url": "https://doi.org/10.1109/icc59461.2026.11587557",
+        "abstract": "In wideband near-field arrays, frequency-dependent array responses cause wavefronts at different frequencies to deviate from that at the center frequency, producing beam squint and degrading multi-user performance. True-time-delay (TTD) circuits can realign the frequency dependence but require large delay ranges and intricate calibration, limiting scalability. Another line of work explores one- and two-dimensional array geometries, including linear, circular, and concentric circular, that exhibit distinct broadband behaviors such as different beam-squint sensitivities and focusing characteristics. These observations motivate adapting the array layout to enable wideband-friendly focusing and enhance multi-user performance without TTD networks. We propose a movable antenna (MA) aided architecture based on hierarchical sub-connected hybrid beamforming (HSC-HBF) in which antennas are grouped into tiles and only the tile centers are repositioned, providing slow geometric degrees of freedom that emulate TTD-like broadband focusing while keeping hardware and optimization complexity low. We show that the steering vector is inherently frequency dependent and that reconfiguring tile locations improves broadband focusing. Simulations across wideband near-field scenarios demonstrate robust squint suppression and consistent gains over fixed-layout arrays, achieving up to 5\\% higher sum rate, with the maximum improvement exceeding 140\\%.",
+        "authors": [
+          [
+            "Cixiao Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yin Xu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xinghao Guo",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xiaowu Ou",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Dazhi He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wenjun Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Millimeter-Wave Propagation and Modeling",
+          "Antenna Design and Analysis",
+          "Antenna Design and Optimization"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/icc59461.2026.11587557",
+            "pdf": null
+          },
+          {
+            "url": "http://arxiv.org/abs/2511.07874",
+            "pdf": "https://arxiv.org/pdf/2511.07874"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2511.07874",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/icc59461.2026.11587557",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7161271727",
+        "title": "Holistic Optimization for Immersive Services in Integrated Broadcast-Cellular Networks",
+        "date": "2026-05-15",
+        "doi": "https://doi.org/10.1109/tbc.2026.3689316",
+        "type": "article",
+        "venue": "IEEE Transactions on Broadcasting",
+        "url": "https://doi.org/10.1109/tbc.2026.3689316",
+        "abstract": "The proliferation of immersive services, such as augmented and virtual reality, poses unprecedented challenges for wireless networks due to their stringent requirements for high data rates, low latency, and high reliability. This paper investigates the resource optimization problem in an integrated network architecture that combines a high-power high-tower (HPHT) broadcast network and low-power low-tower (LPLT) cellular networks for delivering multi-perspective immersive streams. We formulate a novel multi-objective optimization problem that simultaneously caters to the utilities of three key stakeholders: content providers (minimizing server congestion), network operators (balancing spectral and energy efficiency), and end users (maximizing quality of experience). To centrally coordinate resource allocation across both networks, we introduce an agent, Convergence Intelligent Processing Entity (CIPE), that collects information from all parties and makes globally optimized decisions. To tackle this complex, non-convex, and large-scale problem, we propose an efficient block coordinate descent (BCD)-based algorithm that decomposes the problem into tractable subproblems: HPHT parameter configuration, MBSFN zone formation and user association, and LPLT resource allocation. Extensive simulation results demonstrate that the proposed algorithm is significantly superior to several well-known baselines, including a single-cell point-to-point (SC-PTP) only scheme, an HPHT-only broadcast scheme, and various hybrid schemes that partially leverage heterogeneous resources, such as SC-PTP with broadcast, and SC-PTP with multi-point multicast. Furthermore, we established an external field experimental environment to verify the feasibility and performance gains of the integrated network architecture in a real-world setting.",
+        "authors": [
+          [
+            "Zhixin Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wenjun Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Dazhi He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yin Xu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Shu Chen",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced MIMO Systems Optimization",
+          "Advanced Wireless Network Optimization",
+          "Telecommunications and Broadcasting Technologies"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/tbc.2026.3689316",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/tbc.2026.3689316",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7130319088",
+        "title": "Geographically Segmented Localcasting in an SFN Environment With Local Content Insertion",
+        "date": "2026-02-18",
+        "doi": "https://doi.org/10.1109/tbc.2026.3661398",
+        "type": "article",
+        "venue": "IEEE Transactions on Broadcasting",
+        "url": "https://doi.org/10.1109/tbc.2026.3661398",
+        "abstract": "Delivering geographically segmented local content remains one of the key challenges in Single Frequency Networks (SFNs). By leveraging Layered Division Multiplexing (LDM), Local Content Insertion (LCI) can be achieved through Geographically Segmented Localcasting (GSL) for both multimedia and datacasting applications. This paper introduces a solution where region-wide broadcast services are carried by the Core Layer (CL) of the LDM, while local content is transmitted through the Enhancement Layer (EL). This approach also benefits network design and transmitter deployment, as new transmitters can be positioned freely within the intended broadcast service area. Each additional site enhances the reception quality of the regional component (LDM CL) while simultaneously delivering geographically specific multimedia and datacasting services to its local coverage zone. Since the localcasting signal on the EL operates at a lower transmission power, co-channel interference among local transmitters is minimized. A co-channel interference mitigation technique, Iterative Joint Detection and Decoding (IJDD), is also introduced. The paper outlines a roadmap for deploying LCI/GSL systems. Leveraging LDM enables any terrestrial television platform to adopt this approach in SFN or High-Power High-Tower (HPHT) configurations while remaining compatible with existing receivers. Furthermore, any cell-based wireless systems (5G/6G) can exploit this method, efficiently integrating broadcast, multicast, and unicast service delivery.",
+        "authors": [
+          [
+            "Yiyan Wu",
+            [
+              "Western University"
+            ]
+          ],
+          [
+            "Hao Ju",
+            []
+          ],
+          [
+            "Xianbin Wang",
+            [
+              "Western University"
+            ]
+          ],
+          [
+            "Pablo Angueira",
+            [
+              "University of the Basque Country"
+            ]
+          ],
+          [
+            "Jon Montalbán",
+            [
+              "University of the Basque Country"
+            ]
+          ],
+          [
+            "Namho Hur",
+            [
+              "Electronics and Telecommunications Research Institute"
+            ]
+          ],
+          [
+            "Sungjun Ahn",
+            [
+              "Electronics and Telecommunications Research Institute"
+            ]
+          ],
+          [
+            "Sung-Ik Park",
+            [
+              "Electronics and Telecommunications Research Institute"
+            ]
+          ],
+          [
+            "Yin Xu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Dazhi He",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Wenjun Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Telecommunications and Broadcasting Technologies",
+          "Multimedia Communication and Technology",
+          "Video Coding and Compression Technologies"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/tbc.2026.3661398",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/tbc.2026.3661398",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W7128613173",
+        "title": "Toward AFDM-Based Scalable and Secure Internet of Things for Low-Altitude Economy Networks",
+        "date": "2026-02-11",
+        "doi": "https://doi.org/10.1109/miot.2026.3654061",
+        "type": "article",
+        "venue": "IEEE Internet of Things Magazine",
+        "url": "https://doi.org/10.1109/miot.2026.3654061",
+        "abstract": "The low-altitude economy (LAE) network is emerging as a transformative paradigm that integrates advanced communication infrastructures to support diverse aerial economic activities. However, physical-layer communications in LAE networks face critical challenges, including (i) achieving robust transmission over high-mobility scenarios, (ii) supporting massive connectivity for aerial and ground Internet of Things (IoT) devices, and (iii) increasing security threats due to the broadcast and openness of aerial channels. To address these challenges, this paper investigates the Affine frequency division multiplexing (AFDM)-based waveform for reliable, scalable, and secure LAE networks. Leveraging chirp-based multicarrier modulation, AFDM provides strong resilience to Doppler impairments, supports massive access for aerial and IoT devices, and enables flexible physical-layer security and sensing capabilities. We first introduce the fundamental principles of AFDM and highlight its advantages for LAE networks, including enhanced robustness in high-mobility environments and inherent suitability for both physical-layer security (PLS) and sensing. Then, we present AFDM-based multiple access strategies to enable massive connectivity, followed by low-complexity transceiver designs tailored for power- and computation-constrained IoT devices. Finally, we explore PLS mechanisms customized for AFDM systems in LAE networks. This work may provide valuable insights into AFDM-based waveform design and implementation for future LAE communications.",
+        "authors": [
+          [
+            "Qu Luo",
+            [
+              "University of Surrey"
+            ]
+          ],
+          [
+            "Qihao Peng",
+            [
+              "University of Surrey"
+            ]
+          ],
+          [
+            "Yuanhan Ni",
+            [
+              "Beihang University"
+            ]
+          ],
+          [
+            "Haoran Yin",
+            [
+              "Sun Yat-sen University"
+            ]
+          ],
+          [
+            "Yin Xu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yanqun Tang",
+            [
+              "Sun Yat-sen University"
+            ]
+          ],
+          [
+            "Zulin Wang",
+            [
+              "Beihang University"
+            ]
+          ],
+          [
+            "Cunhua Pan",
+            [
+              "Southeast University"
+            ]
+          ],
+          [
+            "Pei Xiao",
+            [
+              "University of Surrey"
+            ]
+          ]
+        ],
+        "topics": [
+          "PAPR reduction in OFDM",
+          "IoT Networks and Protocols",
+          "UAV Applications and Optimization"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/miot.2026.3654061",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/miot.2026.3654061",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      }
+    ]
+  },
+  "fang-xiangzhong": {
+    "authorId": "https://openalex.org/A5065484189",
+    "papers": [
+      {
+        "id": "https://openalex.org/W7138246773",
+        "title": "FastFLUX: Pruning FLUX with Block-wise Replacement and Sandwich Training",
+        "date": "2026-03-14",
+        "doi": "https://doi.org/10.1609/aaai.v40i4.37237",
+        "type": "conference-paper",
+        "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "url": "https://doi.org/10.1609/aaai.v40i4.37237",
+        "abstract": "Recent advancements in text-to-image (T2I) generation have led to the emergence of highly expressive models such as diffusion transformers (DiTs), exemplified by FLUX. However, their massive parameter sizes lead to slow inference, high memory usage, and poor deployability. Existing acceleration methods (e.g., single-step distillation and attention pruning) often suffer from significant performance degradation and incur substantial training costs. To address these limitations, we propose FastFLUX, an architecture-level pruning framework designed to enhance the inference efficiency of FLUX. At its core is the Block-wise Replacement with Linear Layers (BRLL) method, which replaces structurally complex residual branches in ResBlocks with lightweight linear layers while preserving the original shortcut connections for stability. Furthermore, we introduce Sandwich Training (ST), a localized fine-tuning strategy that leverages LoRA to supervise neighboring blocks, mitigating performance drops caused by structural replacement. Experiments show that our FastFLUX maintains high image quality under both qualitative and quantitative evaluations, while significantly improving inference speed, even with 20% of the hierarchy pruned.",
+        "authors": [
+          [
+            "Fuhan Cai",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Yong Guo",
+            [
+              "Max Planck Institute for Informatics"
+            ]
+          ],
+          [
+            "Jie Li",
+            [
+              "South China University of Technology"
+            ]
+          ],
+          [
+            "Wenbo Li",
+            [
+              "Chinese University of Hong Kong"
+            ]
+          ],
+          [
+            "Jian Chen",
+            [
+              "South China University of Technology"
+            ]
+          ],
+          [
+            "Xiangzhong Fang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Advanced Neural Network Applications",
+          "Generative Adversarial Networks and Image Synthesis",
+          "Domain Adaptation and Few-Shot Learning"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1609/aaai.v40i4.37237",
+            "pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/37237/41199"
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1609/aaai.v40i4.37237"
+      },
+      {
+        "id": "https://openalex.org/W4417093141",
+        "title": "Reasoning with OmniThought: A Large CoT Dataset with Verbosity and Cognitive Difficulty Annotations",
+        "date": "2026-01-01",
+        "doi": "https://doi.org/10.18653/v1/2026.acl-long.382",
+        "type": "conference-paper",
+        "venue": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+        "url": "https://doi.org/10.18653/v1/2026.acl-long.382",
+        "abstract": "Tasks such as mathematical problem solving and coding require models to leverage chain-ofthought (CoT) processes, enabling human-like reasoning strategies.However, the advancement of large reasoning models (LRMs) is hindered by the lack of comprehensive CoT datasets.Existing resources often fail to provide extensive reasoning problems with coherent CoT processes distilled from multiple teacher models, and do not account for multifaceted properties describing the internal characteristics of CoTs.To address these challenges, we introduce OmniThought, a largescale dataset featuring 2 million CoT processes generated and validated by multiple powerful LRMs.Each CoT process in OmniThought is annotated with novel Reasoning Verbosity (RV) and Cognitive Difficulty (CD) scores, which characterize the appropriateness of CoT verbosity and the cognitive difficulty level for models to comprehend these reasoning processes.We further establish a self-reliant pipeline to curate this dataset.Extensive experiments using Qwen2.5 and Qwen3 of various sizes demonstrate the positive impact of our RV and CD scores on LRM training effectiveness.Based on the OmniThought dataset, we train and release a series of high-performing LRMs with enhanced reasoning abilities and optimized CoT output length.Our contributions advance the development of LRMs across different scales for solving complex reasoning tasks. 1",
+        "authors": [
+          [
+            "Wenrui Cai",
+            [
+              "Shanghai Jiao Tong University",
+              "Alibaba Group (China)"
+            ]
+          ],
+          [
+            "Chengyu Wang",
+            [
+              "Alibaba Group (China)"
+            ]
+          ],
+          [
+            "Junbing Yan",
+            [
+              "Alibaba Group (China)"
+            ]
+          ],
+          [
+            "Jun Huang",
+            [
+              "Alibaba Group (China)"
+            ]
+          ],
+          [
+            "Xiangzhong Fang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Topic Modeling",
+          "Multimodal Machine Learning Applications",
+          "Natural Language Processing Techniques"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.18653/v1/2026.acl-long.382",
+            "pdf": "https://aclanthology.org/2026.acl-long.382.pdf"
+          },
+          {
+            "url": "http://arxiv.org/abs/2505.10937",
+            "pdf": "https://arxiv.org/pdf/2505.10937"
+          },
+          {
+            "url": "https://doi.org/10.48550/arxiv.2505.10937",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://openalex.org/W4417093141",
+        "metadataNote": "Crossref补充暂不可用，日期来自OpenAlex，首次在线日期待复核"
+      },
+      {
+        "id": "https://openalex.org/W7167709771",
+        "title": "Task-Adaptive Channel Attention Graph Network for Few-Shot 3D Point Cloud Classification",
+        "date": "2026-06-02",
+        "doi": "https://doi.org/10.1007/978-3-032-22261-9_40",
+        "type": "conference-paper",
+        "venue": "Lecture notes in computer science",
+        "url": "https://doi.org/10.1007/978-3-032-22261-9_40",
+        "abstract": "",
+        "authors": [
+          [
+            "Ge Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Zhongqiang Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Jingren Xie",
+            [
+              "Technical University of Denmark"
+            ]
+          ],
+          [
+            "Xiangzhong Fang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "3D Shape Modeling and Analysis",
+          "Domain Adaptation and Few-Shot Learning",
+          "Advanced Neural Network Applications"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1007/978-3-032-22261-9_40",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1007/978-3-032-22261-9_40"
+      },
+      {
+        "id": "https://openalex.org/W4417338433",
+        "title": "Dense Supervised Contrastive Learning for Few-Shot Remote Sensing Scene Classification",
+        "date": "2025-07-12",
+        "doi": "https://doi.org/10.1109/icmlc66258.2025.11280177",
+        "type": "conference-paper",
+        "venue": "International Conference on Machine Learning and Cybernetics",
+        "url": "https://doi.org/10.1109/icmlc66258.2025.11280177",
+        "abstract": "Few-shot remote sensing scene classification (FSRSSC) tackles the challenge of recognizing novel scene categories with only a limited number of labeled examples, which heavily relies on pre-trained transferable deep representations. Recent advances have widely explored contrastive learning to improve global feature representations for this task. However, we argue that global feature representations often fail to capture the fine-grained local features crucial for distinguishing remote sensing scenes, which typically include numerous small-scale, densely distributed objects. To address this limitation, we propose Dense Supervised Contrastive Learning (DSCL), which applies supervised contrastive learning at the patch level to improve local feature discriminability. By optimizing a dense pairwise similarity loss across local patches, DSCL significantly boosts generalization in few-shot scenarios. Experiments on three benchmark datasets (UCM, WHU-RS19, and NWPU-RESISC45) demonstrate that DSCL achieves competitive performance compared to recent state-of-the-art methods in both 5-way 1-shot and 5-shot settings, highlighting the potential of local-level feature learning for FSRSSC.",
+        "authors": [
+          [
+            "Ge Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Xiangzhong Fang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ]
+        ],
+        "topics": [
+          "Remote-Sensing Image Classification",
+          "Domain Adaptation and Few-Shot Learning",
+          "Advanced Image and Video Retrieval Techniques"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/icmlc66258.2025.11280177",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/icmlc66258.2025.11280177",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      },
+      {
+        "id": "https://openalex.org/W4409641073",
+        "title": "Few-Shot Class-Incremental Learning via Asymmetric Supervised Contrastive Learning",
+        "date": "2025-04-21",
+        "doi": "https://doi.org/10.1109/tcsvt.2025.3562603",
+        "type": "article",
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+        "url": "https://doi.org/10.1109/tcsvt.2025.3562603",
+        "abstract": "Few-Shot Class-Incremental Learning (FSCIL) is to continuously learn novel classes from a few samples without forgetting previous knowledge. Adapting directly to limited novel data typically results in significant forgetting of base class knowledge. Consequently, prevailing FSCIL methods are devoted to training a strong initial model that can be frozen in incremental sessions. However, these works face a dilemma in poor generalization: they benefit mainly from base class performance, yet underperform in novel classes. To alleviate this issue, we design a two-stage training framework to simultaneously enhance generalization for novel classes and maintain base class discrimination. In the first stage, an asymmetric supervised contrastive learning (AsyCon) algorithm is proposed. AsyCon introduces a predicted feature to achieve an asymmetric alignment of positive pairs. It alleviates over-similarity within positive features, allowing the model to better transfer to new classes in incremental sessions. In the second stage, the model is finetuned for promoting its performance on base classes. To maintain the generalization obtained in the first stage, we employ an L2 normalized regularization (LR) to keep the feature consistent with the model in the first stage. The finetuned model, termed AsyCLR, effectively balances generalization and discrimination, significantly outperforming existing FSCIL works especially in novel class accuracy. Experiments on CUB200, CIFAR100, and mini-ImageNet verify the effectiveness of our method. Additionally, our method also performs well in the standard few-shot recognition scenario due to its strong generalization ability. Our codes are available at https://github.com/APORduo/AsyCLR.",
+        "authors": [
+          [
+            "Duo Liu",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Linglan Zhao",
+            [
+              "Tencent (China)"
+            ]
+          ],
+          [
+            "Zhongqiang Zhang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Fan Lyu",
+            [
+              "Chinese Academy of Sciences",
+              "Institute of Automation"
+            ]
+          ],
+          [
+            "Xiangzhong Fang",
+            [
+              "Shanghai Jiao Tong University"
+            ]
+          ],
+          [
+            "Liang Wang",
+            [
+              "Chinese Academy of Sciences",
+              "Institute of Automation"
+            ]
+          ]
+        ],
+        "topics": [
+          "Domain Adaptation and Few-Shot Learning",
+          "Advanced Neural Network Applications",
+          "Advanced Image and Video Retrieval Techniques"
+        ],
+        "locations": [
+          {
+            "url": "https://doi.org/10.1109/tcsvt.2025.3562603",
+            "pdf": null
+          }
+        ],
+        "precision": "day",
+        "metadataSource": "https://api.crossref.org/works/10.1109/tcsvt.2025.3562603",
+        "metadataNote": "公开索引日期；首次在线日期未由出版社元数据确认"
+      }
+    ]
+  },
+  "wang-ying": {
+    "papers": [
+      {
+        "id": "https://doi.org/10.3390/coatings14030313",
+        "title": "An Edge Detection Algorithm for SEM Images of Multilayer Thin Films",
+        "date": "2024-03",
+        "doi": "https://doi.org/10.3390/coatings14030313",
+        "type": "article",
+        "venue": "Coatings",
+        "url": "https://doi.org/10.3390/coatings14030313",
+        "abstract": "In processing multilayer thin film materials, scanning electron microscopy (SEM) is commonly employed for observation. In images of SEM, backscattered electron (BSE) images is particularly suitable for distinguishing different components and layers of the films. However, at high magnification levels, BSE images often have blurriness and noise, leading to low edge sharpness. This study proposes a method for improving the integrity and accuracy of the edges. First, we segment the image into different contrast regions using the masking algorithm. Second, we enhance the images in separate regions by the enhancement algorithm. Finally, we combine the regions by logical operations. In instantiation, we implement our approach on SEM-BSE images. It was found that the edges are significantly sharpened through the assessment of the edge evaluation algorithm.",
+        "authors": [
+          [
+            "Wei Sun",
+            []
+          ],
+          [
+            "Fang Duan",
+            []
+          ],
+          [
+            "Jianpeng Zhu",
+            []
+          ],
+          [
+            "Minglai Yang",
+            []
+          ],
+          [
+            "Ying Wang",
+            []
+          ]
+        ],
+        "topics": [],
+        "locations": [],
+        "precision": "day",
+        "metadataSource": "https://doi.org/10.3390/coatings14030313",
+        "metadataNote": "Crossref补充暂不可用，日期来自OpenAlex，首次在线日期待复核"
+      }
+    ]
+  }
+}
