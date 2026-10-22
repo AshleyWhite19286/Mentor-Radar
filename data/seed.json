@@ -58823,7 +58823,37 @@
             "retrievedAt": "2026-10-20",
             "excerpt": "教师公开书目来源：https://icisee.sjtu.edu.cn/jiaoshiml/chenyitong.html\n[1] Y. Chen†, et al, All-optical synthesis chip for large-scale intelligent semantic vision generation.Science, 390,1259-1265(2025).\n共同作者归属交叉核验：https://icisee.sjtu.edu.cn/jiaoshiml/zhangwenjun.html\n代表作书目：https://icisee.sjtu.edu.cn/jiaoshiml/chenyitong.html"
           },
-          "identity": "学院已核对张文军与陈一彤同属一个研究所；同所教师陈一彤的官网书目明确列出本论文，出版元信息中的完整署名“Wenjun Zhang”与目录内唯一拼音姓名匹配。"
+          "identity": "学院已核对张文军与陈一彤同属一个研究所；同所教师陈一彤的官网书目明确列出本论文，出版元信息中的完整署名“Wenjun Zhang”与目录内唯一拼音姓名匹配。",
+          "titleZh": "LightGen：面向大规模智能视觉生成的全光合成芯片",
+          "analysis": {
+            "summary": "生成图片的 AI 很耗算力，这篇论文尝试让光来承担生成计算。作者提出 LightGen 全光芯片，通过集成大量光子神经元、设计光学潜在空间和贝叶斯训练方法，完成图像生成、去噪、风格迁移与三维生成等任务。摘要报告了特定实验下的速度和能效优势，具体比较条件需要查看全文。",
+            "problem": "光计算已有不少识别任务应用，但生成任务还面临集成规模、表示维度转换和训练方法的困难。",
+            "method": "可以把光学潜在空间理解为一种中间表示：芯片先在这个空间中组织信息，再用于生成视觉内容。论文结合百万量级光子神经元、光学潜在空间与贝叶斯训练方法，使光计算参与多种视觉生成任务；器件结构与训练细节需查阅原文。",
+            "significance": "提供了用光子硬件加速视觉生成任务的研究案例，能帮助学生理解生成算法、信息表示和芯片实现之间的联系。",
+            "limitations": "仅依据公开摘要。摘要中的速度和能效优势属于作者在特定实验及比较对象下的报告，不能推断所有生成任务或实际部署都能获得同样收益；芯片制造、误差、系统开销与训练细节仍需阅读全文核对。",
+            "keywords": [
+              "光子计算",
+              "视觉生成",
+              "光学潜在空间",
+              "生成式 AI"
+            ],
+            "difficulty": "需较强基础",
+            "prerequisites": [
+              "线性代数",
+              "Python",
+              "生成模型基础",
+              "光学与光子器件基础"
+            ],
+            "reading": "先区分图像分类与图像生成，再画出“输入条件—中间表示—生成图像”的流程，理解芯片在哪一步承担计算。初次阅读不必先掌握芯片制造。",
+            "reproduction": "可先用公开的软件生成模型观察中间表示与输出图像的关系。这属于概念练习；复现 LightGen 的硬件结果需要论文中的器件、实验条件与训练方案。",
+            "research": "进一步研究需要结合光学、电路和机器学习知识，核对系统边界，并设计速度、能耗、输出质量和误差的对照实验。",
+            "task": "AI学习建议：选用一个可运行的小型图像生成示例，只改变随机种子或一个中间表示参数，保存四张输出图，并用一页笔记解释“识别图片”和“生成图片”的区别。这个练习不等于复现光芯片。",
+            "basis": "abstract",
+            "model": "Codex · 预置摘要解读",
+            "citations": [
+              "crossref-b73e58a201535a5ac83e"
+            ]
+          }
         },
         {
           "id": "paper-crossref-d16d4adbd5b7f82aba75",
@@ -58931,7 +58961,37 @@
             "retrievedAt": "2026-10-20",
             "excerpt": "教师公开书目来源：https://icisee.sjtu.edu.cn/jiaoshiml/chengzhengxue.html\n17. Chuqin Zhou, Guo Lu, Jiangchuan Li, Xiangyu Chen, Zhengxue Cheng, Li Song, Wenjun Zhang, Controllable Distortion-Perception Tradeoff Through Latent Diffusion for Neural Image Compression, The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025), Feb. 25 – Mar. 4, 2025, Philadelphia, Pennsylvania, USA\n共同作者归属交叉核验：https://icisee.sjtu.edu.cn/jiaoshiml/zhangwenjun.html\n代表作书目：https://icisee.sjtu.edu.cn/jiaoshiml/chengzhengxue.html"
           },
-          "identity": "学院已核对张文军与程正雪同属一个研究所；同所教师程正雪的官网书目明确列出本论文，出版元信息中的完整署名“Wenjun Zhang”与目录内唯一拼音姓名匹配。"
+          "identity": "学院已核对张文军与程正雪同属一个研究所；同所教师程正雪的官网书目明确列出本论文，出版元信息中的完整署名“Wenjun Zhang”与目录内唯一拼音姓名匹配。",
+          "titleZh": "用潜在扩散调节神经图像压缩的失真与感知质量",
+          "analysis": {
+            "summary": "压缩后的图片可能像素误差很小，却显得模糊；看起来更自然的图片，又可能偏离原图的细节。论文在已有神经图像压缩器的解码端加入潜在扩散模块，并融合原始与转换后的特征，让用户在推理时调节像素保真与感知质量的取舍，而不改动原有压缩器。",
+            "problem": "神经图像压缩需要同时考虑码率、像素失真和人眼感受到的质量，单一优化目标很难兼顾这些要求。",
+            "method": "把解码特征看作重建图片的中间材料：潜在扩散模块对这些材料进行转换，再把原始特征与转换特征融合。摘要说明融合无需额外训练，可在推理时调节失真与感知质量；这不意味着扩散模块本身完全不需要训练。",
+            "significance": "将压缩质量从固定的单一目标变成可调节的选择，适合用来理解“数值更接近原图”和“视觉上更自然”为何可能不同。",
+            "limitations": "仅依据公开摘要。实验中的 LPIPS-BDRate 与 PSNR 改善依赖测试数据、码率区间和比较设置，不能理解为所有图片都变好；感知增强可能改变原图细节，具体风险需结合全文与输出样例判断。",
+            "keywords": [
+              "神经图像压缩",
+              "潜在扩散",
+              "失真与感知",
+              "特征融合"
+            ],
+            "difficulty": "需补基础",
+            "prerequisites": [
+              "Python",
+              "线性代数",
+              "数字图像处理",
+              "神经网络与扩散模型基础"
+            ],
+            "reading": "先用一张原图和几张压缩图区分码率、像素误差与主观观感，再理解扩散模块为什么放在解码端。",
+            "reproduction": "可先用已有工具比较图片的文件大小、PSNR 与视觉效果。局部复现论文模块还需要核对模型权重、潜在表示、融合方式与评价协议。",
+            "research": "需要在固定码率和一致测试条件下比较像素与感知指标，检查生成细节是否忠实，并考察不同内容上的失败情况。",
+            "task": "AI学习建议：将同一张图片保存为三种 JPEG 质量，记录文件大小、计算相对原图的 PSNR，并写下肉眼看到的变化；用这个基线练习解释“更省空间”“更接近原图”“更好看”三个目标。该练习不复现论文的扩散模块。",
+            "basis": "abstract",
+            "model": "Codex · 预置摘要解读",
+            "citations": [
+              "crossref-1deeda25e733a2658a64"
+            ]
+          }
         },
         {
           "id": "paper-crossref-f84d4b356e79d8802ff9",
@@ -58974,6 +59034,36 @@
             "kind": "paper",
             "retrievedAt": "2026-10-20",
             "excerpt": "教师公开书目来源：https://icisee.sjtu.edu.cn/jiaoshiml/chengzhengxue.html\n24. Shen Wang, Zhengxue Cheng, Donghui Feng, Guo Lu, Li Song, Wenjun Zhang, AsymLLIC: Asymmetric Lightweight Learned Image Compression, IEEE Visual Communications and Image Processing (VCIP 2024), Tokyo, Japan, Dec. 8-11, 2024.\n共同作者归属交叉核验：https://icisee.sjtu.edu.cn/jiaoshiml/luguo.html\n代表作书目：https://icisee.sjtu.edu.cn/jiaoshiml/chengzhengxue.html"
+          },
+          "titleZh": "AsymLLIC：非对称轻量化学习式图像压缩",
+          "analysis": {
+            "summary": "压缩图片的设备可以有较强算力，但解码图片的手机或终端往往资源有限。论文提出非对称神经图像压缩设计，通过训练逐步把复杂解码模块替换成更简单的模块，并比较不同解码网络，寻找解码成本与压缩效果之间的平衡。",
+            "problem": "编码器与解码器采用相似复杂度时，解码端可能难以满足低端设备对计算量和响应时间的要求。",
+            "method": "允许编码端保留较高复杂度，把轻量化重点放在解码端；配合逐步替换复杂模块的训练方案，比较不同解码结构的压缩表现与计算开销。具体替换顺序和训练损失需阅读全文。",
+            "significance": "提醒学生从实际使用设备出发设计模型：文件由谁压缩、由谁观看，会影响计算资源应该放在哪一端。",
+            "limitations": "仅依据公开摘要。摘要报告与 VVC 相当的性能及解码器计算量、参数量，但不能据此认定在所有设备上都更快；真实延迟还受硬件、实现和数据传输开销影响。",
+            "keywords": [
+              "图像压缩",
+              "轻量化网络",
+              "非对称编解码",
+              "解码复杂度"
+            ],
+            "difficulty": "需补基础",
+            "prerequisites": [
+              "Python",
+              "神经网络基础",
+              "数字图像处理",
+              "计算量与参数量"
+            ],
+            "reading": "先画出编码器、压缩表示与解码器的关系，分别标注运行设备和资源约束，再看论文为何优先简化解码器。",
+            "reproduction": "可先在软件中比较两个不同宽度的卷积解码器；复现论文结果还需要相同训练数据、码率控制、网络结构和测试协议。",
+            "research": "需要同时测量压缩质量、码率、实际解码延迟和内存，避免只凭参数量判断部署收益。",
+            "task": "AI学习建议：画出“服务器压缩、手机解码”的应用流程，为两端各列出三项资源限制，再写一张比较表说明哪些计算可以留在服务器、哪些必须在手机完成。",
+            "basis": "abstract",
+            "model": "Codex · 预置摘要解读",
+            "citations": [
+              "crossref-f84d4b356e79d8802ff9"
+            ]
           }
         },
         {
@@ -59018,6 +59108,36 @@
             "kind": "paper",
             "retrievedAt": "2026-10-20",
             "excerpt": "作者身份核验所用官网代表作：Controllable Distortion-Perception Tradeoff Through Latent Diffusion for Neural Image Compression\nhttps://icisee.sjtu.edu.cn/jiaoshiml/luguo.html"
+          },
+          "titleZh": "融合长期与短期信息的学习式视频压缩",
+          "analysis": {
+            "summary": "视频压缩可以借用前面帧的信息来减少重复存储。论文同时利用邻近帧的短期信息和持续传播的长期特征，再融合两类上下文帮助压缩当前帧；还利用多帧信息预测运动，以减少运动表示中的冗余。",
+            "problem": "只参考前一帧或少数邻近帧，可能没有充分利用视频中更长时间范围内的相关信息。",
+            "method": "一条路径更新并传播长期特征，联系当前帧与较远参考帧；另一条路径从邻近帧提取短期上下文，随后融合两者。论文还通过二阶运动预测与融合改进运动信息压缩，具体网络和编码流程需查原文。",
+            "significance": "提供了把时间信息拆成不同尺度再融合的案例，也能帮助理解为什么视频编码不等于逐张压缩图片。",
+            "limitations": "仅依据公开摘要。摘要报告相对 H.266 VTM 的 BD-rate 节省，但结果取决于数据、配置和比较协议；摘要不足以判断所有场景的质量、延迟和存储代价。",
+            "keywords": [
+              "视频压缩",
+              "长期特征",
+              "短期上下文",
+              "运动预测"
+            ],
+            "difficulty": "需补基础",
+            "prerequisites": [
+              "Python",
+              "数字图像处理",
+              "视频编码基础",
+              "神经网络基础"
+            ],
+            "reading": "先用连续帧观察静止背景与移动物体，区分“当前帧新出现的信息”和“能从过去借用的信息”，再理解长短期上下文的作用。",
+            "reproduction": "可以先比较相邻帧差与较远参考帧差；这只是理解时间冗余的简化练习，完整复现需要训练模型、运动编码与熵编码等实现。",
+            "research": "需要统一码率质量协议，并在快速运动、遮挡与场景切换时分析长期信息是否仍有帮助，同时记录计算与缓存开销。",
+            "task": "AI学习建议：从自己的短视频抽取十帧，画出每帧与前一帧、与第一帧的平均绝对像素差，找出两条曲线表现不同的位置，并观察那里是否有移动或场景变化。像素差不等于压缩码率。",
+            "basis": "abstract",
+            "model": "Codex · 预置摘要解读",
+            "citations": [
+              "crossref-318ddabaf617e47794fc"
+            ]
           }
         },
         {
@@ -59062,6 +59182,36 @@
             "kind": "paper",
             "retrievedAt": "2026-10-20",
             "excerpt": "作者身份核验所用官网代表作：Controllable Distortion-Perception Tradeoff Through Latent Diffusion for Neural Image Compression\nhttps://icisee.sjtu.edu.cn/jiaoshiml/luguo.html"
+          },
+          "titleZh": "EffiHDR：超高清视频的高效 HDR 重建与增强",
+          "analysis": {
+            "summary": "把普通动态范围视频转换为 HDR 视频时，超高清画面会带来较大的计算与内存压力。EffiHDR 主要在降采样空间中处理信息，预测用于变换像素的系数而非直接预测所有输出像素，再配合可插拔增强模型改善亮度与颜色细节。",
+            "problem": "已有 SDR 到 HDR 转换方法在超高清系统中可能过于耗费计算和内存，降采样又容易损失画面细节。",
+            "method": "重建模型学习依赖像素强度和局部上下文的仿射变换系数，再将变换用于画面；增强模型采用高效 Transformer U-net 处理较难恢复的亮度与颜色细节。主要计算在降采样空间完成，以减少成本。",
+            "significance": "展示了如何让低分辨率上的计算指导高分辨率输出，连接图像质量、表示设计和系统效率三个问题。",
+            "limitations": "仅依据公开摘要。实时 4K 和效率优势属于论文实验报告，具体硬件、延迟与显示条件需查全文；模型生成的亮度与细节不能直接等同于拍摄现场的真实光照。",
+            "keywords": [
+              "SDR 到 HDR",
+              "超高清视频",
+              "仿射变换",
+              "高效图像增强"
+            ],
+            "difficulty": "需补基础",
+            "prerequisites": [
+              "Python",
+              "数字图像处理",
+              "颜色与动态范围",
+              "神经网络基础"
+            ],
+            "reading": "先区分分辨率与动态范围，再用“缩小画面估计变换、将变换用于输出”的流程理解计算如何减少。",
+            "reproduction": "可先在缩小的图片上估计简单亮度变换，再将系数用于原图；这不等于实现 HDR 重建，完整复现需要配对数据、色彩处理与论文模型。",
+            "research": "需要核对信号与色彩空间、HDR 显示条件和成对数据，并同时评价画质、计算量、内存与实际延迟。",
+            "task": "AI学习建议：对同一张普通图片使用三组线性亮度变换系数，画出直方图并标记亮部截断和暗部变化；用笔记解释“变亮”为什么不等于“恢复真实 HDR”。",
+            "basis": "abstract",
+            "model": "Codex · 预置摘要解读",
+            "citations": [
+              "source-lab-6e084001431a0a93c843"
+            ]
           }
         },
         {
@@ -59557,6 +59707,36 @@
             "kind": "paper",
             "retrievedAt": "2026-10-20",
             "excerpt": "作者身份核验所用官网代表作：QWT: Retrospective and New Applications\nhttps://icisee.sjtu.edu.cn/jiaoshiml/songli.html"
+          },
+          "titleZh": "利用 IMU 传感器的深度在线视频防抖",
+          "analysis": {
+            "summary": "拍视频时，陀螺仪和加速度计能提供相机运动线索。论文用这些传感器估计的角度与加速度辅助防抖：先识别拍摄场景并选择特征，再用 LSTM 预测平滑相机路径，经过后处理后据此重建稳定画面。",
+            "problem": "在线视频防抖需要在有限的等待帧数与运行时间内估计平滑运动路径，复杂图像内容分析可能增加开销。",
+            "method": "第一个子网络结合不稳定轨迹和加速度识别场景，生成注意力掩码；第二个子网络在掩码指导下用 LSTM 预测平滑路径，再经两步修正并结合真实路径生成稳定帧。论文也考察使用少量未来帧缓冲的设置。",
+            "significance": "说明传感器信号能够与学习模型协作解决视觉问题，同时让学生看到平滑程度、等待时间和运行效率之间的取舍。",
+            "limitations": "仅依据公开摘要。摘要中的帧率与比较优势依赖实验设备、片段及缓冲设置；不能据此推断完全零延迟或所有拍摄场景都有效。相机与传感器同步、标定和画面裁切影响需查全文。",
+            "keywords": [
+              "视频防抖",
+              "IMU",
+              "轨迹平滑",
+              "LSTM"
+            ],
+            "difficulty": "需补基础",
+            "prerequisites": [
+              "Python",
+              "时间序列",
+              "相机运动与几何变换",
+              "神经网络基础"
+            ],
+            "reading": "先把相机抖动简化成随时间变化的角度曲线，理解真实轨迹与希望得到的平滑轨迹，再看传感器和网络各提供哪些信息。",
+            "reproduction": "可以先比较简单滑动平均的平滑效果和延迟；复现论文还需要同步视频与 IMU 数据、场景掩码、训练标签和路径到图像的投影过程。",
+            "research": "需要在不同运动与画质条件下，同时检查平滑、裁切、畸变、等待帧数和运行时间，分析传感器误差的影响。",
+            "task": "AI学习建议：生成一条“缓慢转动加随机抖动”的一维角度序列，分别用只看过去的滑动平均和可看未来的对称窗口处理，画出三条曲线，比较平滑程度与等待未来数据的代价。",
+            "basis": "abstract",
+            "model": "Codex · 预置摘要解读",
+            "citations": [
+              "source-lab-98d6e1bf7338fba5fe3b"
+            ]
           }
         },
         {

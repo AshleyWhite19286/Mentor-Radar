@@ -50,7 +50,7 @@ test('展开的大书目分页展示，切换老师时恢复近期列表',async(
 
 test('目录搜索、机构筛选、详情三列和审阅表可用',async({page})=>{
   const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/');await expect(page.locator('.mentor-card')).toHaveCount(273);
- await page.getByRole('textbox',{name:'搜索姓名或研究方向'}).fill('戴文睿');await expect(page.locator('.mentor-card')).toHaveCount(1);await page.locator('.mentor-card').click();await expect(page.locator('.mentor-profile h1')).toContainText('戴文睿');await expect(page.locator('.paper-row')).toHaveCount(5);await expect(page.locator('.paper-header')).toContainText('通俗解读与入门');
+ await page.getByRole('textbox',{name:'搜索姓名或研究方向'}).fill('张文军');await expect(page.locator('.mentor-card')).toHaveCount(1);await page.locator('.mentor-card').click();await expect(page.locator('.mentor-profile h1')).toContainText('张文军');await expect(page.locator('.paper-row')).toHaveCount(5);await expect(page.locator('.paper-header')).toContainText('通俗解读与入门');
   await page.getByRole('button',{name:'研究所导览',exact:true}).click();await expect(page.locator('.institute-card')).toHaveCount(12);await page.locator('.institute-card').first().click();await expect(page.locator('.mentor-card')).toHaveCount(3);await expect(page.locator('.institute-summary')).toContainText('尚不能覆盖整个机构');
   await page.getByRole('button',{name:'收录审阅',exact:true}).click();await expect(page.locator('.review-table tbody tr')).toHaveCount(273);await expect(page.locator('.review-table')).toContainText('正高级实验师');expect(errors).toEqual([]);
 });
