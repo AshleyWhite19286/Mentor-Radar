@@ -32,7 +32,8 @@ export async function modelFetch(input: string,init: RequestInit={},maxBytes=3_0
   return fetchValidated(campus?u:await validatePublicUrl(input),init,maxBytes,0,false);
 }
 async function fetchValidated(u: URL,init: RequestInit,maxBytes: number,redirects: number,allowRedirects=true): Promise<Response> {
-  const response=await fetch(u,{...init,redirect:'manual',signal:AbortSignal.timeout(45_000),headers:{'User-Agent':'MentorRadar/0.1',...init.headers}});
+  const timeout=AbortSignal.timeout(45_000);
+  const response=await fetch(u,{...init,redirect:'manual',signal:init.signal?AbortSignal.any([init.signal,timeout]):timeout,headers:{'User-Agent':'MentorRadar/0.1',...init.headers}});
   if(response.status>=300&&response.status<400) {
     if(!allowRedirects||new Headers(init.headers).has('authorization')) throw new Error('模型接口发生重定向，已停止发送凭证');
     const next=response.headers.get('location'); if(!next||redirects>=3) throw new Error('来源重定向过多');

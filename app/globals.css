@@ -53,3 +53,8 @@
 .markdown-content input[type=checkbox]{margin-right:.5em;accent-color:var(--green)}
 
 @media(max-width:600px){.hero h1{letter-spacing:0}.hero h1 span{white-space:nowrap}}
+
+/* Keep all navigation entries reachable after adding the separate New Match page. */
+.header nav{gap:24px;margin-right:16px;min-width:0}
+@media(max-width:1150px) and (min-width:851px){.header-inner{gap:18px}.header nav{gap:15px;margin-right:0}.header-actions{gap:10px}.header nav button{font-size:12px}}
+@media(max-width:850px){.header nav{overflow-x:auto;justify-content:flex-start;margin-right:0;scrollbar-width:thin}.header nav button{flex-shrink:0}}
